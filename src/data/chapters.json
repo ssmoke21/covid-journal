@@ -105,7 +105,8 @@
         {
           "date": "2020-03-11",
           "label": "First ID Pharmacy Collaborative Email",
-          "content": "I send the inaugural email to the ID Pharmacy Collaborative sharing a treatment Google doc. Key assessments: Tamiflu unlikely to work; Remdesivir under NIH study; Chloroquine shows 'promising but questionable' evidence from China; Lopinavir/ritonavir retrospective shows no efficacy. I anticipate 'constantly changing evidence.'"
+          "content": "I send the inaugural email to the ID Pharmacy Collaborative sharing a treatment Google doc. Key assessments: Tamiflu unlikely to work; Remdesivir under NIH study; Chloroquine shows 'promising but questionable' evidence from China; Lopinavir/ritonavir retrospective shows no efficacy. I anticipate 'constantly changing evidence.'",
+          "embed": { "type": "iframe", "url": "https://docs.google.com/document/d/12q8ynuyLij_qC-VOgvK5DCkQPjGwXpcDu6yXDCyNFVY/preview", "label": "View the Treatment Google Doc" }
         },
         {
           "date": "2020-03-12",
