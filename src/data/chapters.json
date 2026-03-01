@@ -134,7 +134,8 @@
         {
           "date": "2020-03-12",
           "label": "Big Ten Tournament Canceled",
-          "content": "The B10 tournament is canceled while Rutgers is on the court warming up. The NHL season is also suspended. The Rutgers tournament dream dies."
+          "content": "The B10 tournament is canceled while Rutgers is on the court warming up. The NHL season is also suspended. The Rutgers tournament dream dies.",
+          "embed": { "type": "link", "url": "https://www.nj.com/sports/2020/03/rutgers-fans-disappointed-with-big-ten-tournament-cancellation-due-to-coronavirus.html", "label": "Read the Story on NJ.com" }
         },
         {
           "date": "2020-03-13",
