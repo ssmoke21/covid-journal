@@ -259,7 +259,8 @@
         {
           "date": "2020-03-21",
           "label": "NJ Closes Nonessential Businesses",
-          "content": "New Jersey closes nonessential businesses."
+          "content": "New Jersey closes nonessential businesses.",
+          "embed": { "type": "iframe", "url": "https://www.nj.com/coronavirus/2020/03/nonessential-businesses-will-be-shut-down-in-nj-due-to-coronavirus-outbreak-gov-murphy-says.html", "label": "Read the Story on NJ.com" }
         },
         {
           "date": "2020-03-22",
