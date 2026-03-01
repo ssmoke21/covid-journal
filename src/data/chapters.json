@@ -530,7 +530,8 @@
         {
           "date": "2022-02-20",
           "label": "MAB Paper Published",
-          "content": "My MAB paper is officially published in the Journal of Medical Virology."
+          "content": "My MAB paper is officially published in the Journal of Medical Virology.",
+          "embed": { "type": "link", "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmv.27668", "label": "Read the Paper in the Journal of Medical Virology" }
         }
       ],
       "assets_wishlist": [
