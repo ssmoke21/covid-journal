@@ -402,6 +402,12 @@
           "content": "I move into a hotel from April 7 to April 18 to protect my family."
         },
         {
+          "date": "2020-04-14",
+          "label": "Healthcare Heroes Salute",
+          "content": "A procession of thanks is held outside St. Barnabas Medical Center — police, fire, and community members lining up to honor hospital staff during the height of the surge.",
+          "embed": { "type": "iframe", "url": "https://abc7ny.com/post/procession-of-thanks-for-heroes-at-st-barnabas-medical-center/6102573/", "label": "Watch the Coverage on ABC7" }
+        },
+        {
           "date": "Circa April 2020",
           "label": "My Wife's Knit Mask",
           "content": "My wife handknits a mask for me to use outside the hospital, since there weren't enough for non-healthcare workers. 'It probably didn't work that well but it meant a lot to me that she worked on it for me.'"
