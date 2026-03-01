@@ -586,7 +586,8 @@
         {
           "date": "2020-06-30",
           "label": "FDA Vaccine Efficacy Threshold",
-          "content": "FDA publishes guidance for industry: a Covid-19 vaccine must demonstrate at least 50% efficacy to receive authorization."
+          "content": "FDA publishes guidance for industry: a Covid-19 vaccine must demonstrate at least 50% efficacy to receive authorization.",
+          "embed": { "type": "link", "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-daily-roundup-june-30-2020", "label": "Read the FDA Press Announcement" }
         },
         {
           "date": "2020-09-11",
