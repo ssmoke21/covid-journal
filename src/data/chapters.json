@@ -128,7 +128,8 @@
         {
           "date": "2020-03-11",
           "label": "NBA Positive Test",
-          "content": "An NBA player tests positive; the NBA season is suspended."
+          "content": "An NBA player tests positive; the NBA season is suspended.",
+          "embed": { "type": "link", "url": "https://www.espn.com/nba/story/_/id/28887560/nba-suspends-season-further-notice-player-tests-positive-coronavirus", "label": "Read the Story on ESPN" }
         },
         {
           "date": "2020-03-12",
