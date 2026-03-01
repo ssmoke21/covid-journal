@@ -474,7 +474,8 @@
         {
           "date": "2020-07-02",
           "label": "Sarilumab Fails Primary Endpoint",
-          "content": "Regeneron reports the sarilumab study fails to meet its primary endpoint. Criteria was too broad, including circumstances where the drug is ineffective. Later proven effective in more targeted use. Regeneron pivots to a monoclonal antibody targeting the spike protein."
+          "content": "Regeneron reports the sarilumab study fails to meet its primary endpoint. Criteria was too broad, including circumstances where the drug is ineffective. Later proven effective in more targeted use. Regeneron pivots to a monoclonal antibody targeting the spike protein.",
+          "embed": { "type": "link", "url": "https://www.clinicaltrialsarena.com/news/kevzara-us-covid19-trial-data/", "label": "Read the Coverage on Clinical Trials Arena" }
         },
         {
           "date": "2020-09-20",
