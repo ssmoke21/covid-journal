@@ -217,7 +217,8 @@
         {
           "date": "2020-03-27",
           "label": "Azithromycin Recommendation Challenged",
-          "content": "My ID PharmD colleague and I draft an SBAR to pull azithromycin from the protocol citing: no prior evidence, non-equivalent control group, no clinical benefit demonstrated, and potential QTc toxicity."
+          "content": "My ID PharmD colleague and I draft an SBAR to pull azithromycin from the protocol citing: no prior evidence, non-equivalent control group, no clinical benefit demonstrated, and potential QTc toxicity.",
+          "embed": { "type": "link", "url": "https://www.contagionlive.com/view/how-does-hydroxychloroquine-and-azithromycin-combination-therapy-measure-up-for-covid19-treatment", "label": "Read the Analysis on Contagion Live" }
         },
         {
           "date": "2020-03-28",
