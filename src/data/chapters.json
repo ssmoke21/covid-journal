@@ -231,6 +231,12 @@
           "content": "FDA issues EUA for chloroquine and hydroxychloroquine."
         },
         {
+          "date": "2020-03-31",
+          "label": "Remdesivir Compassionate Use",
+          "content": "Gilead approves compassionate use remdesivir for a pregnant patient in the ICU. An emergency C-section is performed in the ICU before the drug arrives.",
+          "embed": { "type": "link", "url": "https://www.washingtonpost.com/lifestyle/2020/08/06/pregnant-covid-19-twins/", "label": "Read the Story in the Washington Post" }
+        },
+        {
           "date": "2020-04-01",
           "label": "Tocilizumab Outcomes Concerning",
           "content": "Suspicion that tocilizumab is being used too late — very few positive outcomes observed."
