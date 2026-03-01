@@ -597,7 +597,8 @@
         {
           "date": "2020-10-06",
           "label": "FDA: Two Months Safety Data Required",
-          "content": "FDA announces it requires two months of safety data before issuing any vaccine EUA, effectively eliminating the possibility of pre-election approval."
+          "content": "FDA announces it requires two months of safety data before issuing any vaccine EUA, effectively eliminating the possibility of pre-election approval.",
+          "embed": { "type": "link", "url": "https://www.cnn.com/2020/10/06/health/fda-covid-vaccine-safety-data-bn", "label": "Read the Story on CNN" }
         },
         {
           "date": "2020-10-09",
