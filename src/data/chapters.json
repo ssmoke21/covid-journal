@@ -614,7 +614,8 @@
         {
           "date": "2020-12-10",
           "label": "I Watch the FDA VRPAC Meeting",
-          "content": "I watch most of the FDA Vaccines and Related Biological Products Advisory Committee meeting on the Pfizer vaccine. I will watch many more VRPAC and ACIP meetings over the next year."
+          "content": "I watch most of the FDA Vaccines and Related Biological Products Advisory Committee meeting on the Pfizer vaccine. I will watch many more VRPAC and ACIP meetings over the next year.",
+          "embed": { "type": "link", "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-december-10-2020-meeting-announcement", "label": "View the FDA VRBPAC Meeting Page" }
         },
         {
           "date": "2020-12-11",
