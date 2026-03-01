@@ -188,7 +188,8 @@
         {
           "date": "2020-03-16",
           "label": "Steroids Debate Begins",
-          "content": "I share a JAMA retrospective suggesting steroids may help; CDC and WHO recommend against them at this time. Later proven to reduce mortality."
+          "content": "I share a JAMA retrospective suggesting steroids may help; CDC and WHO recommend against them at this time. Later proven to reduce mortality.",
+          "embed": { "type": "link", "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2763184", "label": "Read the Study in JAMA Internal Medicine" }
         },
         {
           "date": "2020-03-17",
