@@ -6,9 +6,9 @@ export default function NodeCard({ node, type, index, onOpenOverlay }) {
     <div
       className={`rounded-lg p-5 border transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 ${
         isClinical
-          ? `bg-[var(--color-clinical-muted)] ${hasEmbed ? "border-[var(--color-clinical-border)] hover:border-[var(--color-clinical)]" : "border-[var(--color-clinical-border)]"}`
-          : `bg-[var(--color-personal-muted)] ${hasEmbed ? "border-[var(--color-personal-border)] hover:border-[var(--color-personal)]" : "border-[var(--color-personal-border)]"}`
-      } ${hasEmbed ? "cursor-pointer" : ""}`}
+          ? `bg-[var(--color-clinical-muted)] border-[var(--color-clinical-border)]`
+          : `bg-[var(--color-personal-muted)] border-[var(--color-personal-border)]`
+      } ${hasEmbed ? `node-clickable ${isClinical ? "is-clinical" : "is-personal"}` : ""}`}
       style={{
         animation: `fade-in-up 0.5s ease-out ${index * 0.08}s both`,
       }}
@@ -26,7 +26,9 @@ export default function NodeCard({ node, type, index, onOpenOverlay }) {
           {node.date}
         </span>
         {hasEmbed && (
-          <span className="text-[10px] text-stone-400 font-medium shrink-0">View source ↗</span>
+          <span className={`text-[10px] font-semibold shrink-0 ${isClinical ? "text-[var(--color-clinical)]" : "text-[var(--color-personal)]"}`}>
+            View source ↗
+          </span>
         )}
       </div>
 

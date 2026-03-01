@@ -59,6 +59,23 @@
   }
 }
 
+/* Clickable node hover effects */
+.node-clickable {
+  cursor: pointer;
+}
+.node-clickable.is-clinical:hover {
+  border-color: var(--color-clinical) !important;
+  border-width: 2px;
+  background-color: #dce8f5;
+  box-shadow: 0 4px 16px rgba(30, 58, 95, 0.18);
+}
+.node-clickable.is-personal:hover {
+  border-color: var(--color-personal) !important;
+  border-width: 2px;
+  background-color: #f5dce8;
+  box-shadow: 0 4px 16px rgba(95, 30, 58, 0.18);
+}
+
 @keyframes fade-in-up {
   from {
     opacity: 0;
