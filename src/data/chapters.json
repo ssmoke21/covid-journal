@@ -31,7 +31,8 @@
         {
           "date": "2020-01-20",
           "label": "First US Case",
-          "content": "First confirmed US case reported in Washington State."
+          "content": "First confirmed US case reported in Washington State.",
+          "embed": { "type": "iframe", "url": "https://www.npr.org/2020/01/22/798392221/1st-u-s-case-of-coronavirus-confirmed-in-washington-state", "label": "Read the Story on NPR" }
         },
         {
           "date": "2020-01-24",
