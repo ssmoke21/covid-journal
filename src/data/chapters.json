@@ -723,7 +723,8 @@
         {
           "date": "2020-08-03",
           "label": "Opinion Article Published",
-          "content": "My opinion article is published in Pharmacy Practice News. Key themes: difficulty determining what therapies work; misinformation from the messy scientific process being in the spotlight; importance of humility and saying 'I don't know'; the essential role of patients volunteering for RCTs."
+          "content": "My opinion article is published in Pharmacy Practice News. Key themes: difficulty determining what therapies work; misinformation from the messy scientific process being in the spotlight; importance of humility and saying 'I don't know'; the essential role of patients volunteering for RCTs.",
+          "embed": { "type": "link", "url": "https://www.pharmacypracticenews.com/Digital-Issue/Article/08-20/Pharmacy-Practice-News-August-2020/59186", "label": "Read the Article in Pharmacy Practice News" }
         }
       ],
       "assets_wishlist": [
