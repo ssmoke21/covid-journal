@@ -242,7 +242,8 @@
         {
           "date": "2020-03-28",
           "label": "FDA Emergency Use Authorization",
-          "content": "FDA issues EUA for chloroquine and hydroxychloroquine."
+          "content": "FDA issues EUA for chloroquine and hydroxychloroquine.",
+          "embed": { "type": "link", "url": "https://www.fda.gov/media/136534/download", "label": "Read the FDA EUA Letter (PDF)" }
         },
         {
           "date": "2020-03-31",
