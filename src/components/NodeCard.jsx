@@ -47,10 +47,10 @@ export default function NodeCard({ node, type, index, onOpenOverlay, linked }) {
     >
       {/* Card body */}
       <div className="p-5">
-        {/* Date badge + linked indicator */}
-        <div className="flex items-center justify-between gap-2 mb-2">
+        {/* Date badge */}
+        <div className="mb-2">
           <span
-            className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-medium tracking-wide shrink-0 ${
+            className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-medium tracking-wide ${
               isClinical
                 ? "bg-[var(--color-clinical)]/10 text-[var(--color-clinical)]"
                 : "bg-[var(--color-personal)]/10 text-[var(--color-personal)]"
@@ -58,11 +58,6 @@ export default function NodeCard({ node, type, index, onOpenOverlay, linked }) {
           >
             {node.date}
           </span>
-          {linked && (
-            <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full text-[9px] font-semibold text-amber-600 bg-amber-50 border border-amber-200 shrink-0">
-              ↔ related
-            </span>
-          )}
         </div>
 
         {/* Label */}
