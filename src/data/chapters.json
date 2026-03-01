@@ -502,7 +502,8 @@
         {
           "date": "2020-11-21",
           "label": "Casirivimab/Imdevimab EUA",
-          "content": "FDA grants EUA for casirivimab/imdevimab (Regeneron). Both 'bam' and 'Regeneron' are used simultaneously based on inconsistent supply."
+          "content": "FDA grants EUA for casirivimab/imdevimab (Regeneron). Both 'bam' and 'Regeneron' are used simultaneously based on inconsistent supply.",
+          "embed": { "type": "link", "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-authorizes-monoclonal-antibodies-treatment-covid-19", "label": "Read the FDA Press Announcement" }
         },
         {
           "date": "2021-02-09",
