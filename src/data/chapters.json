@@ -199,7 +199,8 @@
         {
           "date": "2020-03-18",
           "label": "NEJM: Lopinavir/r Not Effective",
-          "content": "NEJM RCT published: lopinavir/ritonavir not effective for Covid-19. Removed from future protocol versions."
+          "content": "NEJM RCT published: lopinavir/ritonavir not effective for Covid-19. Removed from future protocol versions.",
+          "embed": { "type": "link", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2001282", "label": "Read the Study in NEJM" }
         },
         {
           "date": "2020-03-19",
