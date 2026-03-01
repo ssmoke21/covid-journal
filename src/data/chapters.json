@@ -52,7 +52,7 @@
           "date": "2020-03-04",
           "label": "First NJ Case",
           "content": "First confirmed New Jersey case reported in Fort Lee.",
-          "embed": { "type": "link", "url": "https://www.northjersey.com/story/news/bergen/2020/03/04/nj-gov-phil-murphy-bergen-county-nj-first-confirmed-case-coronavirus-covid-19/4958681002/", "label": "Read the Story on NorthJersey.com" }
+          "embed": { "type": "iframe", "url": "https://www.nj.com/coronavirus/2020/03/nj-coronavirus-update-fort-lee-man-32-is-first-to-test-positive-for-virus-in-state.html", "label": "Read the Story on NJ.com" }
         }
       ],
       "personal_nodes": [
