@@ -140,7 +140,8 @@
         {
           "date": "2020-03-13",
           "label": "NCAA March Madness Canceled",
-          "content": "NCAA March Madness officially canceled."
+          "content": "NCAA March Madness officially canceled.",
+          "embed": { "type": "iframe", "url": "https://www.nj.com/rutgersbasketball/2020/03/its-official-rutgers-ncaa-tournament-drought-continues-bracket-for-march-madness-will-not-be-released-after-coronavirus-cancellation.html", "label": "Read the Story on NJ.com" }
         },
         {
           "date": "2020-03-11",
