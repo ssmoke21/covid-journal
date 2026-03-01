@@ -167,7 +167,8 @@
         {
           "date": "2020-03-14",
           "label": "Ibuprofen Controversy",
-          "content": "The French Health Minister tweets that ibuprofen could be an aggravating factor. Anecdotal and pharmacological speculation, not evidence-based. WHO temporarily recommends against ibuprofen; WHO and EMA later retract on 3/19."
+          "content": "The French Health Minister tweets that ibuprofen could be an aggravating factor. Anecdotal and pharmacological speculation, not evidence-based. WHO temporarily recommends against ibuprofen; WHO and EMA later retract on 3/19.",
+          "embed": { "type": "tweet", "url": "https://x.com/olivierveran/status/1238776545398923264" }
         },
         {
           "date": "2020-03-15",
