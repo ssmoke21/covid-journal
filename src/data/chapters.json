@@ -211,6 +211,12 @@
           "content": "My first Gilead compassionate use remdesivir request, submitted on behalf of an ICU physician, is approved."
         },
         {
+          "date": "2020-03-21",
+          "label": "President Tweets About HCQ",
+          "content": "The President tweets that hydroxychloroquine and azithromycin could be 'one of the biggest game changers in the history of medicine,' bringing massive public attention and intensifying pressure to prescribe both drugs.",
+          "embed": { "type": "tweet", "url": "https://x.com/realDonaldTrump/status/1241367239900778501" }
+        },
+        {
           "date": "2020-03-25",
           "label": "HCQ Duration Curtailed",
           "content": "Greater than 5-day HCQ duration discouraged due to limited evidence and supply constraints."
