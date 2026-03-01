@@ -508,7 +508,8 @@
         {
           "date": "2021-02-09",
           "label": "Bamlanivimab/Etesevimab EUA",
-          "content": "FDA grants EUA for the combination. Rationale: resistance to bamlanivimab suspected in circulating variants; etesevimab intended to restore activity. Variant monitoring becomes essential to treatment decisions."
+          "content": "FDA grants EUA for the combination. Rationale: resistance to bamlanivimab suspected in circulating variants; etesevimab intended to restore activity. Variant monitoring becomes essential to treatment decisions.",
+          "embed": { "type": "link", "url": "https://www.fda.gov/media/145801/download", "label": "Read the FDA EUA Letter (PDF)" }
         },
         {
           "date": "2021-02-09",
