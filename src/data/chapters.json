@@ -354,7 +354,9 @@
         {
           "date": "2020-04-29",
           "label": "Remdesivir: Contradictory Data",
-          "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares (unpublished, non-peer-reviewed) data from its RCT indicating benefit. 'Timing causes considerable confusion.'"
+          "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares (unpublished, non-peer-reviewed) data from its RCT indicating benefit. 'Timing causes considerable confusion.'",
+          "embed": { "type": "link", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31022-9/fulltext", "label": "Read the Lancet RCT (No Benefit)" },
+          "secondary_embed": { "type": "link", "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-shows-remdesivir-accelerates-recovery-advanced-covid-19", "label": "Read the NIH/NIAID Press Release (Benefit)" }
         },
         {
           "date": "2020-05-01",
