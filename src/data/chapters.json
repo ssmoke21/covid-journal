@@ -672,7 +672,8 @@
         {
           "date": "2021-06-01",
           "label": "Fox News Appearance — My Name Used",
-          "content": "The ID physician returns to Fox News claiming his unpublished, retrospective study proves hydroxychloroquine works. He names me by name on national television: 'I turned to the pharmacist, Steve Smoke at St. Barnabas and I said, I got people that are literally more than four times difference in weight, one or both groups is getting the wrong dose.' The study is vastly inferior to available evidence and — to my knowledge — was never published."
+          "content": "The ID physician returns to Fox News claiming his unpublished, retrospective study proves hydroxychloroquine works. He names me by name on national television: 'I turned to the pharmacist, Steve Smoke at St. Barnabas and I said, I got people that are literally more than four times difference in weight, one or both groups is getting the wrong dose.' The study is vastly inferior to available evidence and — to my knowledge — was never published.",
+          "embed": { "type": "link", "url": "https://www.foxnews.com/video/6257007407001", "label": "Watch the Segment on Fox News" }
         },
         {
           "date": "2021-06-08",
