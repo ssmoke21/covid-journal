@@ -117,7 +117,11 @@ function buildChronologicalRows(clinicalNodes, personalNodes) {
     const c = clinical[ci], p = personal[pi];
     if (!c)            { rows.push({ clinical: null, personal: p }); pi++; }
     else if (!p)       { rows.push({ clinical: c, personal: null }); ci++; }
-    else if (c.ts === p.ts) { rows.push({ clinical: c, personal: p }); ci++; pi++; }
+    else if (c.ts === p.ts) {
+      const linked = !!(c.link_group && p.link_group && c.link_group === p.link_group);
+      rows.push({ clinical: c, personal: p, linked });
+      ci++; pi++;
+    }
     else if (c.ts < p.ts)   { rows.push({ clinical: c, personal: null }); ci++; }
     else                    { rows.push({ clinical: null, personal: p }); pi++; }
   }
@@ -218,7 +222,13 @@ function SpineCell({ row, isFirst, isLast }) {
 
       {/* Dot + date label */}
       <div className="flex flex-col items-center gap-1.5 py-2 z-10">
-        <div className={`w-2.5 h-2.5 rounded-full ring-2 ring-offset-1 ${dotColor}`} />
+        {row.linked ? (
+          <div className="flex items-center justify-center w-5 h-5 rounded-full bg-amber-50 ring-2 ring-amber-300 ring-offset-1 text-amber-500 text-[10px] font-bold leading-none">
+            ↔
+          </div>
+        ) : (
+          <div className={`w-2.5 h-2.5 rounded-full ring-2 ring-offset-1 ${dotColor}`} />
+        )}
         <div className="flex flex-col items-center gap-0">
           {lines.map((line, i) => (
             <span key={i} className="text-[9px] leading-tight font-mono text-stone-400 text-center whitespace-nowrap">
@@ -272,7 +282,7 @@ function SplitLayout({ chapter, onOpenOverlay }) {
             {/* Clinical cell */}
             <div className="flex flex-col justify-center">
               {row.clinical && (
-                <NodeCard node={row.clinical} type="clinical" index={i} onOpenOverlay={onOpenOverlay} />
+                <NodeCard node={row.clinical} type="clinical" index={i} onOpenOverlay={onOpenOverlay} linked={!!row.linked} />
               )}
             </div>
 
@@ -282,7 +292,7 @@ function SplitLayout({ chapter, onOpenOverlay }) {
             {/* Personal cell */}
             <div className="flex flex-col justify-center">
               {row.personal && (
-                <NodeCard node={row.personal} type="personal" index={i} onOpenOverlay={onOpenOverlay} />
+                <NodeCard node={row.personal} type="personal" index={i} onOpenOverlay={onOpenOverlay} linked={!!row.linked} />
               )}
             </div>
           </Fragment>

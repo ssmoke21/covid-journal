@@ -25,7 +25,8 @@
           "date": "Early January 2020",
           "label": "WHO Bulletin",
           "content": "Novel coronavirus (2019-nCoV) outbreak noted on Twitter / WHO. I dismiss it, citing precedent of Zika, Ebola, SARS, MERS not spreading substantially.",
-          "embed": { "type": "tweet", "url": "https://x.com/WHO/status/1213523866703814656" }
+          "embed": { "type": "tweet", "url": "https://x.com/WHO/status/1213523866703814656" },
+          "link_group": "who-bulletin-jan-2020"
         },
         {
           "date": "2020-01-20",
@@ -57,7 +58,8 @@
         {
           "date": "Early January 2020",
           "label": "Dismissal",
-          "content": "I see coronavirus news on Twitter and don't think much of it — mentally file it with prior outbreaks that 'never really spread.'"
+          "content": "I see coronavirus news on Twitter and don't think much of it — mentally file it with prior outbreaks that 'never really spread.'",
+          "link_group": "who-bulletin-jan-2020"
         },
         {
           "date": "2020-02-16",
