@@ -733,7 +733,8 @@
         {
           "date": "2020-06-15",
           "label": "HCQ EUA Revoked",
-          "content": "FDA officially revokes the emergency use authorization for hydroxychloroquine."
+          "content": "FDA officially revokes the emergency use authorization for hydroxychloroquine.",
+          "embed": { "type": "link", "url": "https://www.fda.gov/media/138945/download", "label": "Read the FDA Revocation Letter (PDF)" }
         },
         {
           "date": "2020-06-16",
