@@ -459,6 +459,11 @@
           "embed": { "type": "link", "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2012410", "label": "Read the Study in NEJM" }
         },
         {
+          "date": "2020-05-11",
+          "label": "What Is Our Threshold to Act Before National Guidelines?",
+          "content": "I email the RWJBH CPO and AMS physician lead: \"What is the threshold for modifying our recommendations before national guidelines?\" The answer: we will follow national guidelines.\n\nThe question anticipates a recurring problem — new data that shifts the treatment landscape days or weeks before guidelines catch up. This will eventually come to a head most visibly with tocilizumab, leaving clinicians wanting to act on emerging evidence with no system guidance to support them.\n\nThe answer, in some ways, is likely a response to the early HCQ experience: a lesson in the dangers of moving fast on unproven therapies, and the institutional cost of having to walk recommendations back once national guidelines catch up."
+        },
+        {
           "date": "2020-05-15",
           "label": "First Remdesivir Shipment",
           "content": "26 courses of remdesivir arrive around 6-7pm. An ID physician pre-emptively enters ~10 orders that evening; most are on patients admitted long ago, unlikely to benefit."
