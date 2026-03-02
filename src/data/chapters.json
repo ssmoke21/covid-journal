@@ -631,7 +631,8 @@
         {
           "date": "2020-12-18",
           "label": "Moderna EUA Granted",
-          "content": "FDA grants EUA for the Moderna Covid-19 vaccine."
+          "content": "FDA grants EUA for the Moderna Covid-19 vaccine.",
+          "embed": { "type": "link", "url": "https://www.nih.gov/news-events/news-releases/statement-nih-barda-fda-emergency-use-authorization-moderna-covid-19-vaccine", "label": "Read the NIH/FDA Statement" }
         },
         {
           "date": "2020-12-21",
