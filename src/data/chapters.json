@@ -620,7 +620,8 @@
         {
           "date": "2020-12-11",
           "label": "Pfizer EUA Granted",
-          "content": "FDA grants EUA for the Pfizer-BioNTech Covid-19 vaccine."
+          "content": "FDA grants EUA for the Pfizer-BioNTech Covid-19 vaccine.",
+          "embed": { "type": "link", "url": "https://www.cnn.com/2020/12/11/health/covid-vaccine-fda-eua", "label": "Read the Story on CNN" }
         },
         {
           "date": "2020-12-14",
