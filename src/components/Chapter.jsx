@@ -1,6 +1,8 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import NodeCard from "./NodeCard";
 import NodeOverlay from "./NodeOverlay";
+import CaseChart from "./CaseChart";
+import caseData from "../data/case-data.json";
 
 const MOOD_GRADIENTS = {
   "Normalcy / Low-Alert": "from-blue-50 to-transparent",
@@ -128,6 +130,15 @@ function buildChronologicalRows(clinicalNodes, personalNodes) {
   return rows;
 }
 
+// ─── Chapter date ranges for case chart ───────────────────────────────────────
+
+const CHAPTER_DATE_RANGES = {
+  1: { start: "2019-12-01", end: "2020-03-10" },
+  2: { start: "2020-03-07", end: "2020-03-15" },
+  3: { start: "2020-03-12", end: "2020-04-12" },
+  4: { start: "2020-04-05", end: "2020-06-05" },
+};
+
 // ─── Chapter shell ────────────────────────────────────────────────────────────
 
 export default function Chapter({ chapter, isVisible }) {
@@ -135,9 +146,52 @@ export default function Chapter({ chapter, isVisible }) {
   const gradient = MOOD_GRADIENTS[chapter.mood] || "from-stone-50 to-transparent";
   const icon = MOOD_ICONS[chapter.mood] || "📖";
   const [overlayNode, setOverlayNode] = useState(null);
+  const [currentNodeDate, setCurrentNodeDate] = useState(null);
+  const sectionRef = useRef(null);
+  const hasCaseChart = chapter.chapter_number <= 4;
+
+  // IntersectionObserver to track which timeline node is currently visible
+  useEffect(() => {
+    if (!hasCaseChart) return;
+    const section = sectionRef.current;
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        let topmost = null;
+        let topY = Infinity;
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const y = entry.boundingClientRect.top;
+            if (y >= 0 && y < topY) {
+              topY = y;
+              topmost = entry.target.dataset.nodeDate;
+            }
+          }
+        });
+        if (topmost) setCurrentNodeDate(topmost);
+      },
+      { threshold: 0.2, rootMargin: "-15% 0px -65% 0px" }
+    );
+
+    // Small delay to ensure DOM is rendered
+    const timer = setTimeout(() => {
+      const nodes = section.querySelectorAll("[data-node-date]");
+      nodes.forEach((el) => observer.observe(el));
+    }, 100);
+
+    return () => {
+      clearTimeout(timer);
+      observer.disconnect();
+    };
+  }, [hasCaseChart, chapter.chapter_number]);
 
   return (
-    <section id={`chapter-${chapter.chapter_number}`} className="relative scroll-mt-8">
+    <section
+      id={`chapter-${chapter.chapter_number}`}
+      className="relative scroll-mt-8"
+      ref={sectionRef}
+    >
       <div className={`absolute inset-0 bg-gradient-to-b ${gradient} pointer-events-none -z-10 rounded-3xl`} />
 
       <header className="pt-16 pb-10 px-4 md:px-8 text-center max-w-3xl mx-auto">
@@ -180,6 +234,17 @@ export default function Chapter({ chapter, isVisible }) {
           {chapter.mood_description}
         </p>
       </header>
+
+      {/* Case data visualization — Chapters 1–4 only */}
+      {hasCaseChart && CHAPTER_DATE_RANGES[chapter.chapter_number] && (
+        <CaseChart
+          data={caseData}
+          currentDate={currentNodeDate}
+          startDate={CHAPTER_DATE_RANGES[chapter.chapter_number].start}
+          endDate={CHAPTER_DATE_RANGES[chapter.chapter_number].end}
+          isVisible={isVisible}
+        />
+      )}
 
       <div className="px-4 md:px-8 pb-16">
         {isSplit
@@ -280,8 +345,11 @@ function SplitLayout({ chapter, onOpenOverlay }) {
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_80px_1fr] gap-x-4 gap-y-4">
         {rows.map((row, i) => (
           <Fragment key={i}>
-            {/* Clinical cell */}
-            <div className="flex flex-col justify-center">
+            {/* Clinical cell — data-node-date for scroll tracking */}
+            <div
+              className="flex flex-col justify-center"
+              data-node-date={row.clinical?.date || row.personal?.date}
+            >
               {row.clinical && (
                 <NodeCard
                   node={row.clinical}
@@ -340,7 +408,7 @@ function FullLayout({ chapter, onOpenOverlay }) {
         <div className="absolute left-6 top-0 bottom-0 w-px bg-gradient-to-b from-stone-300 via-stone-200 to-transparent" />
         <div className="flex flex-col gap-6">
           {allNodes.map((node, i) => (
-            <div key={i} className="relative pl-14">
+            <div key={i} className="relative pl-14" data-node-date={node.date}>
               <div
                 className={`absolute left-[18px] top-5 w-3 h-3 rounded-full border-2 bg-white ${
                   node.type === "clinical"
