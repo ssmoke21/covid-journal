@@ -243,20 +243,6 @@ function SpineCell({ row, isFirst, isLast }) {
         className={`w-px flex-1 ${isLast ? "bg-gradient-to-b from-stone-300 to-transparent" : "bg-stone-200"}`}
       />
 
-      {/* Dashed connecting line for linked rows */}
-      {row.linked && (
-        <div style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
-          width: "100vw",
-          height: 0,
-          borderTop: "1px dashed #fde68a",
-          pointerEvents: "none",
-          zIndex: 0,
-        }} />
-      )}
     </div>
   );
 }

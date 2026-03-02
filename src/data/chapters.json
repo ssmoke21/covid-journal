@@ -173,7 +173,8 @@
           "date": "2020-03-14",
           "label": "Ibuprofen Controversy",
           "content": "The French Health Minister tweets that ibuprofen could be an aggravating factor. Anecdotal and pharmacological speculation, not evidence-based. WHO temporarily recommends against ibuprofen; WHO and EMA later retract on 3/19.",
-          "embed": { "type": "tweet", "url": "https://x.com/olivierveran/status/1238776545398923264" }
+          "embed": { "type": "tweet", "url": "https://x.com/olivierveran/status/1238776545398923264" },
+          "link_group": "ibuprofen-controversy"
         },
         {
           "date": "2020-03-15",
@@ -273,7 +274,8 @@
         {
           "date": "2020-03-14",
           "label": "Ibuprofen: Impossible to Disprove",
-          "content": "This blows up on social media over the next few weeks, especially after the WHO picks up on it. It became a frequent question at work and outside of work with friends and family. With so much Covid-19 information being discussed, it is impossible to prove that there was no evidence to support this."
+          "content": "This blows up on social media over the next few weeks, especially after the WHO picks up on it. It became a frequent question at work and outside of work with friends and family. With so much Covid-19 information being discussed, it is impossible to prove that there was no evidence to support this.",
+          "link_group": "ibuprofen-controversy"
         },
         {
           "date": "2020-03-16",
