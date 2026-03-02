@@ -35,11 +35,6 @@
           "embed": { "type": "iframe", "url": "https://www.npr.org/2020/01/22/798392221/1st-u-s-case-of-coronavirus-confirmed-in-washington-state", "label": "Read the Story on NPR" }
         },
         {
-          "date": "2020-01-24",
-          "label": "AMS Prep Meeting",
-          "content": "A colleague mentions coronavirus might be a big deal. The idea is dismissed as unlikely and off-agenda."
-        },
-        {
           "date": "2020-02-12",
           "label": "ID / Infection Control Meeting",
           "content": "Novel coronavirus (nCoV-2019) officially renamed Covid-19. Topics: employee travel screening, mask shortage, testing protocols."
@@ -57,6 +52,11 @@
         }
       ],
       "personal_nodes": [
+        {
+          "date": "2020-01-24",
+          "label": "AMS Prep Meeting",
+          "content": "An ID physician colleague mentions coronavirus might be a big deal. I dismiss it as unlikely and off-agenda."
+        },
         {
           "date": "Early January 2020",
           "label": "Dismissal",
