@@ -123,7 +123,7 @@ export default function NodeOverlay({ node, onClose }) {
     : (node.embed ? node : null);
 
   const hasIframe = embedNode?.embed?.type === "iframe";
-  const modalWidth = hasIframe ? "max-w-3xl" : isPaired ? "max-w-lg" : "max-w-md";
+  const modalWidth = hasIframe ? "max-w-3xl" : isPaired ? "max-w-2xl" : "max-w-md";
 
   return (
     <div
@@ -151,33 +151,37 @@ export default function NodeOverlay({ node, onClose }) {
               </button>
             </div>
 
-            {/* Clinical (Objective) section */}
-            <div className="px-6 pb-5">
-              <p className="text-[9px] uppercase tracking-widest font-bold mb-1.5" style={{ color: "var(--color-clinical)" }}>
-                Objective
-              </p>
-              <h3 className="text-base font-bold mb-1.5" style={{ color: "var(--color-clinical)" }}>
-                {clinical?.label}
-              </h3>
-              <p className="text-sm text-stone-600 leading-relaxed">{clinical?.content}</p>
-            </div>
+            {/* Two-column body */}
+            <div className="flex" style={{ maxHeight: "60vh" }}>
 
-            {/* Amber divider */}
-            <div className="flex items-center gap-3 px-6 py-2">
-              <div className="flex-1 border-t border-dashed border-amber-300" />
-              <span className="text-amber-400 text-xs font-bold shrink-0">↔</span>
-              <div className="flex-1 border-t border-dashed border-amber-300" />
-            </div>
+              {/* Clinical column (left) */}
+              <div className="flex-1 overflow-y-auto px-6 pb-5">
+                <p className="text-[9px] uppercase tracking-widest font-bold mb-1.5" style={{ color: "var(--color-clinical)" }}>
+                  Clinical
+                </p>
+                <h3 className="text-base font-bold mb-1.5" style={{ color: "var(--color-clinical)" }}>
+                  {clinical?.label}
+                </h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{clinical?.content}</p>
+              </div>
 
-            {/* Personal (Subjective) section */}
-            <div className="px-6 pt-2 pb-5">
-              <p className="text-[9px] uppercase tracking-widest font-bold mb-1.5" style={{ color: "var(--color-personal)" }}>
-                Subjective
-              </p>
-              <h3 className="text-base font-bold mb-1.5" style={{ color: "var(--color-personal)" }}>
-                {personal?.label}
-              </h3>
-              <p className="text-sm text-stone-600 leading-relaxed">{personal?.content}</p>
+              {/* Vertical amber dashed divider with ↔ centered */}
+              <div className="relative w-5 shrink-0">
+                <div className="absolute left-1/2 top-0 bottom-0 -translate-x-1/2 border-l border-dashed border-amber-300" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white text-amber-400 text-xs font-bold leading-none py-0.5">↔</div>
+              </div>
+
+              {/* Personal column (right) */}
+              <div className="flex-1 overflow-y-auto px-6 pb-5">
+                <p className="text-[9px] uppercase tracking-widest font-bold mb-1.5" style={{ color: "var(--color-personal)" }}>
+                  Personal
+                </p>
+                <h3 className="text-base font-bold mb-1.5" style={{ color: "var(--color-personal)" }}>
+                  {personal?.label}
+                </h3>
+                <p className="text-sm text-stone-600 leading-relaxed">{personal?.content}</p>
+              </div>
+
             </div>
 
             {/* Embed if any */}
