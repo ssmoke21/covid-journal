@@ -263,6 +263,11 @@
         },
         {
           "date": "2020-03-25",
+          "label": "Testing Delays at Peak PUI Volume",
+          "content": "Covid-19 test turnaround time is 3–5 days. This is the peak of persons under investigation — patients held in limbo, consuming isolation resources, while the system waits for results."
+        },
+        {
+          "date": "2020-03-25",
           "label": "HCQ Duration Curtailed",
           "content": "Greater than 5-day HCQ duration discouraged due to limited evidence and supply constraints."
         },
