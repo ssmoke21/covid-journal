@@ -727,7 +727,8 @@
         {
           "date": "2020-06-05",
           "label": "RECOVERY Trial: HCQ No Benefit",
-          "content": "The RECOVERY trial determines no benefit from hydroxychloroquine in hospitalized Covid-19 patients. I distribute the details and clinical trial contact info to ID physicians."
+          "content": "The RECOVERY trial determines no benefit from hydroxychloroquine in hospitalized Covid-19 patients. I distribute the details and clinical trial contact info to ID physicians.",
+          "embed": { "type": "link", "url": "https://www.recoverytrial.net/news/statement-from-the-chief-investigators-of-the-randomised-evaluation-of-covid-19-therapy-recovery-trial-on-hydroxychloroquine-5-june-2020-no-clinical-benefit-from-use-of-hydroxychloroquine-in-hospitalised-patients-with-covid-19", "label": "Read the RECOVERY Trial Statement" }
         },
         {
           "date": "2020-06-15",
