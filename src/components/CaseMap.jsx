@@ -79,7 +79,7 @@ export function findDateIndex(dates, targetTs) {
 // ─── Bubble sizing constants ─────────────────────────────────────────────────
 
 const MAX_RADIUS = 35;
-const MIN_RADIUS = 2;
+const MIN_RADIUS = 1.5; // minimum so a 1-case dot is still faintly visible
 
 // ─── Main component ──────────────────────────────────────────────────────────
 
@@ -91,6 +91,19 @@ const MIN_RADIUS = 2;
  * @param {boolean} [props.embedded] - If true, renders map-only (no sticky wrapper/annotation)
  */
 export default function CaseMap({ data, currentDate, isVisible, embedded = false }) {
+  // All-time max across the entire dataset — computed once, used as absolute scale reference
+  // so early bubbles (2 cases) are proportionally tiny vs the peak (1.78M)
+  const allTimeMax = useMemo(() => {
+    if (!data?.countries?.length) return 1;
+    let max = 0;
+    for (const c of data.countries) {
+      for (const v of c.cases) {
+        if (v > max) max = v;
+      }
+    }
+    return max || 1;
+  }, [data]);
+
   // Find the date index closest to the current scroll position
   const dateIndex = useMemo(() => {
     if (!currentDate || !data?.dates?.length) return 0;
@@ -98,7 +111,7 @@ export default function CaseMap({ data, currentDate, isVisible, embedded = false
     return findDateIndex(data.dates, targetTs);
   }, [currentDate, data]);
 
-  // Compute bubbles for the current date
+  // Compute bubbles for the current date, scaled against all-time max
   const bubbles = useMemo(() => {
     if (!data?.countries?.length) return [];
 
@@ -108,8 +121,8 @@ export default function CaseMap({ data, currentDate, isVisible, embedded = false
 
     if (!active.length) return [];
 
-    const maxVal = Math.max(...active.map((c) => c.value));
-    const scale = MAX_RADIUS / Math.sqrt(maxVal || 1);
+    // Scale is fixed to all-time max — bubbles grow absolutely, not relatively
+    const scale = MAX_RADIUS / Math.sqrt(allTimeMax);
 
     return active
       .map((c) => ({
@@ -120,7 +133,7 @@ export default function CaseMap({ data, currentDate, isVisible, embedded = false
         cases: c.value,
       }))
       .sort((a, b) => a.cases - b.cases);
-  }, [data, dateIndex]);
+  }, [data, dateIndex, allTimeMax]);
 
   // Global total for annotation
   const globalTotal = data?.global?.[dateIndex] || 0;

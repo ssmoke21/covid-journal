@@ -11,7 +11,7 @@ import { parseNodeDate, findDateIndex } from "./CaseMap";
 // ─── Bubble sizing (smaller than world map — states are closer together) ─────
 
 const MAX_RADIUS = 25;
-const MIN_RADIUS = 2;
+const MIN_RADIUS = 1.5; // minimum so a 1-case dot is still faintly visible
 
 // ─── Main component ──────────────────────────────────────────────────────────
 
@@ -24,6 +24,19 @@ const MIN_RADIUS = 2;
  * @param {string} props.currentDate - Current timeline node date string
  */
 export default function UsaCaseMap({ data, currentDate }) {
+  // All-time max across the entire dataset — computed once, used as absolute scale reference
+  // so early bubbles (a few cases) are proportionally tiny vs the peak (381K in NY)
+  const allTimeMax = useMemo(() => {
+    if (!data?.states?.length) return 1;
+    let max = 0;
+    for (const s of data.states) {
+      for (const v of s.cases) {
+        if (v > max) max = v;
+      }
+    }
+    return max || 1;
+  }, [data]);
+
   // Find the date index closest to the current scroll position
   const dateIndex = useMemo(() => {
     if (!currentDate || !data?.dates?.length) return 0;
@@ -31,7 +44,7 @@ export default function UsaCaseMap({ data, currentDate }) {
     return findDateIndex(data.dates, targetTs);
   }, [currentDate, data]);
 
-  // Compute bubbles for the current date
+  // Compute bubbles for the current date, scaled against all-time max
   const bubbles = useMemo(() => {
     if (!data?.states?.length) return [];
 
@@ -41,8 +54,8 @@ export default function UsaCaseMap({ data, currentDate }) {
 
     if (!active.length) return [];
 
-    const maxVal = Math.max(...active.map((s) => s.value));
-    const scale = MAX_RADIUS / Math.sqrt(maxVal || 1);
+    // Scale is fixed to all-time max — bubbles grow absolutely, not relatively
+    const scale = MAX_RADIUS / Math.sqrt(allTimeMax);
 
     return active
       .map((s) => ({
@@ -54,7 +67,7 @@ export default function UsaCaseMap({ data, currentDate }) {
       }))
       // Sort smallest first so large bubbles render on top
       .sort((a, b) => a.cases - b.cases);
-  }, [data, dateIndex]);
+  }, [data, dateIndex, allTimeMax]);
 
   if (!data?.dates?.length) return null;
 
