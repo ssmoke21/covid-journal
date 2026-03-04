@@ -108,3 +108,8 @@
     transform: translateX(0);
   }
 }
+
+/* Hide scrollbar for carousel */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
