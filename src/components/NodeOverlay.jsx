@@ -123,7 +123,8 @@ export default function NodeOverlay({ node, onClose }) {
     : (node.embed ? node : null);
 
   const hasIframe = embedNode?.embed?.type === "iframe";
-  const modalWidth = hasIframe ? "max-w-3xl" : isPaired ? "max-w-2xl" : "max-w-md";
+  const hasSections = !isPaired && !!node.sections?.length;
+  const modalWidth = hasIframe ? "max-w-3xl" : isPaired ? "max-w-2xl" : hasSections ? "max-w-2xl" : "max-w-md";
 
   return (
     <div
@@ -208,7 +209,20 @@ export default function NodeOverlay({ node, onClose }) {
               </button>
             </div>
 
-            <p className="px-6 pb-5 text-sm text-stone-600 leading-relaxed">{node.content}</p>
+            {hasSections ? (
+              <div className="px-6 pb-5 overflow-y-auto space-y-5" style={{ maxHeight: "65vh" }}>
+                {node.sections.map((section, i) => (
+                  <div key={i}>
+                    <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1">
+                      {section.title}
+                    </p>
+                    <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="px-6 pb-5 text-sm text-stone-600 leading-relaxed">{node.content}</p>
+            )}
 
             <EmbedSection embedNode={node.embed ? node : null} />
           </>
