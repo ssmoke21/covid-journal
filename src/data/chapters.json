@@ -327,7 +327,8 @@
         {
           "date": "2020-04-14",
           "label": "First Baricitinib Question",
-          "content": "A pharmacist at NBI asks about baricitinib — my first encounter with it as a potential immunomodulator for Covid-19. Speculation about its efficacy had appeared in a Lancet study. It is proven effective months later."
+          "content": "A pharmacist at NBI asks about baricitinib — my first encounter with it as a potential immunomodulator for Covid-19. Speculation about its efficacy had appeared in a Lancet study. It is proven effective months later.",
+          "embed": { "type": "link", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30304-4/fulltext", "label": "Read the Study in The Lancet" }
         },
         {
           "date": "2020-04-16",
@@ -350,7 +351,7 @@
         {
           "date": "2020-03-16",
           "label": "My Wife Works From Home",
-          "content": "My wife begins working from home."
+          "content": "My wife begins working from home. Initially the expectation is that it will be a few weeks. Five years later, she's never gone back."
         },
         {
           "date": "2020-03-17",
@@ -383,7 +384,7 @@
         {
           "date": "2020-04-04",
           "label": "Video Call With My Wife",
-          "content": "My wife is grocery shopping online; we're communicating via Zoom. The kids are 'living their best life making mud soup.' My wife's knuckles are cracked from hand sanitizing. I'm not yet wearing a mask at work — the CDC hadn't recommended it for healthcare workers yet. 'We're just a covid hospital, every unit is an ICU, no one knows how to treat it, people want to try everything.' 'My music selection is a good indicator of my mental state — I've been listening to emo like it's 2005.'"
+          "content": "My wife and I sat on our balcony and talked for 30 minutes. We knew it was worth documenting, so we recorded it. My wife is grocery shopping online. The niece and nephew are 'living their best life making mud soup.' My wife's knuckles are cracked from hand sanitizing. I'm not yet wearing a mask at work — the CDC hadn't recommended it for healthcare workers yet. 'We're just a covid hospital, every unit is an ICU, no one knows how to treat it, people want to try everything.' 'My music selection is a good indicator of my mental state — I've been listening to emo like it's 2005.'"
         }
       ],
       "assets_wishlist": [
