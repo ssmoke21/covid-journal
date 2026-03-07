@@ -4,7 +4,6 @@ import NodeOverlay from "./NodeOverlay";
 import MapVisualization from "./MapVisualization";
 import VariantChart from "./VariantChart";
 import variantData from "../data/variant-data.json";
-import CaseWaveChart from "./CaseWaveChart";
 import caseWaveData from "../data/case-wave-data.json";
 
 const MOOD_GRADIENTS = {
@@ -343,8 +342,7 @@ export default function Chapter({ chapter, isVisible }) {
             animation: isVisible ? "fade-in-up 0.5s ease-out 0.5s both" : "none",
           }}
         >
-          <VariantChart data={variantData} currentDate={currentNodeDate} />
-          <CaseWaveChart data={caseWaveData} currentDate={currentNodeDate} />
+          <VariantChart data={variantData} caseData={caseWaveData} currentDate={currentNodeDate} />
           <div className="h-px bg-gradient-to-r from-transparent via-stone-600/40 to-transparent" />
         </div>
       )}
