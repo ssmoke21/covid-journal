@@ -60,6 +60,12 @@
       ],
       "personal_nodes": [
         {
+          "date": "Mid December 2019",
+          "label": "Austria Honeymoon",
+          "content": "My wife and I travel to Austria for our honeymoon — Vienna, Salzburg, and Zell am See. Three weeks before the first reported Covid-19 cases in Wuhan.",
+          "embed": { "type": "image", "url": "images/austria-honeymoon.jpg", "caption": "Zell am See, Austria" }
+        },
+        {
           "date": "2020-01-24",
           "label": "AMS Prep Meeting",
           "content": "An ID physician colleague mentions coronavirus might be a big deal. I dismiss it as unlikely and off-agenda."

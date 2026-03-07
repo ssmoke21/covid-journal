@@ -72,6 +72,22 @@ function EmbedSection({ embedNode }) {
         </div>
       )}
 
+      {embed.type === "image" && (
+        <div className="border-t border-stone-100">
+          <img
+            src={`${import.meta.env.BASE_URL}${embed.url}`}
+            alt={embed.caption || embedNode.label}
+            className="w-full object-cover"
+            style={{ maxHeight: "420px" }}
+          />
+          {embed.caption && (
+            <p className="px-6 py-2 text-[10px] text-stone-400 font-mono uppercase tracking-widest text-center">
+              {embed.caption}
+            </p>
+          )}
+        </div>
+      )}
+
       {embed.type === "link" && (
         <div className="border-t border-stone-100 px-6 py-5">
           <p className="text-[10px] uppercase tracking-widest text-stone-400 mb-3 font-semibold">
@@ -123,8 +139,9 @@ export default function NodeOverlay({ node, onClose }) {
     : (node.embed ? node : null);
 
   const hasIframe = embedNode?.embed?.type === "iframe";
+  const hasImage = embedNode?.embed?.type === "image";
   const hasSections = !isPaired && !!node.sections?.length;
-  const modalWidth = hasIframe ? "max-w-3xl" : isPaired ? "max-w-2xl" : hasSections ? "max-w-2xl" : "max-w-md";
+  const modalWidth = hasIframe ? "max-w-3xl" : isPaired ? "max-w-2xl" : (hasSections || hasImage) ? "max-w-2xl" : "max-w-md";
 
   return (
     <div
