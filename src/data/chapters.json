@@ -509,7 +509,8 @@
           "label": "Life During the Surge",
           "preview": "Empty hallways, refrigerated trailers, clap-outs, tooth-grinding, and a hotel stay to protect my family. The human texture of the worst weeks.",
           "sections": [
-            { "title": "The Hospital Empties", "text": "Non-essential personnel work from home, leaving the hospital eerily quiet — empty hallways, a silent cafeteria. The community responds with an outpouring of support: donated food and drinks, hand sanitizer from local distilleries, handwritten letters from children, mask comfort adapters." },
+            { "title": "The Hospital Empties", "text": "Non-essential personnel work from home, leaving the hospital eerily quiet — empty hallways, a silent cafeteria." },
+            { "title": "Community Donations", "text": "All kinds of donations arrived. Hand sanitizer from local distilleries that had converted their production lines. Food, drinks, snacks. Mask comfort adapters. Handwritten letters from entire classrooms of kids who had never met any of us. There was a period where you could feel the appreciation from the community — everyone wanted to do something, anything, to help. It meant something.", "image": "images/meatwipes.jpg" },
             { "title": "Trailers in the Parking Lot", "text": "The hospital morgue fills. Two refrigerated trailers are placed in the physician parking lot for overflow bodies. They remained for months. Every employee passed them going in and out each day." },
             { "title": "'Here Comes the Sun'", "text": "The Beatles' 'Here Comes the Sun' plays over the hospital loudspeaker each time a patient is extubated. The sound quality is described as horrendous." },
             { "title": "Clap-Outs", "text": "Staff line the halls and applaud patients discharged after weeks- or months-long admissions." },
@@ -524,7 +525,8 @@
           "date": "2020-04-14",
           "label": "Healthcare Heroes Salute",
           "content": "A procession of thanks is held outside St. Barnabas Medical Center — police, fire, and community members lining up to honor hospital staff during the height of the surge.",
-          "embed": { "type": "iframe", "url": "https://abc7ny.com/post/procession-of-thanks-for-heroes-at-st-barnabas-medical-center/6102573/", "label": "Watch the Coverage on ABC7" }
+          "embed": { "type": "image", "url": "images/healthcare-heroes.jpg", "caption": "Healthcare Heroes Salute — St. Barnabas Medical Center, April 14, 2020" },
+          "secondary_embed": { "type": "link", "url": "https://abc7ny.com/post/procession-of-thanks-for-heroes-at-st-barnabas-medical-center/6102573/", "label": "Watch the Coverage on ABC7" }
         },
         {
           "date": "2020-07-14",
@@ -727,7 +729,14 @@
           "date": "2020-12-23",
           "label": "I Start Vaccinating",
           "content": "My first day administering vaccinations. Initially staff only, then the public. I provide over 300 vaccinations over the next four months at our hospital, a county vaccination site at a former mall, and an elementary school gym.",
-          "link_group": "vaccine-dec-23"
+          "link_group": "vaccine-dec-23",
+          "embed": { "type": "gallery", "photos": [
+            { "url": "images/vaccinating.jpg" },
+            { "url": "images/vaccine-station.jpg" },
+            { "url": "images/sears-vaccination.jpg" },
+            { "url": "images/vaccination-sears.jpg" },
+            { "url": "images/vaccine-devils.jpg" }
+          ]}
         }
       ],
       "personal_nodes": [
@@ -747,7 +756,8 @@
           "date": "2020-12-21",
           "label": "My Turn: Vaccinated at 5pm",
           "content": "I'm vaccinated at 5pm — an hour after the clinic is scheduled to close — as the vaccine team looks for volunteers to use up remaining doses. I was not in the first priority group.",
-          "link_group": "vaccine-dec-21"
+          "link_group": "vaccine-dec-21",
+          "embed": { "type": "image", "url": "images/vaccine-card.jpg", "caption": "COVID-19 Vaccine Card — December 21, 2020" }
         },
         {
           "date": "2020-12-23",

@@ -103,6 +103,22 @@ function EmbedSection({ embedNode }) {
         </div>
       )}
 
+      {embed.type === "gallery" && (
+        <div className="border-t border-stone-100 p-3">
+          <div className="grid grid-cols-2 gap-2">
+            {embed.photos.map((photo, i) => (
+              <img
+                key={i}
+                src={`${import.meta.env.BASE_URL}${photo.url}`}
+                alt={photo.caption || ""}
+                className="w-full object-cover rounded-lg"
+                style={{ height: "160px" }}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
       {embed.type === "link" && (
         <div className="border-t border-stone-100 px-6 py-5">
           <p className="text-[10px] uppercase tracking-widest text-stone-400 mb-3 font-semibold">
@@ -154,7 +170,7 @@ export default function NodeOverlay({ node, onClose }) {
     : (node.embed ? node : null);
 
   const hasIframe = embedNode?.embed?.type === "iframe";
-  const hasImage = embedNode?.embed?.type === "image";
+  const hasImage = embedNode?.embed?.type === "image" || embedNode?.embed?.type === "gallery";
   const hasSections = !isPaired && !!node.sections?.length;
   const modalWidth = hasIframe ? "max-w-3xl" : isPaired ? "max-w-2xl" : (hasSections || hasImage) ? "max-w-2xl" : "max-w-md";
 
@@ -249,6 +265,14 @@ export default function NodeOverlay({ node, onClose }) {
                       {section.title}
                     </p>
                     <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>
+                    {section.image && (
+                      <img
+                        src={`${import.meta.env.BASE_URL}${section.image}`}
+                        alt={section.title}
+                        className="w-full object-cover rounded-lg mt-3"
+                        style={{ maxHeight: "220px" }}
+                      />
+                    )}
                   </div>
                 ))}
               </div>
