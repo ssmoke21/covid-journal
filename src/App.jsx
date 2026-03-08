@@ -109,6 +109,22 @@ export default function App() {
       <main className="lg:ml-20">
         <HeroHeader meta={chaptersData.meta} />
 
+        {/* Prologue */}
+        <section className="max-w-xl mx-auto px-8 py-16 text-center">
+          <p className="text-[10px] font-mono uppercase tracking-[0.3em] text-stone-400 mb-8">
+            Prologue
+          </p>
+          <div className="space-y-5 font-serif text-xl text-stone-500 leading-relaxed italic">
+            <p>This is my COVID story.</p>
+            <p>
+              It is not the most difficult, and not the most important. But it is important.
+              It was extraordinary and unique — worth hearing, worth learning from.
+            </p>
+            <p>Like so many other stories from this time.</p>
+          </div>
+          <div className="w-8 h-px bg-red-300 mx-auto mt-12" />
+        </section>
+
         <div className="flex flex-col">
           {chaptersData.chapters.map((chapter) => (
             <Chapter
