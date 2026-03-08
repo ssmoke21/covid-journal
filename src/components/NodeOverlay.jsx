@@ -14,7 +14,7 @@ function PhotoCarousel({ embed }) {
 
   return (
     <div>
-      <div className="relative overflow-hidden rounded-lg bg-stone-100" style={{ height: "240px" }}>
+      <div className="relative overflow-hidden rounded-lg bg-stone-100" style={{ height: "300px" }}>
         <img
           src={`${import.meta.env.BASE_URL}${photo.url}`}
           alt={photo.caption || ""}
@@ -214,10 +214,10 @@ export default function NodeOverlay({ node, onClose }) {
   const hasSections = !isPaired && !!node.sections?.length;
   const hasPairedPhoto = isPaired && (isPhotoEmbed(clinical?.embed) || isPhotoEmbed(personal?.embed));
   const modalWidth =
-    hasIframe ? "max-w-3xl"
-    : (isPaired && hasPairedPhoto) ? "max-w-3xl"
+    hasIframe ? "max-w-4xl"
+    : (isPaired && hasPairedPhoto) ? "max-w-4xl"
     : isPaired ? "max-w-2xl"
-    : (hasSections || isPhotoEmbed(node.embed)) ? "max-w-2xl"
+    : (hasSections || isPhotoEmbed(node.embed)) ? "max-w-3xl"
     : "max-w-md";
 
   return (
@@ -247,11 +247,11 @@ export default function NodeOverlay({ node, onClose }) {
             </div>
 
             {/* Body: photo-left + stacked-text-right when photos present; side-by-side otherwise */}
-            <div className="flex overflow-hidden" style={{ maxHeight: hasPairedPhoto ? "76vh" : "60vh" }}>
+            <div className="flex overflow-hidden" style={{ maxHeight: hasPairedPhoto ? "82vh" : "60vh" }}>
 
               {/* ── Photo column (left) — only rendered when at least one photo exists ── */}
               {hasPairedPhoto && (
-                <div className="w-2/5 flex-shrink-0 overflow-y-auto border-r border-stone-100 bg-stone-50/60">
+                <div className="w-1/2 flex-shrink-0 overflow-y-auto border-r border-stone-100 bg-stone-50/60">
                   {isPhotoEmbed(clinical?.embed) && (
                     <div className={`p-3 ${isPhotoEmbed(personal?.embed) ? "border-b border-stone-100" : ""}`}>
                       <p className="text-[9px] uppercase tracking-widest font-bold mb-2"
@@ -377,26 +377,44 @@ export default function NodeOverlay({ node, onClose }) {
             </div>
 
             {hasSections ? (
-              <div className="px-6 pb-5 overflow-y-auto space-y-5" style={{ maxHeight: "65vh" }}>
+              <div className="pb-5 overflow-y-auto" style={{ maxHeight: "75vh" }}>
                 {node.sections.map((section, i) => (
-                  <div key={i}>
-                    {section.title && (
-                      <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1">
-                        {section.title}
-                      </p>
-                    )}
-                    {section.text && (
-                      <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>
-                    )}
-                    {section.image && (
-                      <img
-                        src={`${import.meta.env.BASE_URL}${section.image}`}
-                        alt={section.title || ""}
-                        className="w-full object-contain rounded-lg mt-3"
-                        style={{ maxHeight: "220px" }}
-                      />
-                    )}
-                  </div>
+                  section.image ? (
+                    /* Photo-left, text-right for sections with images */
+                    <div key={i} className="flex border-t border-stone-100 first:border-t-0">
+                      <div className="w-1/2 flex-shrink-0 p-4 border-r border-stone-100 bg-stone-50/60">
+                        <div className="rounded-lg overflow-hidden bg-stone-100" style={{ height: "220px" }}>
+                          <img
+                            src={`${import.meta.env.BASE_URL}${section.image}`}
+                            alt={section.title || ""}
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex-1 p-4 min-w-0">
+                        {section.title && (
+                          <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1.5">
+                            {section.title}
+                          </p>
+                        )}
+                        {section.text && (
+                          <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>
+                        )}
+                      </div>
+                    </div>
+                  ) : (
+                    /* Text-only sections: full width */
+                    <div key={i} className="px-6 py-4 border-t border-stone-100 first:border-t-0">
+                      {section.title && (
+                        <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1">
+                          {section.title}
+                        </p>
+                      )}
+                      {section.text && (
+                        <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>
+                      )}
+                    </div>
+                  )
                 ))}
               </div>
             ) : (
