@@ -457,6 +457,11 @@
           "content": "Hospital CDI (C. diff) rates plummet due to dramatically improved hand hygiene across the facility. Meanwhile, fungal infections, MRSA, and other hospital-acquired infections rise due to the surge in critically ill patients with prolonged stays. The same pattern holds for respiratory illnesses more broadly — influenza, RSV, and rhinovirus transmission collapse as masking and social distancing suppress their spread. Other infectious diseases would remain suppressed throughout the pandemic."
         },
         {
+          "date": "Circa April 2020",
+          "label": "All Hands on Deck",
+          "content": "As the surge overwhelms the hospital, everyone steps outside their training. The pediatric intensivist becomes an adult intensivist. The investigational drug pharmacist becomes a critical care pharmacist. Medical students are called into action in areas of care they were never prepared for. More and more is asked of healthcare workers — and each time, they step up to the task. Not because they want to, but because they have to, for their patients."
+        },
+        {
           "date": "2020-04-29",
           "label": "Remdesivir: Contradictory Data",
           "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares (unpublished, non-peer-reviewed) data from its RCT indicating benefit. 'Timing causes considerable confusion.'",
@@ -528,7 +533,7 @@
         {
           "date": "2020-04-14",
           "label": "Healthcare Heroes Salute",
-          "content": "A procession of thanks is held outside St. Barnabas Medical Center — police, fire, and community members lining up to honor hospital staff during the height of the surge.",
+          "content": "A procession of thanks is held outside St. Barnabas Medical Center — police, fire, and community members lining up to honor hospital staff during the height of the surge. We got a bonus and a pin that said 'COVID-19 Heroes.' Healthcare heroes signs on front lawns, letters and posters from classrooms, donations of food and sanitizer from local businesses — everyone wanted to do something, anything, to help. And it meant something. But singling out one person felt wrong when everyone was going above and beyond. Yet by not celebrating individual heroics, the recognition felt hollow. It wasn't enough to truly honor what was happening inside those walls.",
           "embed": { "type": "gallery", "photos": [
             { "url": "images/healthcare-heroes.jpg", "caption": "Healthcare Heroes Salute — April 14, 2020" },
             { "url": "images/healthcare-heroes-insta.png" }
@@ -870,6 +875,11 @@
           "date": "2021-04-13",
           "label": "HCQ Paper Accepted",
           "content": "My hydroxychloroquine paper is accepted for publication (submitted in February 2021, after rejection from several journals)."
+        },
+        {
+          "date": "Fall 2020",
+          "label": "My Expertise Stops Mattering",
+          "content": "Early in the pandemic, friends and family valued my perspective as an infectious disease pharmacist. They called, texted, asked what I was seeing, what they should do. But as politics overtook the pandemic, that changed. My firsthand experience and years of expertise weren't needed anymore — they had other sources of information. The same people who had sought my opinion weeks earlier were now skeptical of what I was telling them. It was a strange and personal betrayal, losing credibility with the people closest to you while walking in and out of the hospital every day."
         },
         {
           "date": "2020-08-03",
