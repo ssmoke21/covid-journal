@@ -348,7 +348,7 @@
         {
           "date": "2020-04-16",
           "label": "IRB Chair: Trial Enrollment vs. Compassionate Use",
-          "content": "The IRB Chair asks about our tocilizumab inventory. He only wants to recruit to the sarilumab study if tocilizumab is unavailable — because his study has a placebo arm. An interesting stance that cuts to a difficult ethical tension of the pandemic: offer an unproven drug to desperate patients, or advocate for enrollment in a trial that will actually advance science."
+          "content": "The IRB Chair asks about our tocilizumab inventory. He only wants to recruit to the sarilumab study if tocilizumab is unavailable — because his study has a placebo arm. An interesting stance that cuts to a difficult ethical tension of the pandemic. Option A: enroll a patient in a randomized clinical trial, where they may be assigned to drug or placebo. Option B: decline trial enrollment and simply give them the unproven drug. Option A moves us closer to an answer. Option B does not. No patient deserves judgment for decisions made under the stress of severe illness. But if COVID-19 persists, we will only know which treatments work because of patients who chose Option A — and chose to drive medicine forward for the greater good."
         }
       ],
       "personal_nodes": [
@@ -360,7 +360,7 @@
         {
           "date": "2020-03-14",
           "label": "Ibuprofen: Impossible to Disprove",
-          "content": "This blows up on social media over the next few weeks, especially after the WHO picks up on it. It became a frequent question at work and outside of work with friends and family. With so much Covid-19 information being discussed, it is impossible to prove that there was no evidence to support this.",
+          "content": "This blows up on social media over the next few weeks, especially after the WHO picks up on it. It became a frequent question at work and outside of work with friends and family. A single premature shout of warning — shared, echoed, and bounced around the world in hours. Level-headed questions like 'what's the source for this claim?' got lost in the noise. Proving the absence of evidence is impossible, while the provocative rumor spreads faster than a virus. And the corrections and retractions never travel with the intensity of the original report. When this cycle repeats over and over, the result is a flood of misinformation.",
           "link_group": "ibuprofen-controversy"
         },
         {
@@ -388,7 +388,12 @@
         {
           "date": "2020-03-30",
           "label": "Celebrating a Preprint With Amy",
-          "content": "A preprint RCT from China suggests benefit with hydroxychloroquine. I celebrate the news with Amy. This is my first real encounter with preprints — a format I become very familiar with over the course of the pandemic. I never confirm whether this paper was ever published in a peer-reviewed journal."
+          "content": "A preprint RCT from China suggests benefit with hydroxychloroquine. I celebrate the news with Amy. This is my first real encounter with preprints — a format I become very familiar with over the course of the pandemic. Preprints come from good intentions: rapid sharing of study results. But there is a price to skipping the steps that ensure the slow but forward march of scientific progress. That price is confusion, when the important studies get mixed with those that are far more suspect — and that confusion is magnified when preprints of questionable merit are shared widely by media outlets. I never confirm whether this paper was ever published in a peer-reviewed journal."
+        },
+        {
+          "date": "2020-03-30",
+          "label": "The Offensive Coordinator",
+          "content": "My role does not have me on the front lines, at the bedside. I work more like a football team's offensive coordinator — except less controlling and more advisory. One of my tasks is to work with a diverse group of experts to provide formal treatment recommendations. We face two opposing pressures: respect the importance of evidence-based medicine, where no practice should be recommended without adequate evidence — and recognize that the pandemic will not wait for high-quality trials. The surge of patients is here, now. By any nonpandemic standard, there is not adequate evidence to recommend for or against many COVID-19 therapies. But this nonanswer provides no help to the clinicians on the front lines, swamped with patients, looking for some kind of direction."
         },
         {
           "date": "2020-04-03",
@@ -464,7 +469,7 @@
         {
           "date": "2020-04-29",
           "label": "Remdesivir: Contradictory Data",
-          "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares (unpublished, non-peer-reviewed) data from its RCT indicating benefit. 'Timing causes considerable confusion.'",
+          "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares (unpublished, non-peer-reviewed) data from its RCT indicating benefit. Timing causes considerable confusion. But the Lancet study also fell short of its projected patient enrollment — the study was underpowered. Drawing definitive conclusions from an underpowered study is like calling a football game at the end of the third quarter. Congratulations to the 49ers, Super Bowl LIV champions — they were up 10, it was over, right? Wrong. There was still a quarter left to play.",
           "embed": { "type": "link", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31022-9/fulltext", "label": "Read the Lancet RCT (No Benefit)" },
           "secondary_embed": { "type": "link", "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-shows-remdesivir-accelerates-recovery-advanced-covid-19", "label": "Read the NIH/NIAID Press Release (Benefit)" }
         },
@@ -884,7 +889,7 @@
         {
           "date": "2020-08-03",
           "label": "Opinion Article Published",
-          "content": "My opinion article is published in Pharmacy Practice News. Key themes: difficulty determining what therapies work; misinformation from the messy scientific process being in the spotlight; importance of humility and saying 'I don't know'; the essential role of patients volunteering for RCTs.",
+          "content": "My opinion article is published in Pharmacy Practice News. Five months into the pandemic, I write about what I've learned: that my most common answer has been the most difficult one — 'I don't know.' That sharing speculation based on flimsy evidence does not bring clarity. That knowing when a question isn't yours to answer is just as important as answering it. And that buried in the devastation are a million stories of heroism. I urge everyone to ask for those stories. Tell those stories. And listen to them.",
           "embed": { "type": "link", "url": "https://www.pharmacypracticenews.com/Digital-Issue/Article/08-20/Pharmacy-Practice-News-August-2020/59186", "label": "Read the Article in Pharmacy Practice News" }
         }
       ],
