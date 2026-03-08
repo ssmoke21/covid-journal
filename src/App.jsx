@@ -150,19 +150,18 @@ export default function App() {
               </p>
               <div className="space-y-4 font-serif text-base text-stone-600 leading-relaxed">
                 <p>
-                  When I look around the hospital today, I see many new faces. Their presence
+                  When I look around the hospital, I see many new faces. Their presence
                   tells a story about the people they replaced &mdash; a story of burnout and mass
                   exodus from hospital medicine. The pandemic didn&rsquo;t just take lives; it took
                   careers, aspirations, and in many cases, the passion that drew people to
                   healthcare in the first place.
                 </p>
                 <p>
-                  These colleagues weathered the storm, carried the weight of impossible
-                  decisions, and then, in the aftermath, they left. Burnt out and
-                  underappreciated &mdash; who could blame them? To my colleagues whose scars
-                  look similar to mine, we&rsquo;ve pushed forward. But I wonder: have you really
-                  processed and accepted what happened? Or are you simply not talking about
-                  it, like me?
+                  Colleagues weathered the storm, carried the weight of impossible duties
+                  and decisions, and then, in the aftermath, they left. Burnt out and
+                  underappreciated &mdash; who could blame them? For everyone who went through
+                  this, have you really processed and accepted what happened? Or are you
+                  simply not talking about it?
                 </p>
               </div>
             </div>
