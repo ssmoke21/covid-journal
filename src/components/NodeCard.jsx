@@ -33,7 +33,7 @@ export default function NodeCard({ node, type, index, onOpenOverlay, linked }) {
   const isClinical = type === "clinical";
   const hasEmbed = !!node.embed;
   const hasPreview = !!node.preview;
-  const isClickable = hasEmbed || hasPreview;
+  const isClickable = hasEmbed || hasPreview || !!linked;
 
   return (
     <div
@@ -76,6 +76,22 @@ export default function NodeCard({ node, type, index, onOpenOverlay, linked }) {
         {/* Content */}
         <p className="text-sm leading-relaxed text-stone-700">{node.preview ?? node.content}</p>
       </div>
+
+      {/* Linked footer strip (linked nodes with no embed or preview) */}
+      {linked && !hasEmbed && !hasPreview && (
+        <div
+          className={`flex items-center gap-2 px-5 py-2.5 border-t text-xs font-medium ${
+            isClinical
+              ? "bg-[var(--color-clinical)]/8 border-[var(--color-clinical-border)] text-[var(--color-clinical)]"
+              : "bg-[var(--color-personal)]/8 border-[var(--color-personal-border)] text-[var(--color-personal)]"
+          }`}
+        >
+          <span>↔ View linked story</span>
+          <svg className="w-3 h-3 shrink-0 ml-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M7 17 17 7M7 7h10v10" />
+          </svg>
+        </div>
+      )}
 
       {/* Read-more footer strip (preview-only nodes) */}
       {hasPreview && !hasEmbed && (
