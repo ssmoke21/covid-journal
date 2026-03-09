@@ -43,7 +43,14 @@
         {
           "date": "2020-02-25",
           "label": "Italy: The West's First Major Outbreak",
-          "content": "Italy reports a rapidly escalating outbreak — the first in a western country with reliable reporting infrastructure. Unlike prior outbreaks (Zika, Ebola, SARS, MERS), this one is not contained to one country or region. The coverage is unlike anything people have seen before: overwhelmed hospitals, doctors making impossible triage decisions. A turning point in understanding what is coming.",
+          "content": "Italy reports a rapidly escalating outbreak. Overwhelmed hospitals, impossible triage decisions. A turning point in understanding what was coming.",
+          "preview": "Italy reports a rapidly escalating outbreak. Overwhelmed hospitals, impossible triage decisions. A turning point in understanding what was coming.",
+          "sections": [
+            {
+              "heading": "A New Region, A New Reality",
+              "text": "There had been reports from China — alarming ones — but they came with a significant asterisk: we couldn't be sure how much to trust them. Uncertainty about the data made it easier to rationalize. Italy was different. This was a western country with transparent reporting infrastructure, and the images coming out were unlike anything most of us had ever seen. Overwhelmed ICUs. Doctors making impossible triage decisions in hallways. Seeing the outbreak spread to a new region felt like a significant escalation — the kind that was harder to dismiss."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.cnn.com/2020/02/25/europe/italy-coronavirus-backfoot-intl", "label": "Read the Story on CNN" }
         },
         {
