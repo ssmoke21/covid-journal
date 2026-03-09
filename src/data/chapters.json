@@ -64,7 +64,7 @@
         {
           "date": "Mid December 2019",
           "label": "Austria Honeymoon",
-          "content": "My wife and I travel to Austria for our honeymoon — Vienna, Salzburg, and Zell am See. Three weeks before the first reported Covid-19 cases in Wuhan.",
+          "content": "My wife and I travel to Austria for our honeymoon — Vienna, Salzburg, and Zell am See.",
           "embed": { "type": "image", "url": "images/austria-honeymoon.jpg", "caption": "Zell am See, Austria" },
           "link_group": "mid-december-2019"
         },
