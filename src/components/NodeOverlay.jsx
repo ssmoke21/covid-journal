@@ -386,32 +386,52 @@ export default function NodeOverlay({ node, onClose }) {
                         <div className="rounded-lg overflow-hidden bg-stone-100" style={{ height: "220px" }}>
                           <img
                             src={`${import.meta.env.BASE_URL}${section.image}`}
-                            alt={section.title || ""}
+                            alt={section.heading || section.title || ""}
                             className="w-full h-full object-contain"
                           />
                         </div>
                       </div>
                       <div className="flex-1 p-4 min-w-0">
-                        {section.title && (
+                        {(section.heading || section.title) && (
                           <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1.5">
-                            {section.title}
+                            {section.heading || section.title}
                           </p>
                         )}
                         {section.text && (
                           <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>
+                        )}
+                        {section.links?.length > 0 && (
+                          <div className="mt-3 flex flex-col gap-1.5">
+                            {section.links.map((link, j) => (
+                              <a key={j} href={link.url} target="_blank" rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1.5 text-xs text-stone-500 hover:text-stone-700 underline underline-offset-2">
+                                {link.label}
+                              </a>
+                            ))}
+                          </div>
                         )}
                       </div>
                     </div>
                   ) : (
                     /* Text-only sections: full width */
                     <div key={i} className="px-6 py-4 border-t border-stone-100 first:border-t-0">
-                      {section.title && (
+                      {(section.heading || section.title) && (
                         <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1">
-                          {section.title}
+                          {section.heading || section.title}
                         </p>
                       )}
                       {section.text && (
                         <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>
+                      )}
+                      {section.links?.length > 0 && (
+                        <div className="mt-3 flex flex-col gap-1.5">
+                          {section.links.map((link, j) => (
+                            <a key={j} href={link.url} target="_blank" rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1.5 text-xs text-stone-500 hover:text-stone-700 underline underline-offset-2">
+                              {link.label}
+                            </a>
+                          ))}
+                        </div>
                       )}
                     </div>
                   )
