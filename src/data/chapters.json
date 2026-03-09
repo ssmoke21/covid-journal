@@ -17,9 +17,10 @@
       "mood_description": "A calm before the storm. Casual dismissal of early warning signs, life proceeding normally — Rutgers basketball, work trips, grocery runs.",
       "clinical_nodes": [
         {
-          "date": "2019-12-12",
+          "date": "Mid December 2019",
           "label": "First Cases",
-          "content": "First reported cases of Covid-19 in Wuhan, China."
+          "content": "First reported cases of an unknown respiratory infection in Wuhan, China.",
+          "link_group": "mid-december-2019"
         },
         {
           "date": "Early January 2020",
@@ -64,7 +65,8 @@
           "date": "Mid December 2019",
           "label": "Austria Honeymoon",
           "content": "My wife and I travel to Austria for our honeymoon — Vienna, Salzburg, and Zell am See. Three weeks before the first reported Covid-19 cases in Wuhan.",
-          "embed": { "type": "image", "url": "images/austria-honeymoon.jpg", "caption": "Zell am See, Austria" }
+          "embed": { "type": "image", "url": "images/austria-honeymoon.jpg", "caption": "Zell am See, Austria" },
+          "link_group": "mid-december-2019"
         },
         {
           "date": "2020-01-24",
