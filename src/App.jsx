@@ -196,23 +196,23 @@ export default function App() {
               </p>
               <div className="space-y-4 font-serif text-base text-stone-600 leading-relaxed">
                 <p>
-                  I don&rsquo;t know that I will ever be completely at peace with my COVID-19
-                  experience, but I know how we can move toward it: the same way we get over
-                  anything tragic. Remembrance. Recognition. And reflection.
+                  I don&rsquo;t know that I&rsquo;ll ever be completely at peace with my COVID-19
+                  experience. But there is a path forward: remembrance, recognition, and reflection.
                 </p>
                 <p>
                   We were tested in a way that none of our predecessors were. No colleague,
-                  mentor, distinguished veteran, or hallowed hospital legend went through what
-                  we went through. I need to mourn the tragic human suffering. I need to
-                  celebrate the tremendous efforts we put forth. From the enormous work to find
-                  treatments and vaccines to the small-scale heroic sacrifices &mdash; staying an
-                  extra shift, comforting a patient, a loved one, or a coworker &mdash; I want to
-                  embrace these stories and take pride in our field.
+                  mentor, or seasoned veteran had ever gone through what we faced. Now that
+                  we&rsquo;re on the other side, the mark feels permanent. There is an emptiness.
+                  I need to mourn the human suffering. I need to celebrate the tremendous efforts
+                  we put forth &mdash; from the massive scale of drug and vaccine development to
+                  the quiet sacrifices, like staying an extra shift or comforting a patient&rsquo;s
+                  family. I want to embrace these stories and take pride in our field.
                 </p>
                 <p>
                   And I will never find peace until we find lessons that make us better prepared
-                  for next time. Clinical humility. Public health communication. The resilience
-                  borne from collective support. We must not repeat the same mistakes.
+                  for next time: Clinical humility. Clearer public health communication. The
+                  strength that comes from looking out for one another. We must not repeat the
+                  same mistakes.
                 </p>
               </div>
             </div>
