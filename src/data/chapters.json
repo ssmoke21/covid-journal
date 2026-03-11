@@ -842,6 +842,17 @@
           "date": "2020-12-21",
           "label": "My Turn: Vaccinated at 5pm",
           "content": "I'm vaccinated at 5pm — an hour after the clinic is scheduled to close — as the vaccine team looks for volunteers to use up remaining doses. I was not in the first priority group.",
+          "preview": "I'm vaccinated at 5pm — an hour after the clinic is scheduled to close — as the vaccine team looks for volunteers to use up remaining doses. I was not in the first priority group.",
+          "sections": [
+            {
+              "heading": "Why I Wasn't First",
+              "text": "Priority groups were based on risk to staff — those with direct patient care on the COVID floors came first. Since I wasn't regularly on those floors, I wasn't in that initial group. But the vaccine vials had a short expiration window once opened, and the clinic team wasn't about to let doses go to waste. They went out into the halls and offices looking for anyone willing. Someone walked into a meeting I was in. I didn't hesitate."
+            },
+            {
+              "heading": "Words Only Go So Far",
+              "text": "With so much public uncertainty about the vaccine — and so much riding on getting people vaccinated — I knew that advocacy only carries so much weight. Words only go so far. I knew how important it would be, in every future conversation I had about the vaccine, to be able to say: the moment I had the opportunity, I took it. No deliberating. No waiting. That moment, I think, was worth more than anything I could have written or presented."
+            }
+          ],
           "link_group": "vaccine-dec-21",
           "embed": { "type": "image", "url": "images/vaccine-card.jpg", "caption": "COVID-19 Vaccine Card — December 21, 2020" }
         },
