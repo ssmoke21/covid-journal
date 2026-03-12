@@ -155,7 +155,7 @@ export default function MapVisualization({ currentDate, isVisible, chapterNumber
   // ── Chapters 2-4: Multi-panel ──
   return (
     <div
-      className="sticky top-0 z-20 overflow-hidden"
+      className="sticky top-0 z-20 overflow-hidden rounded-lg mx-2 border border-stone-700/30"
       style={{
         animation: isVisible ? "fade-in-up 0.5s ease-out 0.5s both" : "none",
       }}
