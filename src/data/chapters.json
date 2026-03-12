@@ -407,7 +407,14 @@
         {
           "date": "2020-03-14",
           "label": "Ibuprofen: Impossible to Disprove",
-          "content": "This blows up on social media over the next few weeks, especially after the WHO picks up on it. It became a frequent question at work and outside of work with friends and family. A single premature shout of warning — shared, echoed, and bounced around the world in hours. Level-headed questions like 'what's the source for this claim?' got lost in the noise. Proving the absence of evidence is impossible, while the provocative rumor spreads faster than a virus. And the corrections and retractions never travel with the intensity of the original report. When this cycle repeats over and over, the result is a flood of misinformation.",
+          "content": "A single premature warning — echoed around the world in hours. The corrections and retractions never travel with the same intensity.",
+          "preview": "A single premature warning — echoed around the world in hours. The corrections and retractions never travel with the same intensity.",
+          "sections": [
+            {
+              "heading": "The Misinformation Cycle",
+              "text": "This blew up on social media over the next few weeks, especially after the WHO picked up on it. It became a frequent question — at work, and outside of work with friends and family. Level-headed questions like 'what's the source for this claim?' got lost in the noise. Proving the absence of evidence is impossible, while the provocative rumor spreads faster than a virus. And the corrections and retractions never travel with the intensity of the original report. When this cycle repeats over and over, the result is a flood of misinformation."
+            }
+          ],
           "link_group": "ibuprofen-controversy"
         },
         {

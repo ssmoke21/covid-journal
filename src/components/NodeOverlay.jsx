@@ -88,10 +88,15 @@ function EmbedSection({ embedNode }) {
     const tweetId = embedNode.embed.url.match(/status\/(\d+)/)?.[1];
     if (!tweetId || !tweetRef.current) return;
 
+    // Fresh container per effect; deferred render avoids StrictMode double-render
+    const tweetContainer = document.createElement("div");
+    tweetRef.current.innerHTML = "";
+    tweetRef.current.appendChild(tweetContainer);
+    let timerId, pollId;
+
     const render = () => {
-      if (!tweetRef.current) return;
-      tweetRef.current.innerHTML = "";
-      window.twttr.widgets.createTweet(tweetId, tweetRef.current, {
+      if (!tweetContainer.isConnected) return;
+      window.twttr.widgets.createTweet(tweetId, tweetContainer, {
         theme: "light",
         align: "center",
         conversation: "none",
@@ -99,17 +104,30 @@ function EmbedSection({ embedNode }) {
     };
 
     if (window.twttr?.widgets) {
-      render();
-    } else if (document.querySelector('script[src*="platform.twitter.com/widgets.js"]')) {
-      window.addEventListener("load", render, { once: true });
+      timerId = setTimeout(render, 0);
     } else {
-      const script = document.createElement("script");
-      script.src = "https://platform.twitter.com/widgets.js";
-      script.async = true;
-      script.charset = "utf-8";
-      script.onload = render;
-      document.head.appendChild(script);
+      // Ensure the widget script is loading
+      if (!document.querySelector('script[src*="platform.twitter.com/widgets.js"]')) {
+        const script = document.createElement("script");
+        script.src = "https://platform.twitter.com/widgets.js";
+        script.async = true;
+        script.charset = "utf-8";
+        document.head.appendChild(script);
+      }
+      // Poll until the API is ready
+      pollId = setInterval(() => {
+        if (window.twttr?.widgets) {
+          clearInterval(pollId);
+          render();
+        }
+      }, 100);
     }
+
+    return () => {
+      if (timerId) clearTimeout(timerId);
+      if (pollId) clearInterval(pollId);
+      tweetContainer.remove();
+    };
   }, [embedNode]);
 
   if (!embedNode?.embed) return null;
@@ -213,9 +231,10 @@ export default function NodeOverlay({ node, onClose }) {
     (!isPaired && node.embed?.type === "iframe");
   const hasSections = !isPaired && !!node.sections?.length;
   const hasPairedPhoto = isPaired && (isPhotoEmbed(clinical?.embed) || isPhotoEmbed(personal?.embed));
+  const hasPairedEmbed = isPaired && !hasPairedPhoto && (clinical?.embed || personal?.embed);
   const modalWidth =
     hasIframe ? "max-w-4xl"
-    : (isPaired && hasPairedPhoto) ? "max-w-4xl"
+    : (isPaired && (hasPairedPhoto || hasPairedEmbed)) ? "max-w-4xl"
     : isPaired ? "max-w-2xl"
     : (hasSections || isPhotoEmbed(node.embed)) ? "max-w-3xl"
     : "max-w-md";
@@ -246,8 +265,22 @@ export default function NodeOverlay({ node, onClose }) {
               </button>
             </div>
 
-            {/* Body: photo-left + stacked-text-right when photos present; side-by-side otherwise */}
-            <div className="flex overflow-hidden" style={{ maxHeight: hasPairedPhoto ? "82vh" : "60vh" }}>
+            {/* Body: embed-left + stacked-text-right when photos/embeds present; side-by-side otherwise */}
+            <div className="flex overflow-hidden" style={{ maxHeight: (hasPairedPhoto || hasPairedEmbed) ? "82vh" : "60vh" }}>
+
+              {/* ── Embed column (left) — rendered when non-photo embeds exist ── */}
+              {hasPairedEmbed && (
+                <div className="w-1/2 flex-shrink-0 overflow-y-auto overflow-x-hidden border-r border-stone-100 bg-stone-50/60">
+                  {clinical?.embed && (
+                    <div className={personal?.embed ? "border-b border-stone-100" : ""}>
+                      <EmbedSection embedNode={clinical} />
+                    </div>
+                  )}
+                  {personal?.embed && (
+                    <EmbedSection embedNode={personal} />
+                  )}
+                </div>
+              )}
 
               {/* ── Photo column (left) — only rendered when at least one photo exists ── */}
               {hasPairedPhoto && (
@@ -279,8 +312,8 @@ export default function NodeOverlay({ node, onClose }) {
                 </div>
               )}
 
-              {/* ── Text area: stacked (with photos) or side-by-side (without photos) ── */}
-              {hasPairedPhoto ? (
+              {/* ── Text area: stacked (with photos/embeds) or side-by-side (without) ── */}
+              {(hasPairedPhoto || hasPairedEmbed) ? (
                 /* Stacked clinical on top, personal on bottom */
                 <div className="flex-1 flex flex-col overflow-hidden min-w-0">
                   <div className="flex-1 overflow-y-auto px-5 py-4 min-h-0">
@@ -292,6 +325,14 @@ export default function NodeOverlay({ node, onClose }) {
                       {clinical?.label}
                     </h3>
                     <p className="text-sm text-stone-600 leading-relaxed">{clinical?.content}</p>
+                    {clinical?.sections?.map((section, i) => (
+                      <div key={i} className="mt-3 pt-3 border-t border-stone-100">
+                        {(section.heading || section.title) && (
+                          <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1">{section.heading || section.title}</p>
+                        )}
+                        {section.text && <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>}
+                      </div>
+                    ))}
                   </div>
 
                   {/* Horizontal amber dashed divider */}
@@ -309,6 +350,14 @@ export default function NodeOverlay({ node, onClose }) {
                       {personal?.label}
                     </h3>
                     <p className="text-sm text-stone-600 leading-relaxed">{personal?.content}</p>
+                    {personal?.sections?.map((section, i) => (
+                      <div key={i} className="mt-3 pt-3 border-t border-stone-100">
+                        {(section.heading || section.title) && (
+                          <p className="text-[10px] uppercase tracking-widest font-bold text-stone-400 mb-1">{section.heading || section.title}</p>
+                        )}
+                        {section.text && <p className="text-sm text-stone-600 leading-relaxed">{section.text}</p>}
+                      </div>
+                    ))}
                   </div>
                 </div>
               ) : (
@@ -346,11 +395,11 @@ export default function NodeOverlay({ node, onClose }) {
 
             </div>
 
-            {/* Non-photo embeds (tweets, iframes, links) at the bottom */}
-            {clinical?.embed && !isPhotoEmbed(clinical.embed) && (
+            {/* Non-photo embeds at the bottom — only if not already shown in left column */}
+            {!hasPairedEmbed && clinical?.embed && !isPhotoEmbed(clinical.embed) && (
               <EmbedSection embedNode={clinical} />
             )}
-            {personal?.embed && !isPhotoEmbed(personal.embed) && (
+            {!hasPairedEmbed && personal?.embed && !isPhotoEmbed(personal.embed) && (
               <EmbedSection embedNode={personal} />
             )}
           </>
