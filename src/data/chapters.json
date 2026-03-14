@@ -1045,7 +1045,22 @@
           "date": "Summer 2020",
           "label": "NEJM Podcast Revelation",
           "content": "I start listening to the NEJM Interviews podcast — weekly Covid-19 literature updates. My first realization that vaccine mandates might happen, that this would be the biggest vaccination campaign in history, and that I need to get licensed to vaccinate.",
-          "embed": { "type": "iframe", "url": "https://www.youtube.com/embed/videoseries?list=PLI8Ak-hj5dgGPn4CLGz2cj4mcixLrxzsn", "label": "Watch the NEJM Covid-19 Interviews Playlist on YouTube" }
+          "preview": "I start listening to the NEJM Interviews podcast — weekly Covid-19 literature updates. My first realization that vaccine mandates might happen, that this would be the biggest vaccination campaign in history, and that I need to get licensed to vaccinate.",
+          "sections": [
+            {
+              "heading": "More Than a News Update",
+              "text": "I came to these podcasts for the weekly content summaries — a way to stay current when the literature was moving faster than anyone could keep up with. What I got was considerably more than that. The conversations modeled something I hadn't seen done as well anywhere else: how to engage seriously with a study, extract what it actually shows, and be honest about what it doesn't. That combination turned out to have a lasting impact on how I practice, far beyond anything specific I learned about Covid."
+            },
+            {
+              "heading": "Observational vs. RCT — What the Design Actually Tells You",
+              "text": "A lot of the early Covid literature was observational — and a lot of it was being interpreted as if it weren't. These podcasts were rigorous about that distinction without being dismissive. An observational study can tell you something real. It can generate a hypothesis, suggest a signal, give you a sense of magnitude. What it can't do is establish causation the way a randomized controlled trial can. Understanding where that line is — and why it exists — changed how I read everything that came across my desk. Not every study needs to be an RCT to be useful. But you have to know what you're holding."
+            },
+            {
+              "heading": "Communicating What We Know and Don't",
+              "text": "The other thing that stayed with me was how the hosts communicated uncertainty. Not as a hedge or a disclaimer, but as a precise act. They would isolate exactly what a study could support: not 'this drug works,' not 'this drug doesn't work,' but something more specific — 'in this population, under these conditions, with this endpoint, here is what the data show, and here is where the inference ends.' That kind of calibration is genuinely hard. It requires you to hold confidence and humility at the same time. It became a model for how I tried to communicate with the clinicians I worked with throughout the pandemic."
+            }
+          ],
+          "embed": { "type": "link", "url": "https://www.youtube.com/playlist?list=PLI8Ak-hj5dgGPn4CLGz2cj4mcixLrxzsn", "label": "Watch the NEJM Covid-19 Interviews Playlist on YouTube" }
         },
         {
           "date": "2020-09-11",
