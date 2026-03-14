@@ -768,7 +768,19 @@
           "date": "2020-11-09",
           "label": "Bamlanivimab EUA Granted",
           "content": "FDA grants EUA for bamlanivimab. Immediate discussions about where to administer it — a pharmacy colleague and I suggest the ED. The system decides on EDs by November 16.",
-          "embed": { "type": "link", "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-november-9-2020", "label": "Read the FDA Press Announcement" }
+          "preview": "FDA grants EUA for bamlanivimab. Immediate discussions about where to administer it — a pharmacy colleague and I suggest the ED. The system decides on EDs by November 16.",
+          "sections": [
+            {
+              "heading": "When Pharmacy Became Late Night",
+              "text": "Getting a new medication to the bedside involves a lot of unglamorous work — formulary review, protocol development, ordering infrastructure, staff education, storage logistics. I had been doing this for nearly ten years. It was important, meticulous work that almost no one outside the hospital ever thought about. Then bamlanivimab got its EUA, and it became a late-night talk show bit. Watching a medication I was operationalizing in real time get discussed on television was one of the stranger experiences of the pandemic. A useful reminder of just how far outside the ordinary we had traveled."
+            },
+            {
+              "heading": "ED vs. Clinic: A Structural Choice",
+              "text": "Many health systems stood up dedicated infusion clinics to administer monoclonal antibodies — a cleaner setup on paper, purpose-built for this kind of outpatient therapy. We didn't have that infrastructure readily available. So we went to the ED. That decision made our emergency departments busier, and it wasn't without friction. But it also meant we weren't dependent on a fixed clinic model when the landscape kept shifting. Over the next two years, as different monoclonals came and went — new variants, changing efficacy, supply disruptions — that nimbleness turned out to matter. We could pivot quickly because we weren't locked into a structure built around a single product."
+            }
+          ],
+          "embed": { "type": "link", "url": "https://www.youtube.com/watch?v=TkCb2ChqChY", "label": "Watch the Late Night Segment on YouTube" },
+          "secondary_embed": { "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-november-9-2020", "label": "Read the FDA Press Announcement" }
         },
         {
           "date": "2020-11-18",
