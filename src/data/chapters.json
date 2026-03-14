@@ -152,7 +152,14 @@
         {
           "date": "2020-03-11",
           "label": "First ID Pharmacy Collaborative Email",
-          "content": "I send the inaugural email to the ID Pharmacy Collaborative sharing a treatment Google doc. Key assessments: Tamiflu unlikely to work; Remdesivir under NIH study; Chloroquine shows 'promising but questionable' evidence from China; Lopinavir/ritonavir retrospective shows no efficacy. I anticipate 'constantly changing evidence.'",
+          "content": "I send the inaugural email to the ID Pharmacy Collaborative sharing a treatment Google doc. I anticipate 'constantly changing evidence.'",
+          "preview": "I send the inaugural email to the ID Pharmacy Collaborative sharing a treatment Google doc. I anticipate 'constantly changing evidence.'",
+          "sections": [
+            {
+              "heading": "Initial Assessments — March 11, 2020",
+              "text": "Tamiflu unlikely to work. Remdesivir under NIH study. Chloroquine shows 'promising but questionable' evidence from China. Lopinavir/ritonavir retrospective shows no efficacy."
+            }
+          ],
           "embed": { "type": "iframe", "url": "https://docs.google.com/document/d/12q8ynuyLij_qC-VOgvK5DCkQPjGwXpcDu6yXDCyNFVY/preview", "label": "View the Treatment Google Doc" }
         },
         {
@@ -163,7 +170,14 @@
         {
           "date": "2020-03-13",
           "label": "First Draft Treatment Protocol",
-          "content": "Our ID PharmD colleague sends a draft treatment protocol — revised 3-4 times in one day. Two pathways: one for ID-managed patients, one for surge overflow. Criteria: ICU / supplemental O2 / high-risk. Preferred: remdesivir compassionate use, then hydroxychloroquine. If ICU: sarilumab via trial or tocilizumab."
+          "content": "Our ID PharmD colleague sends a draft treatment protocol — revised 3-4 times in one day.",
+          "preview": "Our ID PharmD colleague sends a draft treatment protocol — revised 3-4 times in one day.",
+          "sections": [
+            {
+              "heading": "Protocol Framework",
+              "text": "Two pathways: one for ID-managed patients, one for surge overflow. Criteria: ICU / supplemental O2 / high-risk. Preferred: remdesivir compassionate use, then hydroxychloroquine. If ICU: sarilumab via trial or tocilizumab."
+            }
+          ]
         },
         {
           "date": "2020-03-13",
@@ -264,7 +278,7 @@
         {
           "date": "2020-03-19",
           "label": "French HCQ Study Circulates",
-          "content": "An ID physician shares the French HCQ/azithromycin study — not yet published or peer-reviewed. Debate begins on dosing, azithromycin addition, and QTc monitoring. The President calls HCQ 'a game changer' at a press conference. Azithromycin goes on ASHP shortage.",
+          "content": "An ID physician shares the French HCQ/azithromycin study — not yet published or peer-reviewed. Debate begins on dosing, azithromycin addition, and QTc monitoring. Azithromycin goes on ASHP shortage.",
           "embed": { "type": "link", "url": "https://www.mediterranee-infection.com/wp-content/uploads/2020/03/Hydroxychloroquine_final_DOI_IJAA.pdf", "label": "Read the Original Preprint PDF (IHU Marseille)" },
           "secondary_embed": { "type": "link", "url": "https://www.sciencedirect.com/science/article/pii/S0924857920300996", "label": "Read the Peer-Reviewed Publication (IJAA)" }
         },
@@ -293,7 +307,14 @@
         {
           "date": "2020-03-22",
           "label": "Tocilizumab Allocation Debate",
-          "content": "ID pharmacists debate the criteria for tocilizumab use. Concerns that the criteria are not specific enough — but there is no clear answer for who it should go to. Limited supply adds urgency. A recurring theme of the pandemic: allocating an unproven drug when both the evidence and the stock are thin."
+          "content": "ID pharmacists debate the criteria for tocilizumab use. Concerns that the criteria are not specific enough — but there is no clear answer for who it should go to.",
+          "preview": "ID pharmacists debate the criteria for tocilizumab use. Concerns that the criteria are not specific enough — but there is no clear answer for who it should go to.",
+          "sections": [
+            {
+              "heading": "A Recurring Theme",
+              "text": "Limited supply adds urgency. Allocating an unproven drug when both the evidence and the stock are thin — a problem that repeats itself throughout the pandemic."
+            }
+          ]
         },
         {
           "date": "2020-03-21",
@@ -309,7 +330,14 @@
         {
           "date": "2020-03-23",
           "label": "Remdesivir Trial Site: Ambition Without Infrastructure",
-          "content": "Physicians frequently raise the idea of becoming a remdesivir clinical trial site and developing our own trial. In practice, there is a shortage of primary investigators with trial experience and our research infrastructure is limited. We do not become a remdesivir site. A handful of trials are approved through IRB, but very few patients are enrolled."
+          "content": "Physicians frequently raise the idea of becoming a remdesivir clinical trial site. In practice, the infrastructure isn't there.",
+          "preview": "Physicians frequently raise the idea of becoming a remdesivir clinical trial site. In practice, the infrastructure isn't there.",
+          "sections": [
+            {
+              "heading": "Why It Didn't Happen",
+              "text": "Shortage of primary investigators with trial experience, limited research infrastructure. We do not become a remdesivir site. A handful of trials are approved through IRB, but very few patients are enrolled."
+            }
+          ]
         },
         {
           "date": "2020-03-23",
@@ -324,7 +352,14 @@
         {
           "date": "2020-03-24",
           "label": "CAP Antibiotics Added to Covid-19 Order Set",
-          "content": "The decision is made to include community-acquired pneumonia antibiotics in the Covid-19 order set. Antibiotic overuse for Covid-19 becomes a massive problem in 2020, likely contributing to significant increases in antibiotic-resistant infections. Doxycycline is prioritized for CAP treatment to conserve the dwindling supply of azithromycin."
+          "content": "Community-acquired pneumonia antibiotics added to the Covid-19 order set. Doxycycline prioritized as azithromycin supply dwindles.",
+          "preview": "Community-acquired pneumonia antibiotics added to the Covid-19 order set. Doxycycline prioritized as azithromycin supply dwindles.",
+          "sections": [
+            {
+              "heading": "An Underappreciated Consequence",
+              "text": "Antibiotic overuse for Covid-19 becomes a massive problem in 2020, likely contributing to significant increases in antibiotic-resistant infections — a downstream harm that received far less attention than the virus itself."
+            }
+          ]
         },
         {
           "date": "2020-03-25",
@@ -395,7 +430,14 @@
         {
           "date": "2020-04-16",
           "label": "IRB Chair: Trial Enrollment vs. Compassionate Use",
-          "content": "The IRB Chair asks about our tocilizumab inventory. He only wants to recruit to the sarilumab study if tocilizumab is unavailable — because his study has a placebo arm. An interesting stance that cuts to a difficult ethical tension of the pandemic. Option A: enroll a patient in a randomized clinical trial, where they may be assigned to drug or placebo. Option B: decline trial enrollment and simply give them the unproven drug. Option A moves us closer to an answer. Option B does not. No patient deserves judgment for decisions made under the stress of severe illness. But if COVID-19 persists, we will only know which treatments work because of patients who chose Option A — and chose to drive medicine forward for the greater good."
+          "content": "The IRB Chair will only recruit to the sarilumab study if tocilizumab is unavailable — because his study has a placebo arm. A stance that cuts to a core ethical tension of the pandemic.",
+          "preview": "The IRB Chair will only recruit to the sarilumab study if tocilizumab is unavailable — because his study has a placebo arm. A stance that cuts to a core ethical tension of the pandemic.",
+          "sections": [
+            {
+              "heading": "Option A vs. Option B",
+              "text": "Option A: enroll a patient in a randomized clinical trial, where they may be assigned to drug or placebo. Option B: decline trial enrollment and simply give them the unproven drug. Option A moves us closer to an answer. Option B does not. No patient deserves judgment for decisions made under the stress of severe illness. But if COVID-19 persists, we will only know which treatments work because of patients who chose Option A — and chose to drive medicine forward for the greater good."
+            }
+          ]
         }
       ],
       "personal_nodes": [
@@ -442,12 +484,26 @@
         {
           "date": "2020-03-30",
           "label": "Celebrating a Preprint With Amy",
-          "content": "A preprint RCT from China suggests benefit with hydroxychloroquine. I celebrate the news with Amy. This is my first real encounter with preprints — a format I become very familiar with over the course of the pandemic. Preprints come from good intentions: rapid sharing of study results. But there is a price to skipping the steps that ensure the slow but forward march of scientific progress. That price is confusion, when the important studies get mixed with those that are far more suspect — and that confusion is magnified when preprints of questionable merit are shared widely by media outlets. I never confirm whether this paper was ever published in a peer-reviewed journal."
+          "content": "A preprint RCT from China suggests benefit with hydroxychloroquine. My first real encounter with preprints — a format I'd become very familiar with.",
+          "preview": "A preprint RCT from China suggests benefit with hydroxychloroquine. My first real encounter with preprints — a format I'd become very familiar with.",
+          "sections": [
+            {
+              "heading": "The Price of Speed",
+              "text": "Preprints come from good intentions: rapid sharing of study results. But there is a price to skipping the steps that ensure the slow but forward march of scientific progress. That price is confusion, when the important studies get mixed with those that are far more suspect — and that confusion is magnified when preprints of questionable merit are shared widely by media outlets. I never confirmed whether this paper was ever published in a peer-reviewed journal."
+            }
+          ]
         },
         {
           "date": "2020-03-30",
           "label": "The Offensive Coordinator",
-          "content": "My role does not have me on the front lines, at the bedside. I work more like a football team's offensive coordinator — except less controlling and more advisory. One of my tasks is to work with a diverse group of experts to provide formal treatment recommendations. We face two opposing pressures: respect the importance of evidence-based medicine, where no practice should be recommended without adequate evidence — and recognize that the pandemic will not wait for high-quality trials. The surge of patients is here, now. By any nonpandemic standard, there is not adequate evidence to recommend for or against many COVID-19 therapies. But this nonanswer provides no help to the clinicians on the front lines, swamped with patients, looking for some kind of direction."
+          "content": "My role doesn't have me at the bedside. I work more like a football team's offensive coordinator — except less controlling and more advisory.",
+          "preview": "My role doesn't have me at the bedside. I work more like a football team's offensive coordinator — except less controlling and more advisory.",
+          "sections": [
+            {
+              "heading": "Two Opposing Pressures",
+              "text": "On one side: the importance of evidence-based medicine, where no practice should be recommended without adequate evidence. On the other: a surge of patients that won't wait for high-quality trials. By any nonpandemic standard, there is not adequate evidence to recommend for or against many COVID-19 therapies. But this nonanswer provides no help to the clinicians on the front lines, swamped with patients, looking for some kind of direction."
+            }
+          ]
         },
         {
           "date": "2020-04-03",
@@ -458,7 +514,14 @@
         {
           "date": "2020-04-04",
           "label": "Video Call With My Wife",
-          "content": "My wife and I sat on our balcony and talked for 30 minutes. We knew it was worth documenting, so we recorded it. My wife is grocery shopping online. The niece and nephew are 'living their best life making mud soup.' My wife's knuckles are cracked from hand sanitizing. I'm not yet wearing a mask at work — the CDC hadn't recommended it for healthcare workers yet. 'We're just a covid hospital, every unit is an ICU, no one knows how to treat it, people want to try everything.' 'My music selection is a good indicator of my mental state — I've been listening to emo like it's 2005.'",
+          "content": "My wife and I sit on our balcony and talk for 30 minutes. We know it's worth documenting, so we record it.",
+          "preview": "My wife and I sit on our balcony and talk for 30 minutes. We know it's worth documenting, so we record it.",
+          "sections": [
+            {
+              "heading": "A Snapshot of April 2020",
+              "text": "My wife is grocery shopping online. The niece and nephew are 'living their best life making mud soup.' My wife's knuckles are cracked from hand sanitizing. I'm not yet wearing a mask at work — the CDC hadn't recommended it for healthcare workers yet. 'We're just a covid hospital, every unit is an ICU, no one knows how to treat it, people want to try everything.' 'My music selection is a good indicator of my mental state — I've been listening to emo like it's 2005.'"
+            }
+          ],
           "embed": { "type": "image", "url": "images/video-with-wife.png", "caption": "Balcony recording — April 4, 2020" }
         }
       ],
@@ -513,17 +576,38 @@
         {
           "date": "Circa April 2020",
           "label": "Infection Paradox: CDI Down, Fungal Infections Up",
-          "content": "Hospital CDI (C. diff) rates plummet due to dramatically improved hand hygiene across the facility. Meanwhile, fungal infections, MRSA, and other hospital-acquired infections rise due to the surge in critically ill patients with prolonged stays. The same pattern holds for respiratory illnesses more broadly — influenza, RSV, and rhinovirus transmission collapse as masking and social distancing suppress their spread. Other infectious diseases would remain suppressed throughout the pandemic."
+          "content": "Hospital CDI rates plummet from improved hand hygiene — while fungal infections, MRSA, and hospital-acquired infections rise in the overwhelmed ICU. The same pandemic that suppresses some diseases worsens others.",
+          "preview": "Hospital CDI rates plummet from improved hand hygiene — while fungal infections, MRSA, and hospital-acquired infections rise in the overwhelmed ICU. The same pandemic that suppresses some diseases worsens others.",
+          "sections": [
+            {
+              "heading": "Suppression and Emergence",
+              "text": "The same pattern held for respiratory illnesses — influenza, RSV, and rhinovirus transmission collapsed as masking and social distancing spread. Other infectious diseases would remain suppressed throughout the pandemic. Meanwhile, the surge of critically ill patients with prolonged stays drove dramatic increases in fungal and drug-resistant bacterial infections."
+            }
+          ]
         },
         {
           "date": "Circa April 2020",
           "label": "All Hands on Deck",
-          "content": "As the surge overwhelms the hospital, everyone steps outside their training. The pediatric intensivist becomes an adult intensivist. The investigational drug pharmacist becomes a critical care pharmacist. Medical students are called into action in areas of care they were never prepared for. More and more is asked of healthcare workers — and each time, they step up to the task. Not because they want to, but because they have to, for their patients."
+          "content": "As the surge overwhelms the hospital, everyone steps outside their training. The pediatric intensivist manages adult ICU patients. The investigational drug pharmacist becomes a critical care pharmacist.",
+          "preview": "As the surge overwhelms the hospital, everyone steps outside their training. The pediatric intensivist manages adult ICU patients. The investigational drug pharmacist becomes a critical care pharmacist.",
+          "sections": [
+            {
+              "heading": "Not Because They Want To",
+              "text": "Medical students are called into action in areas of care they were never prepared for. More and more is asked of healthcare workers — and each time, they step up to the task. Not because they want to, but because they have to, for their patients."
+            }
+          ]
         },
         {
           "date": "2020-04-29",
           "label": "Remdesivir: Contradictory Data",
-          "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares (unpublished, non-peer-reviewed) data from its RCT indicating benefit. Timing causes considerable confusion. But the Lancet study also fell short of its projected patient enrollment — the study was underpowered. Drawing definitive conclusions from an underpowered study is like calling a football game at the end of the third quarter. Congratulations to the 49ers, Super Bowl LIV champions — they were up 10, it was over, right? Wrong. There was still a quarter left to play.",
+          "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares preliminary RCT data indicating benefit. Considerable confusion — but the Lancet study was underpowered.",
+          "preview": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares preliminary RCT data indicating benefit. Considerable confusion — but the Lancet study was underpowered.",
+          "sections": [
+            {
+              "heading": "You Can't Call the Game Early",
+              "text": "The Lancet study fell short of its projected patient enrollment. Drawing definitive conclusions from an underpowered study is like calling a football game at the end of the third quarter. Congratulations to the 49ers, Super Bowl LIV champions — they were up 10, it was over, right? Wrong. There was still a quarter left to play."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31022-9/fulltext", "label": "Read the Lancet RCT (No Benefit)" },
           "secondary_embed": { "type": "link", "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-shows-remdesivir-accelerates-recovery-advanced-covid-19", "label": "Read the NIH/NIAID Press Release (Benefit)" }
         },
@@ -592,7 +676,14 @@
         {
           "date": "2020-04-14",
           "label": "Healthcare Heroes Salute",
-          "content": "A procession of thanks is held outside St. Barnabas Medical Center — police, fire, and community members lining up to honor hospital staff during the height of the surge. We got a bonus and a pin that said 'COVID-19 Heroes.' Healthcare heroes signs on front lawns, letters and posters from classrooms, donations of food and sanitizer from local businesses — everyone wanted to do something, anything, to help. And it meant something. But singling out one person felt wrong when everyone was going above and beyond. Yet by not celebrating individual heroics, the recognition felt hollow. It wasn't enough to truly honor what was happening inside those walls.",
+          "content": "A procession of thanks outside St. Barnabas — police, fire, and community honoring hospital staff at the height of the surge. Meaningful, but somehow not enough.",
+          "preview": "A procession of thanks outside St. Barnabas — police, fire, and community honoring hospital staff at the height of the surge. Meaningful, but somehow not enough.",
+          "sections": [
+            {
+              "heading": "Singling Out One Person",
+              "text": "Everyone wanted to do something, anything, to help. And it meant something. But singling out one person felt wrong when everyone was going above and beyond. Yet by not celebrating individual heroics, the recognition felt hollow. It wasn't enough to truly honor what was happening inside those walls."
+            }
+          ],
           "embed": { "type": "gallery", "photos": [
             { "url": "images/healthcare-heroes.jpg", "caption": "Healthcare Heroes Salute — April 14, 2020" },
             { "url": "images/healthcare-heroes-insta.png" }
@@ -629,7 +720,22 @@
         {
           "date": "2020-07-02",
           "label": "Sarilumab Fails Primary Endpoint",
-          "content": "Regeneron reports the sarilumab study fails to meet its primary endpoint. Criteria was too broad, including circumstances where the drug is ineffective. Later proven effective in more targeted use. Regeneron pivots to a monoclonal antibody targeting the spike protein.",
+          "content": "Regeneron reports that sarilumab fails its primary endpoint. The study criteria were too broad — later analyses would prove the drug effective in more targeted scenarios.",
+          "preview": "Regeneron reports that sarilumab fails its primary endpoint. The study criteria were too broad — later analyses would prove the drug effective in more targeted scenarios.",
+          "sections": [
+            {
+              "heading": "What Happened",
+              "text": "The sarilumab trial enrolled too wide a range of patients, including those in circumstances where the drug was unlikely to help. When the primary endpoint failed, the headline was 'sarilumab doesn't work' — even though the drug itself wasn't the problem. Regeneron simultaneously pivoted to a monoclonal antibody targeting the spike protein, which would eventually become casirivimab/imdevimab."
+            },
+            {
+              "heading": "Asking the Right Question",
+              "text": "This is one of the clearest examples of how difficult it is to find effective treatments in the midst of a pandemic. It is not enough to have the right therapy — you also have to ask the right question. That means testing it in the correct patient population, at the right point in the disease course, with the right outcome measure. Get any one of those wrong, and a drug that works can look like one that doesn't."
+            },
+            {
+              "heading": "The Cost of Conflicting Messages",
+              "text": "For those of us trying to translate the evidence in real time, this was deeply frustrating. When the study failed, we stopped recommending sarilumab. When later data showed benefit in a more targeted population, we had to reverse course. This pattern — told a therapy doesn't work, then told it does — added to the exhaustion of navigating the pandemic. Each revision eroded a little more trust, both in the science and in those communicating it."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.clinicaltrialsarena.com/news/kevzara-us-covid19-trial-data/", "label": "Read the Coverage on Clinical Trials Arena" }
         },
         {
@@ -984,12 +1090,26 @@
         {
           "date": "Fall 2020",
           "label": "My Expertise Stops Mattering",
-          "content": "Early in the pandemic, friends and family valued my perspective as an infectious disease pharmacist. They called, texted, asked what I was seeing, what they should do. But as politics overtook the pandemic, that changed. My firsthand experience and years of expertise weren't needed anymore — they had other sources of information. The same people who had sought my opinion weeks earlier were now skeptical of what I was telling them. It was a strange and personal betrayal, losing credibility with the people closest to you while walking in and out of the hospital every day."
+          "content": "As politics overtook the pandemic, the friends and family who had sought my expertise stopped valuing it. Walking in and out of the hospital every day while the people closest to me grew skeptical.",
+          "preview": "As politics overtook the pandemic, the friends and family who had sought my expertise stopped valuing it. Walking in and out of the hospital every day while the people closest to me grew skeptical.",
+          "sections": [
+            {
+              "heading": "A Strange Betrayal",
+              "text": "Early in the pandemic, they called, texted, asked what I was seeing, what they should do. But as politics overtook the pandemic, that changed. My firsthand experience and years of expertise weren't needed anymore — they had other sources of information. The same people who had sought my opinion weeks earlier were now skeptical of what I was telling them. It was a strange and personal betrayal, losing credibility with the people closest to you while walking in and out of the hospital every day."
+            }
+          ]
         },
         {
           "date": "2020-08-03",
           "label": "Opinion Article Published",
-          "content": "My opinion article is published in Pharmacy Practice News. Five months into the pandemic, I write about what I've learned: that my most common answer has been the most difficult one — 'I don't know.' That sharing speculation based on flimsy evidence does not bring clarity. That knowing when a question isn't yours to answer is just as important as answering it. And that buried in the devastation are a million stories of heroism. I urge everyone to ask for those stories. Tell those stories. And listen to them.",
+          "content": "My opinion article published in Pharmacy Practice News — five months in, reflecting on what the pandemic has taught me about expertise, uncertainty, and heroism.",
+          "preview": "My opinion article published in Pharmacy Practice News — five months in, reflecting on what the pandemic has taught me about expertise, uncertainty, and heroism.",
+          "sections": [
+            {
+              "heading": "What the Pandemic Taught Me",
+              "text": "My most common answer has been the most difficult one — 'I don't know.' Sharing speculation based on flimsy evidence does not bring clarity. Knowing when a question isn't yours to answer is just as important as answering it. And buried in the devastation are a million stories of heroism. Ask for those stories. Tell those stories. And listen to them."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.pharmacypracticenews.com/Digital-Issue/Article/08-20/Pharmacy-Practice-News-August-2020/59186", "label": "Read the Article in Pharmacy Practice News" }
         }
       ],
