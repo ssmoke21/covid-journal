@@ -882,8 +882,27 @@
       "personal_nodes": [
         {
           "date": "2022-02-20",
-          "label": "MAB Paper Published",
-          "content": "My MAB paper is officially published in the Journal of Medical Virology. First submitted in November 2020 after rejections from several journals.",
+          "label": "Monoclonal Antibody Outcomes in Older Adults Published",
+          "content": "Our retrospective study examining the impact of monoclonal antibody therapy on older adults is published in the Journal of Medical Virology. First submitted in November 2020 after rejections from several journals.",
+          "preview": "Our retrospective study examining the impact of monoclonal antibody therapy on older adults is published in the Journal of Medical Virology. First submitted in November 2020 after rejections from several journals.",
+          "sections": [
+            {
+              "heading": "It Took a Push",
+              "text": "I needed someone to push me on this one. After the HCQ paper and everything else that had been going on, the energy to take on another research project wasn't easy to find. It was my ED pharmacy colleague who made the case — that we had real-world data worth sharing and that we owed it to the work to document what we'd seen. She was right. I'm glad she pushed."
+            },
+            {
+              "heading": "Worth Measuring",
+              "text": "There's something important about stopping to measure the impact of what you've done, especially in the middle of a sustained effort where the work never really pauses. We had operationalized monoclonal antibody therapy across our system under extraordinary circumstances. Asking whether it actually helped — particularly in a population like older adults who were at highest risk — was the right question to ask. The answer mattered, even if we already had a sense of it."
+            },
+            {
+              "heading": "The Value of Cross-Institutional Work",
+              "text": "One of the things I was proudest of was the coordination across institutions. Each site had navigated the same EUAs, the same supply constraints, the same logistical challenges, but independently. Pooling that experience into a shared analysis gave us something none of us could have produced alone — a larger, more representative picture of how this therapy was actually being used and what it was doing in the real world."
+            },
+            {
+              "heading": "The Limits of What We Could Say",
+              "text": "The paper also had real constraints, and being honest about them mattered. The pandemic was not standing still. By the time we published, the variant landscape had shifted, multiple monoclonals had come and gone, and baseline immunity had changed substantially with both vaccination and repeat infections. How much did our experience — rooted in a specific window of time, specific agents, a largely pre-vaccine population — extrapolate to what others were seeing? The honest answer was: partially, and with caution. That's still something. But it was a reminder of how quickly the ground moves under research conducted during a pandemic."
+            }
+          ],
           "embed": { "type": "link", "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmv.27668", "label": "Read the Paper in the Journal of Medical Virology" }
         }
       ],
