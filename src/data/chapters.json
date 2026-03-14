@@ -876,6 +876,21 @@
           "date": "2022-11-30",
           "label": "Bebtelovimab EUA Revoked — The Virus Wins",
           "content": "Bebtelovimab, the last available monoclonal antibody, has its EUA revoked. 'The virus has won the arms race.'",
+          "preview": "Bebtelovimab, the last available monoclonal antibody, has its EUA revoked. 'The virus has won the arms race.'",
+          "sections": [
+            {
+              "heading": "What We Had Done",
+              "text": "The virus winning the arms race was real — but it was only part of the story. In the span of two years, our system had operationalized a succession of monoclonal antibodies under emergency authorization, navigated constantly shifting supply, adapted our delivery infrastructure repeatedly, and coordinated across institutions to measure the impact. We had mobilized something substantial. The fact that the virus eventually outran the tools doesn't diminish that."
+            },
+            {
+              "heading": "The Game Had Changed",
+              "text": "By November 2022, the pandemic that existed when we first administered bamlanivimab was barely recognizable. The lethality of the disease had dropped dramatically — a product of vaccination, prior infection, and the evolutionary trajectory of the virus itself. Waves had come and gone, each one different from the last. The patients we were treating, and what they faced, were not the same as the patients from two years earlier. Losing the last monoclonal antibody stung, but it landed in a different context than it would have in 2021."
+            },
+            {
+              "heading": "The Closing of a Chapter",
+              "text": "Other monoclonals would eventually come — the pipeline doesn't stop, and the need for outpatient treatment options doesn't disappear. But something ended here. The intense, two-year sprint of the monoclonal antibody era — the weekly nowcast checks, the ethical weight of supply decisions, the constant pivoting — was over. It felt like the closing of a chapter in the pandemic. Not a victory, exactly. But not a defeat either. Something more complicated: an effort that mattered, meeting an adversary that proved relentless."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-announces-bebtelovimab-not-currently-authorized-any-us-region", "label": "Read the FDA Announcement" }
         }
       ],
