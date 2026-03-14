@@ -843,14 +843,9 @@
       ],
       "personal_nodes": [
         {
-          "date": "2020-11-11",
-          "label": "MAB Paper Submitted",
-          "content": "My MAB paper is submitted to the Journal of Medical Virology after rejection from many journals."
-        },
-        {
           "date": "2022-02-20",
           "label": "MAB Paper Published",
-          "content": "My MAB paper is officially published in the Journal of Medical Virology.",
+          "content": "My MAB paper is officially published in the Journal of Medical Virology. First submitted in November 2020 after rejections from several journals.",
           "embed": { "type": "link", "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmv.27668", "label": "Read the Paper in the Journal of Medical Virology" }
         }
       ],
