@@ -114,8 +114,10 @@ export default function App() {
           <p className="text-[10px] font-mono uppercase tracking-[0.3em] text-stone-400 mb-8">
             Prologue
           </p>
-          <div className="font-serif text-xl text-stone-500 leading-relaxed italic">
-            <p>This is my COVID story. It is not the most difficult or most important. But it is significant. Like so many other stories from this time, it is unique and extraordinary &mdash; worth sharing and worth learning from.</p>
+          <div className="font-serif text-xl text-stone-500 leading-relaxed italic space-y-6">
+            <p>COVID-19 affected everyone, but not in the same way. For some, it meant losing someone they loved. For others, isolation, economic ruin, or the slow unraveling of ordinary life. For those inside hospitals, it was something else &mdash; a relentless, shifting crisis with no clear end in sight. Some were asked to carry extraordinary burdens. There is value in all of these stories, not just the most harrowing ones. This is one of them.</p>
+            <p>I was an infectious diseases pharmacist &mdash; in the hospital every day, but not in direct patient care. I was in the pharmacy, fielding calls from clinicians, tracking down medications, and trying to make sense of protocols that were being written in real time. What follows is an account of those years &mdash; December 2019 through mid-2021. The content is mine; the words were shaped in collaboration with Claude, an AI.</p>
+            <p>I&rsquo;m not entirely sure what this is for. Healthcare workers were asked to absorb an enormous amount, and many of us moved on before we had any real chance to sit with it. This is my attempt to sit with it &mdash; to name what happened, to acknowledge what it cost, and to figure out what it means that we went through it.</p>
           </div>
           <div className="w-8 h-px bg-red-300 mx-auto mt-12" />
         </section>
