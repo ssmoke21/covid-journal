@@ -804,14 +804,6 @@
               "text": "From this point forward, the CDC nowcast — weekly estimates of variant proportions circulating nationally and regionally — became a standing appointment. Every week, I was checking which variants were dominant, what their resistance profiles looked like against available monoclonals, and what that meant for what we could actually offer patients. It was a level of real-time pharmacoepidemiology that simply hadn't existed before in clinical practice."
             },
             {
-              "heading": "Supply vs. Activity: An Ethical Tightrope",
-              "text": "As the variant landscape shifted, so did the choices in front of us — and they weren't always clean ones. At certain points we had one monoclonal with greater supply but a higher likelihood of resistance, and another with stronger activity against circulating variants but limited availability. Was it ethical to give the more accessible drug when it was less likely to work? Was it ethical to reserve the better drug for patients who could wait, when another patient was in front of you now? These weren't hypotheticals. They were real decisions, made in real time, without good precedent."
-            },
-            {
-              "heading": "When There's Only One Option Left",
-              "text": "There were periods when we were down to a single available monoclonal, and resistance to it was likely given the variants circulating. And yet patients and providers still wanted to do something. The desire to act is deeply human — and deeply understandable. But offering a therapy with probable resistance meant weighing a marginal chance of benefit against the signal we were sending: that we had tools when we may not have. These were some of the harder conversations of the entire monoclonal era."
-            },
-            {
               "heading": "Remarkable, With a Catch",
               "text": "Stepping back, it was genuinely extraordinary that we had weekly surveillance data at all — that a national infrastructure existed to estimate variant proportions and publish them publicly, in near real time. No prior pandemic had anything like it. But we also knew its limits: the nowcast lagged. It reflected what had been circulating in the weeks prior, not necessarily what was in your hospital, in your county, on the day you were making the decision. You were always navigating with a map drawn slightly in the past."
             }
@@ -822,12 +814,38 @@
         {
           "date": "2021-02-09",
           "label": "Mutation Reckoning",
-          "content": "I reflect on my prior dismissal of mutation concerns: 'This was very wrong.' My first concern was the Alpha variant (UK), more transmissible but not affecting MAB activity. Then variants emerged worldwide."
+          "content": "I reflect on my prior dismissal of mutation concerns: 'This was very wrong.' My first concern was the Alpha variant (UK), more transmissible but not affecting MAB activity. Then variants emerged worldwide.",
+          "preview": "I reflect on my prior dismissal of mutation concerns: 'This was very wrong.' My first concern was the Alpha variant (UK), more transmissible but not affecting MAB activity. Then variants emerged worldwide.",
+          "sections": [
+            {
+              "heading": "What I Had Read",
+              "text": "Early in the pandemic, I did a significant amount of reading on coronavirus biology — trying to get my bearings like everyone else. One of the prevailing opinions at the time was that SARS-related coronaviruses were relatively stable, that their mutation rate was lower than influenza, and that dramatic antigenic drift was unlikely. That framing was not unreasonable given what was known about the original SARS-CoV-1. I absorbed it, and it shaped my thinking."
+            },
+            {
+              "heading": "Dismissing the Concerns",
+              "text": "Friends and colleagues raised questions early on about variants and whether the virus would evolve around our countermeasures. I pushed back. I had read the literature; I thought I understood the biology. The scientific consensus I had encountered gave me a confidence that, in retrospect, I held too tightly. SARS-CoV-2 turned out to be far more capable of meaningful evolution than that early framing suggested — not in the same way as influenza, but in ways that mattered enormously for treatment."
+            },
+            {
+              "heading": "Being Wrong",
+              "text": "Acknowledging this isn't just an intellectual exercise. My dismissal of mutation concerns had practical consequences — it shaped how I thought about the durability of our monoclonal antibody strategies in the early months. The virus eventually rendered nearly every monoclonal antibody we had clinically obsolete. That is not a failure of science; science updated as evidence emerged. But it is a reminder that reading widely is not the same as reading correctly, and that confident early opinions in a fast-moving situation deserve more humility than I gave them."
+            }
+          ]
         },
         {
           "date": "2021-04-16",
           "label": "Bamlanivimab Alone EUA Revoked",
           "content": "EUA for single-agent bamlanivimab revoked due to variant resistance.",
+          "preview": "EUA for single-agent bamlanivimab revoked due to variant resistance.",
+          "sections": [
+            {
+              "heading": "Supply vs. Activity: An Ethical Tightrope",
+              "text": "As the variant landscape shifted, so did the choices in front of us — and they weren't always clean ones. At certain points we had one monoclonal with greater supply but a higher likelihood of resistance, and another with stronger activity against circulating variants but limited availability. Was it ethical to give the more accessible drug when it was less likely to work? Was it ethical to reserve the better drug for patients who could wait, when another patient was in front of you now? These weren't hypotheticals. They were real decisions, made in real time, without good precedent."
+            },
+            {
+              "heading": "When There's Only One Option Left",
+              "text": "There were periods when we were down to a single available monoclonal, and resistance to it was likely given the variants circulating. And yet patients and providers still wanted to do something. The desire to act is deeply human — and deeply understandable. But offering a therapy with probable resistance meant weighing a marginal chance of benefit against the signal we were sending: that we had tools when we may not have. These were some of the harder conversations of the entire monoclonal era."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.fda.gov/media/147629/download", "label": "Read the FDA Revocation Letter (PDF)" }
         },
         {
