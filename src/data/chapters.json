@@ -1066,6 +1066,17 @@
           "date": "2020-09-11",
           "label": "When Leadership Gets It Wrong",
           "content": "A state pharmacy leader urges colleagues to avoid the vaccine. I was shocked — and troubled by what it revealed about how people reason under uncertainty.",
+          "preview": "A state pharmacy leader urges colleagues to avoid the vaccine. I was shocked — and troubled by what it revealed about how people reason under uncertainty.",
+          "sections": [
+            {
+              "heading": "Reasoning From First Principles",
+              "text": "What troubled me most wasn't the conclusion — it was the reasoning behind it. Someone with a long career in pharmacy, a position of leadership, and presumably a deep knowledge base had looked at this situation and arrived at a genuinely harmful recommendation. That doesn't happen by accident. It happens when someone applies pattern-matching from past experience to a situation that doesn't fit the pattern — and doesn't notice the mismatch. Reasoning from first principles means going back to the underlying logic: what do we know about vaccine development, about trial design, about how regulatory authorization works, about the disease itself? That kind of reasoning is slower and less comfortable than drawing on experience. But it's what you need when the situation is actually new."
+            },
+            {
+              "heading": "Experience Without Foundation",
+              "text": "Experience is genuinely valuable. It builds intuition, pattern recognition, and the ability to act quickly in familiar territory. But it has a critical vulnerability: it only works when the new situation resembles the ones that built it. Drop someone into a truly novel environment — a new pathogen, a new treatment paradigm, a regulatory process moving at unprecedented speed — and experience alone gives them nothing to hold onto. What they fall back on instead is the shape of past situations, whether or not that shape applies. The leaders who navigated the pandemic well weren't necessarily the most experienced ones. They were the ones who could distinguish between what they knew from prior situations and what they actually knew about this one."
+            }
+          ],
           "link_group": "pharmacy-leader-vaccine-caution"
         },
         {
