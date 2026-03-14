@@ -942,6 +942,13 @@
           "date": "2020-06-30",
           "label": "FDA Vaccine Efficacy Threshold",
           "content": "FDA publishes guidance for industry: a Covid-19 vaccine must demonstrate at least 50% efficacy to receive authorization.",
+          "preview": "FDA publishes guidance for industry: a Covid-19 vaccine must demonstrate at least 50% efficacy to receive authorization.",
+          "sections": [
+            {
+              "heading": "The Importance of a Goalpost",
+              "text": "This moment stood out to me in a way I didn't fully expect. Up to this point, the path from a totally new disease to candidate therapies to an approved product had felt abstract — something that happened in regulatory documents and clinical trial pipelines I had never had reason to follow closely. What struck me about this guidance was how fundamental it was: before any of that could happen, someone had to define what success looks like. Fifty percent. That's the line. Somewhat arbitrary? Yes. But also necessary. You can't run toward a finish line that hasn't been drawn yet."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-daily-roundup-june-30-2020", "label": "Read the FDA Press Announcement" }
         },
         {
