@@ -210,7 +210,14 @@
         {
           "date": "2020-03-13",
           "label": "Pediatric ID Physician Remdesivir Inquiry",
-          "content": "The Pediatric ID physician asks about the process to obtain remdesivir for pediatric use."
+          "content": "The Pediatric ID physician asks about the process to obtain remdesivir for pediatric use.",
+          "preview": "The Pediatric ID physician asks about the process to obtain remdesivir for pediatric use.",
+          "sections": [
+            {
+              "heading": "A Process I'd Come to Know Well",
+              "text": "This was my first real foray into compassionate use — navigating the request process, understanding what was required, figuring out who to contact. It was unfamiliar territory in March 2020. Over the next few months, it would become anything but. Remdesivir, sarilumab, casirivimab/imdevimab — compassionate use became a recurring part of the job, and this inquiry was where that started."
+            }
+          ]
         }
       ],
       "personal_nodes": [
