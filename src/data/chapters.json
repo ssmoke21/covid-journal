@@ -316,6 +316,13 @@
           "date": "2020-03-16",
           "label": "Steroids Debate Begins",
           "content": "I share a JAMA retrospective suggesting steroids may help; CDC and WHO recommend against them at this time. Later proven to reduce mortality.",
+          "preview": "I share a JAMA retrospective suggesting steroids may help; CDC and WHO recommend against them at this time. Later proven to reduce mortality.",
+          "sections": [
+            {
+              "heading": "You Can't See It in the Moment",
+              "text": "Steroids are one of many examples from this period that illustrate how impossible it is to detect efficacy in real time. The signal was there in observational data, but so was the noise — confounding, selection bias, the absence of a control group. The CDC and WHO said no. The retrospective said maybe. Both were working from incomplete pictures. The only thing that ultimately resolved it was a well-conducted RCT. The RECOVERY trial gave us dexamethasone, definitively, months later. There's no shortcut to that kind of answer. You can be attentive to signals, but you have to be honest about what a signal actually is."
+            }
+          ],
           "embed": { "type": "link", "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2763184", "label": "Read the Study in JAMA Internal Medicine" }
         },
         {
