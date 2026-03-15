@@ -328,7 +328,18 @@
         {
           "date": "2020-03-17",
           "label": "First Staff Pharmacist Presentation",
-          "content": "I give my first Covid-19 presentation to staff pharmacists. Packed room. Most questions cannot be answered."
+          "content": "I give my first Covid-19 presentation to staff pharmacists. Packed room. Most questions cannot be answered.",
+          "preview": "I give my first Covid-19 presentation to staff pharmacists. Packed room. Most questions cannot be answered.",
+          "sections": [
+            {
+              "heading": "The One Thing I Got Right",
+              "text": "Standing in front of a packed room of pharmacists, I didn't have many answers. The evidence was thin, the guidelines were shifting, and the honest answer to most questions was 'we don't know yet.' But I did tell them one thing with confidence: whatever we're telling you today is going to change. The virus was new, the data was sparse, and anyone claiming certainty was overreaching. I don't know how convincing it was in the moment, but it was true."
+            },
+            {
+              "heading": "How Effective Was That Message",
+              "text": "Not as effective as I'd hoped. Even with the warning built in from day one, it was still difficult to redirect staff each time recommendations evolved — and they evolved constantly. People anchor to the first thing they hear. When the guidance shifted, it wasn't always received as 'we said this might happen.' It felt like contradiction. That tension — between communicating uncertainty and being trusted as an authority — was something I'd have to navigate over and over throughout the pandemic."
+            }
+          ]
         },
         {
           "date": "2020-03-18",
