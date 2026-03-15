@@ -215,6 +215,13 @@
           "date": "2020-03-11",
           "label": "NBA Positive Test",
           "content": "An NBA player tests positive; the NBA season is suspended.",
+          "preview": "An NBA player tests positive; the NBA season is suspended.",
+          "sections": [
+            {
+              "heading": "The First Domino",
+              "text": "This was the moment the pandemic stopped being a news story and became something else. A positive test, a season suspended mid-game — it landed differently than hospital data or case counts or footage from overseas. Sports are woven into the fabric of how people mark time and gather and feel normal. When the NBA stopped, something at the pop culture level cracked. It was the first domino, and everyone felt it. Whatever had been hypothetical or distant was no longer either of those things."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.espn.com/nba/story/_/id/28887560/nba-suspends-season-further-notice-player-tests-positive-coronavirus", "label": "Read the Story on ESPN" }
         },
         {
