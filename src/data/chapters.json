@@ -577,7 +577,22 @@
         {
           "date": "2020-04-05",
           "label": "Universal Masking Begins",
-          "content": "Universal masking goes into effect at CBMC."
+          "content": "Universal masking goes into effect at CBMC.",
+          "preview": "Universal masking goes into effect at CBMC.",
+          "sections": [
+            {
+              "heading": "Where I Stood on Masking",
+              "text": "There's a lot to be said about the masking debate. I generally followed CDC guidance throughout — I didn't have the bandwidth to dig deeply into the primary literature on my own. On the whole, I think the guidance was accurate and correct. With one significant exception."
+            },
+            {
+              "heading": "The Early Messaging Problem",
+              "text": "Early in the pandemic, in an effort to prevent panic buying and preserve supply for frontline clinicians, there was a suggestion — implicit or explicit depending on who was communicating it — that masks didn't work for the general public. The intent was understandable. The result was damaging. When the guidance shifted and masks became universally recommended, it looked like the CDC had changed its position. To many people, it felt like they had been misled. That perception of a shifting message created a deficit of trust that public health officials spent years trying to recover from."
+            },
+            {
+              "heading": "How Difficult It Is to Message in a Crisis",
+              "text": "This is one of the clearest examples from the pandemic of how hard public health communication actually is. The decision to downplay masks early may have been made with good intentions — protect the supply chain, prevent runs on PPE. But it produced a long-term cost that likely exceeded whatever short-term benefit it achieved. When credibility is your most important asset, a message that appears to shift puts you in a very difficult place. It's a lesson that deserves more reflection than it has gotten."
+            }
+          ]
         },
         {
           "date": "2020-04-08",
