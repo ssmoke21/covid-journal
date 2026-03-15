@@ -50,7 +50,14 @@
         {
           "date": "2020-02-12",
           "label": "System Infectious Diseases Meeting",
-          "content": "Novel coronavirus (nCoV-2019) officially renamed Covid-19. Topics: employee travel screening, mask shortage, testing protocols."
+          "content": "Novel coronavirus (nCoV-2019) officially renamed Covid-19. Topics: employee travel screening, mask shortage, testing protocols.",
+          "preview": "Novel coronavirus (nCoV-2019) officially renamed Covid-19. Topics: employee travel screening, mask shortage, testing protocols.",
+          "sections": [
+            {
+              "heading": "Distant, Hypothetical, Foreign",
+              "text": "There was a buzz about Covid in this meeting — it was on the agenda, it was being discussed seriously. But the feeling in the room didn't match the moment. It still felt distant. Hypothetical. Something happening elsewhere, to other people, in a system very different from ours. The topics were real — travel screening, mask supply, testing — but the urgency beneath them wasn't. In retrospect, that urgency was exactly what was needed, and it wasn't there."
+            }
+          ]
         },
         {
           "date": "2020-02-25",
