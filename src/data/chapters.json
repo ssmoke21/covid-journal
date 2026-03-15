@@ -486,8 +486,19 @@
       "personal_nodes": [
         {
           "date": "2020-03-14",
-          "label": "A Friend's 50th Birthday Skipped",
-          "content": "After mutual friends decided not to attend, I email a friend that my wife and I won't attend a 50th birthday gathering due to Covid-19. Our friend's parents later end up in the ICU; her father passes away."
+          "label": "A Family Member's 50th Birthday Skipped",
+          "content": "After another family member decided not to attend first, my wife and I follow their lead and skip a 50th birthday gathering. The family member's parents later end up in the ICU; her father passes away.",
+          "preview": "After another family member decided not to attend first, my wife and I follow their lead and skip a 50th birthday gathering. The family member's parents later end up in the ICU; her father passes away.",
+          "sections": [
+            {
+              "heading": "Following Someone Else's Lead",
+              "text": "I want to be honest about how this decision happened. It wasn't that I independently assessed the risk and made a call. Another family member said no first. I followed that lead. The right thing happened, but it happened because someone else acted first. That distinction matters to me."
+            },
+            {
+              "heading": "A Question I Can't Answer",
+              "text": "Her parents ended up in the ICU. Her father didn't survive. I don't know if the party is what led to their infection. I may never know. But I can't help wondering. It's the kind of question that doesn't have a clean resolution — just a possibility that sits there, unverifiable, alongside everything else from that period."
+            }
+          ]
         },
         {
           "date": "2020-03-14",
