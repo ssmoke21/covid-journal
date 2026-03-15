@@ -362,6 +362,21 @@
           "date": "2020-03-19",
           "label": "French HCQ Study Circulates",
           "content": "An ID physician shares the French HCQ/azithromycin study — not yet published or peer-reviewed. Debate begins on dosing, azithromycin addition, and QTc monitoring. Azithromycin goes on ASHP shortage.",
+          "preview": "An ID physician shares the French HCQ/azithromycin study — not yet published or peer-reviewed. Debate begins on dosing, azithromycin addition, and QTc monitoring. Azithromycin goes on ASHP shortage.",
+          "sections": [
+            {
+              "heading": "This Pushed Us Over the Cliff",
+              "text": "HCQ wasn't a new idea. There was already preclinical rationale, in vitro data suggesting antiviral activity, and prior experience using it for other indications. The field had been circling it. This study didn't introduce the concept — it provided the push. A small, flawed, not-yet-peer-reviewed preprint from Marseille, and suddenly the conversation shifted from 'should we consider it' to 'how do we use it.'"
+            },
+            {
+              "heading": "Quality Was Hard to Focus On",
+              "text": "The methodological problems were real — an open-label design, a tiny sample, patients excluded post-enrollment, no proper control group. They were visible to anyone who looked. But in the moment, the quality was hard to focus on. People were dying and we had nothing. The signal, however weak, felt like something. And that's the thing about a microcosm of evidence in a climate of fear and uncertainty: a small study with a hopeful result doesn't have to be good to be influential. It just has to arrive at the right moment."
+            },
+            {
+              "heading": "Easier to Say Yes Than to Wait",
+              "text": "This is what I eventually came to understand about that period. When the evidence is thin and the stakes feel existential, the psychological calculus tilts heavily toward action. It is much easier to say 'let's give it a try' than to say 'let's hold off and do nothing.' Doing nothing feels like abandonment. Doing something — even something unproven — feels like fighting. That instinct isn't irrational. But it's also how we ended up with a drug shortage, cardiac monitoring protocols, and months of chasing a signal that wasn't there."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.mediterranee-infection.com/wp-content/uploads/2020/03/Hydroxychloroquine_final_DOI_IJAA.pdf", "label": "Read the Original Preprint PDF (IHU Marseille)" },
           "secondary_embed": { "type": "link", "url": "https://www.sciencedirect.com/science/article/pii/S0924857920300996", "label": "Read the Peer-Reviewed Publication (IJAA)" }
         },
