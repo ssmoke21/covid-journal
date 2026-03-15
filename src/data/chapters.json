@@ -509,8 +509,12 @@
           "preview": "Community-acquired pneumonia antibiotics added to the Covid-19 order set. Doxycycline prioritized as azithromycin supply dwindles.",
           "sections": [
             {
+              "heading": "The Discomfort Was Real",
+              "text": "Many of us — myself included — felt uncomfortable with this. Empiric antibiotics for a viral pneumonia cut against everything antimicrobial stewardship stands for. The data for bacterial co-infection in Covid-19 was thin, and we knew it. But raising that concern in the middle of a surge, when people were dying in large numbers, felt impossible. Arguing for an abstract concept like antimicrobial resistance while clinicians were watching patients deteriorate in front of them was, in the moment, out of touch. So the antibiotics went in."
+            },
+            {
               "heading": "An Underappreciated Consequence",
-              "text": "Antibiotic overuse for Covid-19 becomes a massive problem in 2020, likely contributing to significant increases in antibiotic-resistant infections — a downstream harm that received far less attention than the virus itself."
+              "text": "The discomfort turned out to be warranted. Antibiotic overuse for Covid-19 became a massive problem in 2020, likely contributing to significant increases in antibiotic-resistant infections — a downstream harm that received far less attention than the virus itself. The argument that felt out of touch in March was the right argument. It just didn't have a place at the table when the immediate crisis was all anyone could focus on."
             }
           ]
         },
