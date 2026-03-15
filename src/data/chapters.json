@@ -293,7 +293,18 @@
         {
           "date": "2020-03-15",
           "label": "HCQ Stockpile Revealed",
-          "content": "The Chief Pharmacy Officer shares that our health system has stockpiled hydroxychloroquine and requests an algorithm for distribution."
+          "content": "The Chief Pharmacy Officer shares that our health system has stockpiled hydroxychloroquine and requests an algorithm for distribution.",
+          "preview": "The Chief Pharmacy Officer shares that our health system has stockpiled hydroxychloroquine and requests an algorithm for distribution.",
+          "sections": [
+            {
+              "heading": "Easier to Call For Than to Create",
+              "text": "A few days earlier, I had been among those calling for a standard distribution algorithm. This moment was a reminder that calling for one and actually building one are very different things. The request landed back with us — and the work of translating an urgent clinical need into a structured, defensible protocol under time pressure is considerably harder than the email that asked for it."
+            },
+            {
+              "heading": "Mixed Feelings on the Stockpile",
+              "text": "I had complicated feelings about the stockpile then, and I still do. On one level, it was responsible preparation — protecting our patients in a supply-constrained environment. On another level, it's a zero-sum game. Hydroxychloroquine supply wasn't infinite. Stock we held was stock that wasn't available to patients outside our system, at other hospitals, without the same institutional resources. There's no clean answer to that tension. But I think it's worth sitting with rather than explaining away."
+            }
+          ]
         },
         {
           "date": "2020-03-16",
