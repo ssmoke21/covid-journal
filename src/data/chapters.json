@@ -445,7 +445,18 @@
         {
           "date": "2020-03-23",
           "label": "CBMC Pharmacy Updates to ID Begin",
-          "content": "I begin sending regular updates to the ID division: case numbers, HCQ utilization, medication inventory, and literature summaries. Sent three days a week for the next month and a half."
+          "content": "I begin sending regular updates to the ID division: case numbers, HCQ utilization, medication inventory, and literature summaries. Sent three days a week for the next month and a half.",
+          "preview": "I begin sending regular updates to the ID division: case numbers, HCQ utilization, medication inventory, and literature summaries. Sent three days a week for the next month and a half.",
+          "sections": [
+            {
+              "heading": "What Prompted It",
+              "text": "This started because an ID physician had reached out to the division expressing a concern that was hard to argue with: it was becoming impossible to care for the sheer number of patients while simultaneously keeping up with the rapidly evolving conversation about how to manage the disease. The literature was moving daily. Guidelines were shifting. New drugs were being discussed, added, and removed. Clinicians who were spending twelve hours at the bedside didn't have the bandwidth to also track all of it."
+            },
+            {
+              "heading": "A Role That Made Sense",
+              "text": "That's where pharmacy could help. I wasn't at the bedside the same way — I could carve out time to synthesize what was coming out, track what we had in inventory, and put it in a format that was useful without requiring an hour to read. Three updates a week for a month and a half. It was a small thing, but it addressed a real problem: the people most responsible for managing these patients were the ones least able to step back and take stock of what the evidence actually said."
+            }
+          ]
         },
         {
           "date": "2020-03-23",
