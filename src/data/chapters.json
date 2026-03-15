@@ -554,7 +554,18 @@
         {
           "date": "2020-03-17",
           "label": "Reading Chinese Papers",
-          "content": "'Trying to read all of these Chinese papers' — I use Google Translate on foreign-language studies to keep up with global evidence."
+          "content": "'Trying to read all of these Chinese papers' — I use Google Translate on foreign-language studies to keep up with global evidence.",
+          "preview": "'Trying to read all of these Chinese papers' — I use Google Translate on foreign-language studies to keep up with global evidence.",
+          "sections": [
+            {
+              "heading": "The Most Extreme Example",
+              "text": "Running Chinese-language studies through Google Translate to find clinical signals isn't a workflow anyone would design on purpose. But that's where the early data was — case series and observational reports out of Wuhan, Hubei, and Beijing, published in Chinese journals before the global medical community had caught up. I mention it here not because it was the norm, but because it's the clearest example of the lengths I was willing to go to. If there was a paper that might tell us something useful, I was going to find a way to read it."
+            },
+            {
+              "heading": "What That Period Actually Looked Like",
+              "text": "Spending evenings and weekends combing PubMed, medRxiv, bioRxiv, and whatever emerged from overseas health ministries. Reading everything I could get my hands on — preprints, case reports, letters to the editor, hospital protocols shared informally through the ID Pharmacy Collaborative. The translated papers were just the outer edge of that effort. The goal was simple: know more than I knew yesterday, and use it to keep our guidelines as current as possible."
+            }
+          ]
         },
         {
           "date": "2020-03-21",
