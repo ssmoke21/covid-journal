@@ -521,7 +521,14 @@
         {
           "date": "2020-03-25",
           "label": "Testing Delays at Peak PUI Volume",
-          "content": "Covid-19 test turnaround time is 3–5 days. This is the peak of persons under investigation — patients held in limbo, consuming isolation resources, while the system waits for results."
+          "content": "Covid-19 test turnaround time is 3–5 days. This is the peak of persons under investigation — patients held in limbo, consuming isolation resources, while the system waits for results.",
+          "preview": "Covid-19 test turnaround time is 3–5 days. This is the peak of persons under investigation — patients held in limbo, consuming isolation resources, while the system waits for results.",
+          "sections": [
+            {
+              "heading": "Blind in Uncharted Waters",
+              "text": "On top of everything else — the evolving treatment landscape, the conflicting guidance, the supply shortages — we were also operating largely blind to who was actually infected. A 3–5 day turnaround meant patients sat in limbo for days, consuming isolation resources and clinical bandwidth, before anyone knew for certain what they were dealing with. In the early stages of the pandemic, testing limitations were just another layer of uncertainty piled onto an already completely uncharted situation. You couldn't see the scope of what you were managing. You could only react to what was directly in front of you."
+            }
+          ]
         },
         {
           "date": "2020-03-25",
