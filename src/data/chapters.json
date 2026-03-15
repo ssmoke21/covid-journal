@@ -176,6 +176,10 @@
           "preview": "I send the inaugural email to the ID Pharmacy Collaborative sharing a treatment Google doc. I anticipate 'constantly changing evidence.'",
           "sections": [
             {
+              "heading": "Where It Came From",
+              "text": "The document I shared wasn't mine. I had found it on Twitter — a pharmacist at UCSF had started a Google Doc and shared it openly, globally, for anyone to contribute to or use. That was a genuinely novel approach at the time. The idea that you would crowdsource clinical guidance across institutions in real time, across the country, without waiting for formal channels — it reflected exactly the kind of collaboration the moment required. I was right to share it with our team. But I want to be clear about what I was actually doing: I was recognizing and mirroring a brilliant and insightful idea that originated on the other side of the country."
+            },
+            {
               "heading": "Initial Assessments — March 11, 2020",
               "text": "Tamiflu unlikely to work. Remdesivir under NIH study. Chloroquine shows 'promising but questionable' evidence from China. Lopinavir/ritonavir retrospective shows no efficacy."
             }
