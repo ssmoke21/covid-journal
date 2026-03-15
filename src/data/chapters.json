@@ -754,7 +754,18 @@
         {
           "date": "2020-04-11",
           "label": "HCQ Skepticism Grows",
-          "content": "A NEJM quasi-experimental HCQ study circulates. The first serious discussion in the ID pharmacy group of pulling the HCQ recommendation entirely. The group notes that stopping azithromycin 'wasn't as bad as expected.'"
+          "content": "A NEJM quasi-experimental HCQ study circulates. The first serious discussion in the ID pharmacy group of pulling the HCQ recommendation entirely. The group notes that stopping azithromycin 'wasn't as bad as expected.'",
+          "preview": "A NEJM quasi-experimental HCQ study circulates. The first serious discussion in the ID pharmacy group of pulling the HCQ recommendation entirely. The group notes that stopping azithromycin 'wasn't as bad as expected.'",
+          "sections": [
+            {
+              "heading": "The Weight of Changing Direction",
+              "text": "We felt an incredible sense of responsibility. Recommending a drug and then pulling it isn't a neutral act — it has real implications for patients who were treated, for clinicians who prescribed it based on our guidance, and for the trust that makes guidelines worth following in the first place. Shifting direction felt like a huge deal every single time. Whether clinicians recognized the complexity of operating in that environment, or simply didn't have the bandwidth to push back, I honestly don't know. But the pushback was minimal."
+            },
+            {
+              "heading": "We Weren't an Outlier",
+              "text": "It's also worth saying that our guidance didn't differ substantially from national trends. We followed the evidence as it developed, moved when the major guidelines moved, and didn't stray far from what NIH, IDSA, and other major bodies were saying. The HCQ arc — early adoption, growing skepticism, eventual removal — played out the same way across institutions throughout the country. We weren't ahead of it, but we weren't behind it either."
+            }
+          ]
         },
         {
           "date": "2020-04-11",
