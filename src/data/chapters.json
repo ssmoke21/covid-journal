@@ -853,6 +853,10 @@
             {
               "heading": "You Can't Call the Game Early",
               "text": "The Lancet study fell short of its projected patient enrollment. Drawing definitive conclusions from an underpowered study is like calling a football game at the end of the third quarter. Congratulations to the 49ers, Super Bowl LIV champions — they were up 10, it was over, right? Wrong. There was still a quarter left to play."
+            },
+            {
+              "heading": "Why Was There a Press Conference?",
+              "text": "In retrospect, the timing of the NIAID announcement feels intentional. The Lancet study showing no benefit published that morning. The same day, the White House held a press conference announcing the NIAID data showing benefit — before the full study was published or available for scrutiny. At the time, it was confusing. Later, reading CDC guidance on public health communication, one point stood out: the importance of being the first voice on an issue. The general consensus among people who analyzed this period was that the timing was not a coincidence. The press conference was designed to shape the narrative before the Lancet findings could dominate it."
             }
           ],
           "embed": { "type": "link", "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31022-9/fulltext", "label": "Read the Lancet RCT (No Benefit)" },
