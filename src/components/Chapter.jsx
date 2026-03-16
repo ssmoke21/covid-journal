@@ -419,40 +419,147 @@ function SpineCell({ row, isFirst, isLast }) {
   );
 }
 
-function SplitLayout({ chapter, onOpenOverlay }) {
-  const rows = buildChronologicalRows(chapter.clinical_nodes, chapter.personal_nodes);
+// ─── Interlude node (full-width break in the timeline) ────────────────────────
 
+function InterludeNode({ node }) {
   return (
-    <div className="max-w-7xl mx-auto">
-      {/* Column headers — 3 cols on desktop */}
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_80px_1fr] gap-x-4 mb-6">
-        <div className="flex items-center gap-2">
-          <div className="w-3 h-3 rounded-full bg-[var(--color-clinical)]" />
-          <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--color-clinical)]">
-            Clinical Timeline
-          </h3>
-          <div className="flex-1 h-px bg-[var(--color-clinical-border)]" />
-        </div>
-
-        {/* Center header: just a label above the spine */}
-        <div className="hidden lg:flex flex-col items-center justify-end pb-1">
-          <span className="text-[9px] uppercase tracking-widest font-semibold text-stone-300">Date</span>
-        </div>
-
-        <div className="flex items-center gap-2">
-          <div className="flex-1 h-px bg-[var(--color-personal-border)]" />
-          <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--color-personal)]">
-            Personal Timeline
-          </h3>
-          <div className="w-3 h-3 rounded-full bg-[var(--color-personal)]" />
-        </div>
+    <div className="max-w-4xl mx-auto py-12" data-node-date={node.date}>
+      {/* Top ornament */}
+      <div className="flex items-center justify-center gap-4 mb-10">
+        <div className="flex-1 max-w-24 h-px bg-gradient-to-r from-transparent to-[var(--color-personal-border)]" />
+        <span className="text-[var(--color-personal-accent)] text-sm">✦</span>
+        <div className="flex-1 max-w-24 h-px bg-gradient-to-l from-transparent to-[var(--color-personal-border)]" />
       </div>
 
-      {/* Chronological 3-column grid */}
+      {/* Header */}
+      <div className="text-center mb-10 px-4">
+        <span className="inline-flex items-center px-2.5 py-0.5 rounded text-[10px] font-mono font-medium tracking-wide bg-[var(--color-personal)]/10 text-[var(--color-personal)] mb-3">
+          {node.date}
+        </span>
+        <h3 className="font-serif text-2xl md:text-3xl font-bold text-stone-900 mb-3">
+          {node.label}
+        </h3>
+        {node.preview && (
+          <p className="font-serif text-base md:text-lg text-stone-500 italic max-w-2xl mx-auto leading-relaxed">
+            {node.preview}
+          </p>
+        )}
+      </div>
+
+      {/* Sections */}
+      <div className="flex flex-col gap-8 px-4">
+        {node.sections?.map((section, i) => {
+          const title = section.heading || section.title;
+          const hasImage = !!section.image;
+          const imageOnLeft = i % 2 === 0;
+
+          if (hasImage && section.text) {
+            // Photo + text: alternating sides
+            return (
+              <div key={i} className={`flex flex-col ${imageOnLeft ? "md:flex-row" : "md:flex-row-reverse"} gap-6 items-start`}
+                style={{ animation: `fade-in-up 0.5s ease-out ${i * 0.06}s both` }}>
+                <div className="w-full md:w-2/5 flex-shrink-0">
+                  <div className="rounded-lg overflow-hidden bg-stone-100 border border-stone-200">
+                    <img
+                      src={`${import.meta.env.BASE_URL}${section.image}`}
+                      alt={title || ""}
+                      className="w-full h-auto object-contain"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <div className="flex-1 min-w-0">
+                  {title && (
+                    <p className="text-[10px] uppercase tracking-widest font-bold text-[var(--color-personal)] mb-1.5">
+                      {title}
+                    </p>
+                  )}
+                  <p className="font-serif text-sm md:text-base text-stone-600 leading-relaxed">{section.text}</p>
+                </div>
+              </div>
+            );
+          }
+
+          if (hasImage && !section.text) {
+            // Photo-only section
+            return (
+              <div key={i} className="max-w-md mx-auto"
+                style={{ animation: `fade-in-up 0.5s ease-out ${i * 0.06}s both` }}>
+                {title && (
+                  <p className="text-[10px] uppercase tracking-widest font-bold text-[var(--color-personal)] mb-2 text-center">
+                    {title}
+                  </p>
+                )}
+                <div className="rounded-lg overflow-hidden bg-stone-100 border border-stone-200">
+                  <img
+                    src={`${import.meta.env.BASE_URL}${section.image}`}
+                    alt={title || ""}
+                    className="w-full h-auto object-contain"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            );
+          }
+
+          // Text-only section
+          return (
+            <div key={i} className="max-w-2xl mx-auto"
+              style={{ animation: `fade-in-up 0.5s ease-out ${i * 0.06}s both` }}>
+              {title && (
+                <p className="text-[10px] uppercase tracking-widest font-bold text-[var(--color-personal)] mb-1.5">
+                  {title}
+                </p>
+              )}
+              {section.text && (
+                <p className="font-serif text-sm md:text-base text-stone-600 leading-relaxed">{section.text}</p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Bottom ornament */}
+      <div className="flex items-center justify-center gap-4 mt-10">
+        <div className="flex-1 max-w-24 h-px bg-gradient-to-r from-transparent to-[var(--color-personal-border)]" />
+        <span className="text-[var(--color-personal-accent)] text-sm">✦</span>
+        <div className="flex-1 max-w-24 h-px bg-gradient-to-l from-transparent to-[var(--color-personal-border)]" />
+      </div>
+    </div>
+  );
+}
+
+// ─── Timeline grid segment (reusable for split rendering) ────────────────────
+
+function TimelineGridSegment({ rows, globalOffset, onOpenOverlay, isFirstSegment }) {
+  return (
+    <>
+      {/* Column headers — only for the first segment */}
+      {isFirstSegment && (
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_80px_1fr] gap-x-4 mb-6">
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-[var(--color-clinical)]" />
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--color-clinical)]">
+              Clinical Timeline
+            </h3>
+            <div className="flex-1 h-px bg-[var(--color-clinical-border)]" />
+          </div>
+          <div className="hidden lg:flex flex-col items-center justify-end pb-1">
+            <span className="text-[9px] uppercase tracking-widest font-semibold text-stone-300">Date</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="flex-1 h-px bg-[var(--color-personal-border)]" />
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-[var(--color-personal)]">
+              Personal Timeline
+            </h3>
+            <div className="w-3 h-3 rounded-full bg-[var(--color-personal)]" />
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_80px_1fr] gap-x-4 gap-y-4">
         {rows.map((row, i) => (
-          <Fragment key={i}>
-            {/* Clinical cell — data-node-date for scroll tracking */}
+          <Fragment key={globalOffset + i}>
             <div
               className="flex flex-col justify-center"
               data-node-date={row.clinical?.date || row.personal?.date}
@@ -461,23 +568,19 @@ function SplitLayout({ chapter, onOpenOverlay }) {
                 <NodeCard
                   node={row.clinical}
                   type="clinical"
-                  index={i}
+                  index={globalOffset + i}
                   linked={!!row.linked}
                   onOpenOverlay={(n) => onOpenOverlay(row.linked ? { ...n, pairedNode: row.personal } : n)}
                 />
               )}
             </div>
-
-            {/* Center spine */}
-            <SpineCell row={row} isFirst={i === 0} isLast={i === rows.length - 1} />
-
-            {/* Personal cell */}
+            <SpineCell row={row} isFirst={isFirstSegment && i === 0} isLast={i === rows.length - 1} />
             <div className="flex flex-col justify-center">
               {row.personal && (
                 <NodeCard
                   node={row.personal}
                   type="personal"
-                  index={i}
+                  index={globalOffset + i}
                   linked={!!row.linked}
                   onOpenOverlay={(n) => onOpenOverlay(row.linked ? { ...n, pairedNode: row.clinical } : n)}
                 />
@@ -486,6 +589,72 @@ function SplitLayout({ chapter, onOpenOverlay }) {
           </Fragment>
         ))}
       </div>
+    </>
+  );
+}
+
+function SplitLayout({ chapter, onOpenOverlay }) {
+  // Separate interlude nodes from regular personal nodes
+  const interludeNodes = chapter.personal_nodes.filter((n) => n.display === "interlude");
+  const regularPersonal = chapter.personal_nodes.filter((n) => n.display !== "interlude");
+  const rows = buildChronologicalRows(chapter.clinical_nodes, regularPersonal);
+
+  // If no interludes, render the simple grid
+  if (interludeNodes.length === 0) {
+    return (
+      <div className="max-w-7xl mx-auto">
+        <TimelineGridSegment rows={rows} globalOffset={0} onOpenOverlay={onOpenOverlay} isFirstSegment />
+      </div>
+    );
+  }
+
+  // Split rows into segments around interlude insertion points
+  const segments = [];
+  let currentRows = [];
+  let globalIdx = 0;
+  const interludeTs = interludeNodes.map((n) => ({ node: n, ts: parseNodeDate(n.date) }));
+  interludeTs.sort((a, b) => a.ts - b.ts);
+  let interludeIdx = 0;
+
+  for (const row of rows) {
+    const rowTs = parseNodeDate(row.clinical?.date || row.personal?.date);
+    // Check if any interlude should be inserted before this row
+    while (interludeIdx < interludeTs.length && interludeTs[interludeIdx].ts <= rowTs) {
+      segments.push({ type: "grid", rows: currentRows, offset: globalIdx - currentRows.length });
+      segments.push({ type: "interlude", node: interludeTs[interludeIdx].node });
+      currentRows = [];
+      interludeIdx++;
+    }
+    currentRows.push(row);
+    globalIdx++;
+  }
+  // Push any remaining interludes after all rows
+  while (interludeIdx < interludeTs.length) {
+    segments.push({ type: "grid", rows: currentRows, offset: globalIdx - currentRows.length });
+    segments.push({ type: "interlude", node: interludeTs[interludeIdx].node });
+    currentRows = [];
+    interludeIdx++;
+  }
+  // Push remaining rows
+  if (currentRows.length > 0) {
+    segments.push({ type: "grid", rows: currentRows, offset: globalIdx - currentRows.length });
+  }
+
+  return (
+    <div className="max-w-7xl mx-auto">
+      {segments.map((seg, i) =>
+        seg.type === "interlude" ? (
+          <InterludeNode key={`interlude-${i}`} node={seg.node} />
+        ) : seg.rows.length > 0 ? (
+          <TimelineGridSegment
+            key={`grid-${i}`}
+            rows={seg.rows}
+            globalOffset={seg.offset}
+            onOpenOverlay={onOpenOverlay}
+            isFirstSegment={i === 0}
+          />
+        ) : null
+      )}
     </div>
   );
 }
