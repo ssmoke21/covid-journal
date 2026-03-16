@@ -1490,14 +1490,14 @@
       "anchor_date": "2021-06-01",
       "layout": "full",
       "mood": "Conflict / Vindication",
-      "mood_description": "A concentrated drama centered on one physician's continued advocacy for hydroxychloroquine after the evidence had turned against it — culminating in a Fox News appearance where I am named by an ID physician, and the COO privately drops f-bombs in my defense.",
-      "introduction": "This story runs parallel to much of what came before. It traces a conflict that threaded through the entire pandemic — a physician's continued advocacy for hydroxychloroquine long after the evidence had turned against it. It's a story about what happens when ego meets evidence, and about what it felt like to be named on national television by someone I disagreed with. It's the most personal chapter, and the one I'm least sure how to tell.",
+      "mood_description": "A concentrated drama centered on Dr. Smith's continued advocacy for hydroxychloroquine after the evidence had turned against it — culminating in a Fox News appearance where I am named by Dr. Smith, and the COO privately drops f-bombs in my defense.",
+      "introduction": "This story runs parallel to much of what came before. It traces a conflict that threaded through the entire pandemic — Dr. Smith's continued advocacy for hydroxychloroquine long after the evidence had turned against it. It's a story about what happens when ego meets evidence, and about what it felt like to be named on national television by someone I disagreed with. It's the most personal chapter, and the one I'm least sure how to tell.",
       "clinical_nodes": [
         {
           "date": "2020-03-28",
           "label": "HCQ Dosing Conflict",
-          "preview": "An ID physician emails hospital leadership demanding higher HCQ dosing based on a non-comparative French study. A heated email exchange and phone call follow.",
-          "content": "An ID physician emails the CEO, CMO, and Chair of Medicine demanding higher HCQ dosing based on a non-comparative French follow-up study. A heated exchange follows.",
+          "preview": "Dr. Smith emails hospital leadership demanding higher HCQ dosing based on a non-comparative French study. A heated email exchange and phone call follow.",
+          "content": "Dr. Smith emails the CEO, CMO, and Chair of Medicine demanding higher HCQ dosing based on a non-comparative French follow-up study. A heated exchange follows.",
           "sections": [
             {
               "heading": "The Demand",
@@ -1527,11 +1527,11 @@
           "sections": [
             {
               "heading": "How Does a Physician End Up on Fox & Friends?",
-              "text": "The shock of seeing this was twofold. First: that he was on national television at all. Fox & Friends reaches millions of viewers. This wasn't a local interview or a hospital press release — it was one of the most-watched morning programs in the country. Getting there requires connections, coordination, and a willingness to step into a political media ecosystem that most clinicians stay far away from. That a physician affiliated with our hospital system was sitting in that chair was, by itself, stunning."
+              "text": "The shock of seeing this was twofold. First: that he was on national television at all. Fox & Friends reaches millions of viewers. This wasn't a local interview or a hospital press release — it was one of the most-watched morning programs in the country. Getting there requires connections, coordination, and a willingness to step into a political media ecosystem that most clinicians stay far away from. That Dr. Smith, affiliated with our hospital system, was sitting in that chair was, by itself, stunning."
             },
             {
               "heading": "The Claim Itself",
-              "text": "Then there was what he actually said. 'The beginning of the end of the pandemic.' Not 'this looks promising' or 'early data is encouraging' — the kind of hedged language any scientist would reach for when the evidence is still thin. A definitive, sweeping declaration that a drug we were still figuring out had effectively solved the crisis. The pandemic had been going for weeks. Thousands were dying. And a physician with a platform was telling the country it was essentially over. That was a stunning thing to say out loud."
+              "text": "Then there was what he actually said. 'The beginning of the end of the pandemic.' Not 'this looks promising' or 'early data is encouraging' — the kind of hedged language any scientist would reach for when the evidence is still thin. A definitive, sweeping declaration that a drug we were still figuring out had effectively solved the crisis. The pandemic had been going for weeks. Thousands were dying. And Dr. Smith, with a national platform, was telling the country it was essentially over. That was a stunning thing to say out loud."
             }
           ],
           "embed": { "type": "link", "url": "https://www.foxnews.com/media/dr-stephen-smith-on-effectiveness-of-hydroxychloroquine-with-coronavirus-symptoms-beginning-of-the-end-of-the-pandemic", "label": "Watch the Segment on Fox News" }
@@ -1539,8 +1539,8 @@
         {
           "date": "2020-04-03",
           "label": "Oval Office Meeting",
-          "content": "The day after his Fox News appearance, the physician meets with the President, a TV host, and the FDA Director. HCQ had already received emergency authorization — at least part of the meeting was apparently spent pushing to authorize higher dosing.",
-          "preview": "The day after his Fox News appearance, the physician meets with the President, a TV host, and the FDA Director. HCQ had already received emergency authorization — at least part of the meeting was apparently spent pushing to authorize higher dosing.",
+          "content": "The day after his Fox News appearance, Dr. Smith meets with the President, a TV host, and the FDA Director. HCQ had already received emergency authorization — at least part of the meeting was apparently spent pushing to authorize higher dosing.",
+          "preview": "The day after his Fox News appearance, Dr. Smith meets with the President, a TV host, and the FDA Director. HCQ had already received emergency authorization — at least part of the meeting was apparently spent pushing to authorize higher dosing.",
           "sections": [
             {
               "heading": "Already Authorized — He Wanted More",
@@ -1552,7 +1552,7 @@
             },
             {
               "heading": "How I Think He Got There",
-              "text": "I can't say for certain how this physician ended up in the Oval Office. But the sequence is suggestive. He appeared on Fox & Friends on April 2nd calling hydroxychloroquine 'the beginning of the end of the pandemic.' The President was a regular Fox viewer and had already been promoting HCQ publicly. My best guess is that Trump saw the segment, heard what he wanted to hear, and the invitation followed from there. Whether or not that's exactly what happened, it's the most plausible path from a cable news appearance to a meeting with the FDA Director."
+              "text": "I can't say for certain how Dr. Smith ended up in the Oval Office. But the sequence is suggestive. He appeared on Fox & Friends on April 2nd calling hydroxychloroquine 'the beginning of the end of the pandemic.' The President was a regular Fox viewer and had already been promoting HCQ publicly. My best guess is that Trump saw the segment, heard what he wanted to hear, and the invitation followed from there. Whether or not that's exactly what happened, it's the most plausible path from a cable news appearance to a meeting with the FDA Director."
             }
           ],
           "embed": { "type": "link", "url": "https://coronavirus-democrats-oversight.house.gov/sites/evo-subsites/coronavirus-democrats-oversight.house.gov/files/2022.08.24%20The%20Trump%20White%20House%E2%80%99s%20Relentless%20Attacks%20on%20FDA%E2%80%99s%20Coronavirus%20Response.pdf", "label": "View the House Oversight Report (PDF)" }
@@ -1565,12 +1565,12 @@
         {
           "date": "2021-02-05",
           "label": "CMO vs. ID Physician Over HCQ Ban",
-          "content": "The CMO and the ID physician clash directly over the HCQ ban."
+          "content": "The CMO and Dr. Smith clash directly over the HCQ ban."
         },
         {
           "date": "2021-06-01",
           "label": "Fox News Appearance — My Name Used",
-          "content": "The ID physician returns to Fox News claiming his unpublished, retrospective study proves hydroxychloroquine works. He names me by name on national television: 'I turned to the pharmacist, Steve Smoke at St. Barnabas and I said, I got people that are literally more than four times difference in weight, one or both groups is getting the wrong dose.' The study is vastly inferior to available evidence and — to my knowledge — was never published.",
+          "content": "Dr. Smith returns to Fox News claiming his unpublished, retrospective study proves hydroxychloroquine works. He names me by name on national television: 'I turned to the pharmacist, Steve Smoke at St. Barnabas and I said, I got people that are literally more than four times difference in weight, one or both groups is getting the wrong dose.' The study is vastly inferior to available evidence and — to my knowledge — was never published.",
           "embed": { "type": "link", "url": "https://www.foxnews.com/video/6257007407001", "label": "Watch the Segment on Fox News" },
           "link_group": "fox-news-june-2021"
         },
@@ -1607,13 +1607,13 @@
         {
           "date": "2021-06-01",
           "label": "Named on TV",
-          "content": "I am named by an ID physician on Fox News in the context of a disagreement over HCQ dosing methodology. The clip and transcript are preserved as external links.",
+          "content": "I am named by Dr. Smith on Fox News in the context of a disagreement over HCQ dosing methodology. The clip and transcript are preserved as external links.",
           "link_group": "fox-news-june-2021"
         },
         {
           "date": "2021-06-08",
           "label": "COO Drops F-Bombs",
-          "content": "The hospital COO visits my office privately to offer personal support and express frustration with the ID physician."
+          "content": "The hospital COO visits my office privately to offer personal support and express frustration with Dr. Smith."
         },
         {
           "date": "2021-04-13",
