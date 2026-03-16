@@ -1571,6 +1571,25 @@
           "date": "2021-06-01",
           "label": "Fox News Appearance — My Name Used",
           "content": "Dr. Smith returns to Fox News claiming his unpublished, retrospective study proves hydroxychloroquine works. He names me by name on national television: 'I turned to the pharmacist, Steve Smoke at St. Barnabas and I said, I got people that are literally more than four times difference in weight, one or both groups is getting the wrong dose.' The study is vastly inferior to available evidence and — to my knowledge — was never published.",
+          "preview": "Dr. Smith returns to Fox News claiming his unpublished study proves HCQ works — and names me by name. By 2021, the science on HCQ had been settled for a long time. The shock wasn't just that he was back. It was that he was still pushing this.",
+          "sections": [
+            {
+              "heading": "The Silence Before",
+              "text": "I hadn't spoken to Dr. Smith about HCQ in some time. There came a point where it felt like everything that needed to be said had been said — the evidence had spoken, our guidelines had changed, and continuing to argue felt beside the point. What I didn't expect was for him to resurface on national television as if none of that had happened."
+            },
+            {
+              "heading": "The Science Was Long Settled",
+              "text": "By June 2021, HCQ for Covid-19 wasn't a point of controversy within ID — and hadn't been for a long time. The RECOVERY trial, the revoked EUA, study after study pointing the same direction. Dr. Smith's study was retrospective, unpublished, and vastly inferior in quality to what was already in the literature. The shock wasn't just that he was on Fox News again. It was that he was still pushing this, a year and a half in, as if the conversation hadn't moved on."
+            },
+            {
+              "heading": "Hearing My Name",
+              "text": "What was genuinely strange was hearing about it from others — family members, coworkers reaching out surprised, a little amused. But when I thought about it: my name was pretty irrelevant to the actual story. I doubt he even realized he'd said it. He wasn't trying to name me — he was bashing the hospital. That was not new for him."
+            },
+            {
+              "heading": "The Scale Was Wild",
+              "text": "What was new was the scale. Criticizing hospital decisions internally is one thing. Doing it on a national television network, to millions of viewers, while citing an unpublished study in support of a treatment the scientific community had conclusively rejected — that was something else entirely."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.foxnews.com/video/6257007407001", "label": "Watch the Segment on Fox News" },
           "link_group": "fox-news-june-2021"
         },
@@ -1604,12 +1623,6 @@
         }
       ],
       "personal_nodes": [
-        {
-          "date": "2021-06-01",
-          "label": "Named on TV",
-          "content": "I am named by Dr. Smith on Fox News in the context of a disagreement over HCQ dosing methodology. The clip and transcript are preserved as external links.",
-          "link_group": "fox-news-june-2021"
-        },
         {
           "date": "2021-06-08",
           "label": "COO Drops F-Bombs",
