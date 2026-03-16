@@ -1479,6 +1479,17 @@
           "date": "2020-04-02",
           "label": "Dr. Smith on Fox News",
           "content": "ID physician Dr. Stephen Smith appears on Fox & Friends stating hydroxychloroquine is \"the beginning of the end of the pandemic.\"",
+          "preview": "ID physician Dr. Stephen Smith appears on Fox & Friends stating hydroxychloroquine is \"the beginning of the end of the pandemic.\"",
+          "sections": [
+            {
+              "heading": "How Does a Physician End Up on Fox & Friends?",
+              "text": "The shock of seeing this was twofold. First: that he was on national television at all. Fox & Friends reaches millions of viewers. This wasn't a local interview or a hospital press release — it was one of the most-watched morning programs in the country. Getting there requires connections, coordination, and a willingness to step into a political media ecosystem that most clinicians stay far away from. That a physician affiliated with our hospital system was sitting in that chair was, by itself, stunning."
+            },
+            {
+              "heading": "The Claim Itself",
+              "text": "Then there was what he actually said. 'The beginning of the end of the pandemic.' Not 'this looks promising' or 'early data is encouraging' — the kind of hedged language any scientist would reach for when the evidence is still thin. A definitive, sweeping declaration that a drug we were still figuring out had effectively solved the crisis. The pandemic had been going for weeks. Thousands were dying. And a physician with a platform was telling the country it was essentially over. That was a stunning thing to say out loud."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.foxnews.com/media/dr-stephen-smith-on-effectiveness-of-hydroxychloroquine-with-coronavirus-symptoms-beginning-of-the-end-of-the-pandemic", "label": "Watch the Segment on Fox News" }
         },
         {
