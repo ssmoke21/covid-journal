@@ -40,7 +40,7 @@ export default function HeroHeader({ meta }) {
         </p>
 
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-stone-900 mb-4 max-w-4xl leading-tight">
-          A COVID Journal
+          A Covid-19 Journal
         </h1>
 
         <p className="font-serif text-xl md:text-2xl text-stone-500 italic mb-8">
