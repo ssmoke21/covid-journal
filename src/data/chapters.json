@@ -1484,9 +1484,13 @@
         {
           "date": "2020-04-03",
           "label": "Oval Office Meeting",
-          "content": "The day after his Fox News appearance, the physician meets with the President, a TV host, and the FDA Director — apparently to pressure authorization of hydroxychloroquine.",
-          "preview": "The day after his Fox News appearance, the physician meets with the President, a TV host, and the FDA Director — apparently to pressure authorization of hydroxychloroquine.",
+          "content": "The day after his Fox News appearance, the physician meets with the President, a TV host, and the FDA Director. HCQ had already received emergency authorization — at least part of the meeting was apparently spent pushing to authorize higher dosing.",
+          "preview": "The day after his Fox News appearance, the physician meets with the President, a TV host, and the FDA Director. HCQ had already received emergency authorization — at least part of the meeting was apparently spent pushing to authorize higher dosing.",
           "sections": [
+            {
+              "heading": "Already Authorized — He Wanted More",
+              "text": "HCQ had already received an FDA Emergency Use Authorization five days earlier, on March 28th. The meeting wasn't about getting HCQ approved — that had already happened. Based on what was later documented, at least part of the conversation centered on pushing for authorization of higher dosing regimens. The EUA as written had limitations. He wanted to expand them."
+            },
             {
               "heading": "I Didn't Know",
               "text": "I was completely unaware this meeting had happened. It wasn't something I learned about in the moment — or for a long time afterward. I only found out when I stumbled across the House Oversight Committee's report to Congress, published in August 2022, which documented the Trump White House's efforts to pressure the FDA's coronavirus response. The meeting was in there. It was a strange thing to read: an event from early in the pandemic, involving someone I had been dealing with directly, that I had never known about at the time."
