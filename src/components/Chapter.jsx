@@ -450,7 +450,8 @@ function InterludeNode({ node }) {
       <div className="flex flex-col gap-8 px-4">
         {node.sections?.map((section, i) => {
           const title = section.heading || section.title;
-          const hasImage = !!section.image;
+          const images = section.images || (section.image ? [section.image] : []);
+          const hasImage = images.length > 0;
           const imageOnLeft = i % 2 === 0;
 
           if (hasImage && section.text) {
@@ -458,15 +459,17 @@ function InterludeNode({ node }) {
             return (
               <div key={i} className={`flex flex-col ${imageOnLeft ? "md:flex-row" : "md:flex-row-reverse"} gap-6 items-start`}
                 style={{ animation: `fade-in-up 0.5s ease-out ${i * 0.06}s both` }}>
-                <div className="w-full md:w-2/5 flex-shrink-0">
-                  <div className="rounded-lg overflow-hidden bg-stone-100 border border-stone-200">
-                    <img
-                      src={`${import.meta.env.BASE_URL}${section.image}`}
-                      alt={title || ""}
-                      className="w-full h-auto object-contain"
-                      loading="lazy"
-                    />
-                  </div>
+                <div className="w-full md:w-2/5 flex-shrink-0 flex flex-col gap-3">
+                  {images.map((img, j) => (
+                    <div key={j} className="rounded-lg overflow-hidden bg-stone-100 border border-stone-200">
+                      <img
+                        src={`${import.meta.env.BASE_URL}${img}`}
+                        alt={title || ""}
+                        className="w-full h-auto object-contain"
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
                 </div>
                 <div className="flex-1 min-w-0">
                   {title && (
@@ -490,13 +493,17 @@ function InterludeNode({ node }) {
                     {title}
                   </p>
                 )}
-                <div className="rounded-lg overflow-hidden bg-stone-100 border border-stone-200">
-                  <img
-                    src={`${import.meta.env.BASE_URL}${section.image}`}
-                    alt={title || ""}
-                    className="w-full h-auto object-contain"
-                    loading="lazy"
-                  />
+                <div className="flex flex-col gap-3">
+                  {images.map((img, j) => (
+                    <div key={j} className="rounded-lg overflow-hidden bg-stone-100 border border-stone-200">
+                      <img
+                        src={`${import.meta.env.BASE_URL}${img}`}
+                        alt={title || ""}
+                        className="w-full h-auto object-contain"
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
                 </div>
               </div>
             );
