@@ -504,7 +504,7 @@ function InterludeNode({ node }) {
 
           // Text-only section
           return (
-            <div key={i} className="max-w-2xl mx-auto"
+            <div key={i} className="w-full max-w-2xl mx-auto"
               style={{ animation: `fade-in-up 0.5s ease-out ${i * 0.06}s both` }}>
               {title && (
                 <p className="text-[10px] uppercase tracking-widest font-bold text-[var(--color-personal)] mb-1.5">
