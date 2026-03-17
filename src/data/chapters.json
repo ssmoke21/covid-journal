@@ -946,6 +946,13 @@
           "date": "2020-06-16",
           "label": "RECOVERY Trial: Dexamethasone Reduces Mortality",
           "content": "The RECOVERY trial reports dexamethasone reduces mortality — a landmark finding. Questions arise about whether a trial report (not peer-reviewed) is sufficient to change practice. Our system waits for the NIH guideline update but the CPO is pressured by an ID physician to act sooner.",
+          "preview": "The RECOVERY trial reports dexamethasone reduces mortality — a landmark finding. Questions arise about whether a trial report (not peer-reviewed) is sufficient to change practice. Our system waits for the NIH guideline update but the CPO is pressured by an ID physician to act sooner.",
+          "sections": [
+            {
+              "heading": "Exactly What We Anticipated",
+              "text": "This was precisely the tension raised just over a month earlier — when I asked leadership what our threshold was to act before national guidelines. The answer had been: we follow the NIH. Dexamethasone put that policy to the test immediately. Strong data, no guideline yet, clinicians pushing to move. The framework held, but the pressure was real."
+            }
+          ],
           "embed": { "type": "link", "url": "https://www.recoverytrial.net/news/low-cost-dexamethasone-reduces-death-by-up-to-one-third-in-hospitalised-patients-with-severe-respiratory-complications-of-covid-19", "label": "Read the RECOVERY Trial Dexamethasone Results" }
         }
       ],
