@@ -1636,7 +1636,22 @@
         {
           "date": "2020-12-01",
           "label": "Ivermectin Returns — Physician Confrontation",
-          "content": "Two ID physicians order ivermectin. I push back. One is very rude: 'How dare you?… I've been practicing medicine for X years…' The physician compares the situation to bamlanivimab. Bamlanivimab is later proven effective; ivermectin is not."
+          "content": "Two ID physicians order ivermectin without significant new evidence. My boss encourages me to push back. I do — leading to a tense confrontation and an uncomfortable relenting.",
+          "preview": "Two ID physicians order ivermectin without significant new evidence. My boss encourages me to push back. I do — leading to a tense confrontation and an uncomfortable relenting.",
+          "sections": [
+            {
+              "heading": "No New Evidence — Just FOMO",
+              "text": "There wasn't significant new evidence supporting ivermectin at this point. What there was: an ID physician who had spoken with a colleague in Egypt and came away struck by how creative clinicians in other countries were being — trying different therapies, not waiting. That framing bothered me. Creativity isn't a virtue in isolation when a patient is in front of you. Without a compelling evidence base, the motivation looked more like FOMO than clinical reasoning. The do no harm standard exists for exactly this situation."
+            },
+            {
+              "heading": "An Uncomfortable Position",
+              "text": "My boss agreed it was wrong and encouraged me to push back. So I did. The confrontation was deeply uncomfortable — one physician responded with 'How dare you? I've been practicing medicine for X years.' I eventually relented. But they didn't make a pattern of using ivermectin, which I took as a possible sign that the pushback had some effect, even if the conversation didn't end well."
+            },
+            {
+              "heading": "Before the Political Wave",
+              "text": "This was December 2020 — well before the large public push for ivermectin that emerged in late 2021. That later wave felt far more politically aligned, and notably, it wasn't picked up by any providers here. But patients picked it up. One patient's family sued, and a judge issued a court order compelling a prescription. It raised a genuinely complicated question about where patient autonomy ends and provider autonomy begins — whether a court can compel a clinician to prescribe something they believe is wrong. I found myself more interested in that question than certain about the answer."
+            }
+          ]
         }
       ],
       "personal_nodes": [
