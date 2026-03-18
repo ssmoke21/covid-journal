@@ -458,24 +458,22 @@ function ImageCarousel({ images, alt }) {
 
 function InterludeNode({ node }) {
   return (
-    <div className="max-w-4xl mx-auto py-12" data-node-date={node.date}>
-      {/* Top ornament */}
-      <div className="flex items-center justify-center gap-4 mb-10">
-        <div className="flex-1 max-w-24 h-px bg-gradient-to-r from-transparent to-[var(--color-personal-border)]" />
-        <span className="text-[var(--color-personal-accent)] text-sm">✦</span>
-        <div className="flex-1 max-w-24 h-px bg-gradient-to-l from-transparent to-[var(--color-personal-border)]" />
+    <div className="max-w-4xl mx-auto py-8" data-node-date={node.date}>
+      {/* Top divider */}
+      <div className="flex justify-center mb-8">
+        <div className="w-16 h-px bg-[var(--color-personal-border)]" />
       </div>
 
       {/* Header */}
-      <div className="text-center mb-10 px-4">
-        <span className="inline-flex items-center px-2.5 py-0.5 rounded text-[10px] font-mono font-medium tracking-wide bg-[var(--color-personal)]/10 text-[var(--color-personal)] mb-3">
+      <div className="text-center mb-8 px-4">
+        <span className="text-[9px] font-mono tracking-widest uppercase text-stone-400 mb-2 block">
           {node.date}
         </span>
-        <h3 className="font-serif text-2xl md:text-3xl font-bold text-stone-900 mb-3">
+        <h3 className="font-serif text-xl md:text-2xl font-semibold text-stone-800 mb-2">
           {node.label}
         </h3>
         {node.preview && (
-          <p className="font-serif text-base md:text-lg text-stone-500 italic max-w-2xl mx-auto leading-relaxed">
+          <p className="font-serif text-sm md:text-base text-stone-400 italic max-w-2xl mx-auto leading-relaxed">
             {node.preview}
           </p>
         )}
@@ -541,11 +539,9 @@ function InterludeNode({ node }) {
         })}
       </div>
 
-      {/* Bottom ornament */}
-      <div className="flex items-center justify-center gap-4 mt-10">
-        <div className="flex-1 max-w-24 h-px bg-gradient-to-r from-transparent to-[var(--color-personal-border)]" />
-        <span className="text-[var(--color-personal-accent)] text-sm">✦</span>
-        <div className="flex-1 max-w-24 h-px bg-gradient-to-l from-transparent to-[var(--color-personal-border)]" />
+      {/* Bottom divider */}
+      <div className="flex justify-center mt-8">
+        <div className="w-16 h-px bg-[var(--color-personal-border)]" />
       </div>
     </div>
   );
