@@ -1583,11 +1583,6 @@
           "link_group": "fox-news-june-2021"
         },
         {
-          "date": "2021-06-08",
-          "label": "Vindication: UTI Pathway Praised",
-          "content": "The Chair of Medicine sends an email praising my work on an unrelated UTI antimicrobial stewardship pathway to the CEO, CFO, and CMO. The CMO responds in agreement."
-        },
-        {
           "date": "2020-06-05",
           "label": "RECOVERY Trial: HCQ No Benefit",
           "content": "The RECOVERY trial reports no benefit from hydroxychloroquine in hospitalized Covid-19 patients. I share it with the ID team the way I would any other new development.",
@@ -1646,8 +1641,19 @@
       "personal_nodes": [
         {
           "date": "2021-06-08",
-          "label": "COO Drops F-Bombs",
-          "content": "The hospital COO visits my office privately to offer personal support and express frustration with Dr. Smith."
+          "label": "Damage Control",
+          "content": "A week after the Fox News incident, leadership moves quietly. The COO visits my office privately. The Chair of Medicine sends a glowing email about an unrelated UTI pathway — copied to the CEO, CFO, and CMO.",
+          "preview": "A week after the Fox News incident, leadership moves quietly. The COO visits my office privately. The Chair of Medicine sends a glowing email about an unrelated UTI pathway — copied to the CEO, CFO, and CMO.",
+          "sections": [
+            {
+              "heading": "Reading Between the Lines",
+              "text": "The COO stopping by to express support made sense in isolation. But the Chair of Medicine looping in the CEO, CFO, and CMO on a small UTI antimicrobial stewardship pathway? That's not how that kind of project normally gets recognized. The C-suite doesn't typically weigh in on stewardship work at that level. Both events landing in the same week, immediately after the Fox News incident, was not a coincidence."
+            },
+            {
+              "heading": "The Unspoken Ask",
+              "text": "Nobody said it directly. But the message was clear: we appreciate you, we're frustrated too, and please don't make this harder than it already is. Leadership wanted to signal support, feel out whether I was going to escalate, and make sure things didn't get messier. It was careful, institutional, and completely understandable. I wasn't planning to cause trouble. But it was interesting to watch the machinery work."
+            }
+          ]
         },
         {
           "date": "2021-04-13",
