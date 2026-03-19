@@ -831,18 +831,6 @@
           ]
         },
         {
-          "date": "Circa April 2020",
-          "label": "All Hands on Deck",
-          "content": "As the surge overwhelms the hospital, everyone steps outside their training. The pediatric intensivist manages adult ICU patients. The investigational drug pharmacist becomes a critical care pharmacist.",
-          "preview": "As the surge overwhelms the hospital, everyone steps outside their training. The pediatric intensivist manages adult ICU patients. The investigational drug pharmacist becomes a critical care pharmacist.",
-          "sections": [
-            {
-              "heading": "Not Because They Want To",
-              "text": "Medical students are called into action in areas of care they were never prepared for. More and more is asked of healthcare workers — and each time, they step up to the task. Not because they want to, but because they have to, for their patients."
-            }
-          ]
-        },
-        {
           "date": "2020-04-29",
           "label": "Remdesivir: Contradictory Data",
           "content": "A Chinese remdesivir RCT in Lancet shows no benefit. The same day, NIAID shares preliminary RCT data indicating benefit. Considerable confusion — but the Lancet study was underpowered.",
@@ -964,6 +952,7 @@
           "preview": "Empty hallways, refrigerated trailers, clap-outs, tooth-grinding, and a hotel stay to protect my family. The human texture of the worst weeks.",
           "sections": [
             { "title": "The Hospital Empties", "text": "Non-essential personnel work from home, leaving the hospital eerily quiet — empty hallways, a silent cafeteria." },
+            { "title": "All Hands on Deck", "text": "As the surge overwhelms the hospital, everyone steps outside their training. The pediatric intensivist manages adult ICU patients. The investigational drug pharmacist becomes a critical care pharmacist. Medical students are called into areas they were never prepared for. More and more is asked, and each time people step up — not because they want to, but because they have to, for their patients." },
             { "title": "Community Donations", "text": "All kinds of donations arrived. Hand sanitizer from local distilleries that had converted their production lines. Food, drinks, snacks. Mask comfort adapters. Handwritten letters from entire classrooms of kids who had never met any of us. There was a period where you could feel the appreciation from the community — everyone wanted to do something, anything, to help. It meant something.", "images": ["images/meatwipes.jpg", "images/donations-insta.png"] },
             { "title": "The City Goes Quiet", "text": "Outside the hospital, the world shut down. Parks, playgrounds, schools — all closed. The streets emptied too. During the morning commute, there were barely any cars on the road.", "image": "images/playground-closed.png" },
             { "title": "Trailers in the Parking Lot", "text": "The hospital morgue fills. Two refrigerated trailers are placed in the physician parking lot for overflow bodies. They remained for months. Every employee passed them going in and out each day." },
