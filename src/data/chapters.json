@@ -134,6 +134,12 @@
           "date": "2020-03-01",
           "label": "My Wife Prepares",
           "content": "While I'm in Puerto Rico, my wife begins preparing for a potential Covid-19 wave — first grocery haul and cleaning supplies.",
+          "sections": [
+            {
+              "heading": "The Other Covid Experience",
+              "text": "For a huge portion of people, this was the pandemic: Instacart orders, toilet paper shortages, cleaning supplies running out on store shelves, the low-grade anxiety of stocking up before things got worse. It was a defining part of the early Covid experience for millions of households. It wasn't a big part of mine — because my wife took that on. While I was in Puerto Rico, she was already preparing. I came home to a house that was ready. That's not a small thing, and it's worth naming."
+            }
+          ],
           "link_group": "puerto-rico-march-2020",
           "embed": { "type": "image", "url": "images/cleaning-supplies.png", "caption": "First prep haul — March 2020" }
         }
