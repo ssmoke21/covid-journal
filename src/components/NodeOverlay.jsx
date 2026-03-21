@@ -425,8 +425,9 @@ export default function NodeOverlay({ node, onClose }) {
               </button>
             </div>
 
+            <div className="overflow-y-auto" style={{ maxHeight: "80vh" }}>
             {hasSections ? (
-              <div className="pb-5 overflow-y-auto" style={{ maxHeight: "75vh" }}>
+              <div className="pb-5">
                 {node.sections.map((section, i) => (
                   section.image ? (
                     /* Photo-left, text-right for sections with images */
@@ -496,6 +497,7 @@ export default function NodeOverlay({ node, onClose }) {
             )}
 
             <EmbedSection embedNode={node.embed ? node : null} />
+            </div>
           </>
         )}
       </div>
