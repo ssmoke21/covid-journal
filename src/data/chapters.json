@@ -636,7 +636,7 @@
           "sections": [
             {
               "heading": "Option A vs. Option B",
-              "text": "Option A: enroll a patient in a randomized clinical trial, where they may be assigned to drug or placebo. Option B: decline trial enrollment and simply give them the unproven drug. Option A moves us closer to an answer. Option B does not. No patient deserves judgment for decisions made under the stress of severe illness. But if COVID-19 persists, we will only know which treatments work because of patients who chose Option A — and chose to drive medicine forward for the greater good."
+              "text": "Option A: enroll a patient in a randomized clinical trial, where they may be assigned to drug or placebo. Option B: decline trial enrollment and simply give them the unproven drug. Option A moves us closer to an answer. Option B does not. No patient deserves judgment for decisions made under the stress of severe illness. But if Covid-19 persists, we will only know which treatments work because of patients who chose Option A — and chose to drive medicine forward for the greater good."
             },
             {
               "heading": "Did the IRB Chair Get It Wrong?",
@@ -1488,7 +1488,7 @@
             }
           ],
           "link_group": "vaccine-dec-21",
-          "embed": { "type": "image", "url": "images/vaccine-card.jpg", "caption": "COVID-19 Vaccine Card — December 21, 2020" }
+          "embed": { "type": "image", "url": "images/vaccine-card.jpg", "caption": "Covid-19 Vaccine Card — December 21, 2020" }
         },
         {
           "date": "2020-12-23",

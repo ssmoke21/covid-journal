@@ -118,7 +118,7 @@ export default function App() {
             <div className="w-8 h-px bg-red-300 mx-auto" />
           </div>
           <div className="space-y-4 font-serif text-base text-stone-600 leading-relaxed">
-            <p>COVID-19 affected everyone, but not in the same way. For some, it meant losing someone they loved. For others, isolation, economic ruin, or the slow unraveling of ordinary life. For those inside hospitals, it was something else &mdash; a relentless, shifting crisis with no clear end in sight. Some were asked to carry extraordinary burdens. There is value in all of these stories, not just the most harrowing ones. This is one of them.</p>
+            <p>Covid-19 affected everyone, but not in the same way. For some, it meant losing someone they loved. For others, isolation, economic ruin, or the slow unraveling of ordinary life. For those inside hospitals, it was something else &mdash; a relentless, shifting crisis with no clear end in sight. Some were asked to carry extraordinary burdens. There is value in all of these stories, not just the most harrowing ones. This is one of them.</p>
             <p>I was an infectious diseases pharmacist &mdash; in the hospital every day, but not in direct patient care. I was in the pharmacy, fielding calls from clinicians, tracking down medications, and trying to make sense of protocols that were being written in real time. What follows is an account of those years &mdash; December 2019 through mid-2021. The content is mine; the words were shaped in collaboration with Claude, an AI.</p>
             <p>Healthcare workers were asked to absorb an enormous amount, and many of us moved on before we had any real chance to sit with it. This is my attempt to sit with it &mdash; to name what happened, to acknowledge what it cost, and to figure out what it means that we went through it.</p>
           </div>
@@ -200,7 +200,7 @@ export default function App() {
               </p>
               <div className="space-y-4 font-serif text-base text-stone-600 leading-relaxed">
                 <p>
-                  I don&rsquo;t know that I&rsquo;ll ever be completely at peace with my COVID-19
+                  I don&rsquo;t know that I&rsquo;ll ever be completely at peace with my Covid-19
                   experience. But there is a path forward: remembrance, recognition, and reflection.
                 </p>
                 <p>
@@ -221,15 +221,15 @@ export default function App() {
               </div>
             </div>
 
-            {/* A COVID-19 Memorial Day */}
+            {/* A Covid-19 Memorial Day */}
             <div>
               <p className="text-[10px] font-mono uppercase tracking-[0.25em] text-red-400 mb-3">
-                A COVID-19 Memorial Day
+                A Covid-19 Memorial Day
               </p>
               <div className="space-y-4 font-serif text-base text-stone-600 leading-relaxed">
                 <p>
                   Efforts are underway at both the state and national levels to designate a
-                  COVID-19 Memorial Day in March. The goal is to create a formal space for
+                  Covid-19 Memorial Day in March. The goal is to create a formal space for
                   remembrance, recognition of healthcare efforts, and reflection on future
                   preparedness. Whether or not these formal resolutions pass, the need for
                   the day remains.
