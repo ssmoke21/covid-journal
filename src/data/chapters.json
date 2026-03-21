@@ -966,22 +966,6 @@
           ]
         },
         {
-          "date": "2020-05-22",
-          "label": "HCQ Gated to Clinical Trial",
-          "content": "A P&T memo to Medical Staff states: HCQ for Covid-19 must go through a clinical trial. Non-trial use permitted only if a patient is ineligible. The ID physician responds calling it 'Tuskegee type illegal.'",
-          "preview": "A P&T memo to Medical Staff states: HCQ for Covid-19 must go through a clinical trial. Non-trial use permitted only if a patient is ineligible. The ID physician responds calling it 'Tuskegee type illegal.'",
-          "sections": [
-            {
-              "heading": "A Policy With a Built-In Loophole",
-              "text": "The intent of the memo was clear: if HCQ was going to be used, it needed to generate evidence. Route it through a trial, or justify why the patient couldn't be enrolled. In theory, this was the right framework. In practice, it had no teeth. The trial never successfully enrolled patients — and once it became clear that enrollment wasn't happening, the exception clause became the rule. If there's no functioning trial to enroll into, every patient is effectively ineligible. The loophole was structural."
-            },
-            {
-              "heading": "No Impact on the Contrarian",
-              "text": "The physician who had been the most vocal and persistent advocate for HCQ continued prescribing it. The policy that was meant to constrain non-evidence-based use had inadvertently given him a permanent workaround. We couldn't coordinate around a trial. We couldn't enforce enrollment. So the memo — however well-intentioned — ended up changing very little about what was actually happening at the bedside."
-            }
-          ]
-        },
-        {
           "date": "2020-06-16",
           "label": "RECOVERY Trial: Dexamethasone Reduces Mortality",
           "content": "The RECOVERY trial reports dexamethasone reduces mortality — a landmark finding. Questions arise about whether a trial report (not peer-reviewed) is sufficient to change practice. Our system waits for the NIH guideline update but the CPO is pressured by an ID physician to act sooner.",
@@ -1596,6 +1580,22 @@
             }
           ],
           "embed": { "type": "link", "url": "https://coronavirus-democrats-oversight.house.gov/sites/evo-subsites/coronavirus-democrats-oversight.house.gov/files/2022.08.24%20The%20Trump%20White%20House%E2%80%99s%20Relentless%20Attacks%20on%20FDA%E2%80%99s%20Coronavirus%20Response.pdf", "label": "View the House Oversight Report (PDF)" }
+        },
+        {
+          "date": "2020-05-22",
+          "label": "HCQ Gated to Clinical Trial",
+          "content": "A P&T memo to Medical Staff states: HCQ for Covid-19 must go through a clinical trial. Non-trial use permitted only if a patient is ineligible. The ID physician responds calling it 'Tuskegee type illegal.'",
+          "preview": "A P&T memo to Medical Staff states: HCQ for Covid-19 must go through a clinical trial. Non-trial use permitted only if a patient is ineligible. The ID physician responds calling it 'Tuskegee type illegal.'",
+          "sections": [
+            {
+              "heading": "A Policy With a Built-In Loophole",
+              "text": "The intent of the memo was clear: if HCQ was going to be used, it needed to generate evidence. Route it through a trial, or justify why the patient couldn't be enrolled. In theory, this was the right framework. In practice, it had no teeth. The trial never successfully enrolled patients — and once it became clear that enrollment wasn't happening, the exception clause became the rule. If there's no functioning trial to enroll into, every patient is effectively ineligible. The loophole was structural."
+            },
+            {
+              "heading": "No Impact on the Contrarian",
+              "text": "The physician who had been the most vocal and persistent advocate for HCQ continued prescribing it. The policy that was meant to constrain non-evidence-based use had inadvertently given him a permanent workaround. We couldn't coordinate around a trial. We couldn't enforce enrollment. So the memo — however well-intentioned — ended up changing very little about what was actually happening at the bedside."
+            }
+          ]
         },
         {
           "date": "2020-12-10",
