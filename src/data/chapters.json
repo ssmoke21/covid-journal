@@ -15,7 +15,7 @@
       "layout": "split",
       "mood": "Normalcy / Low-Alert",
       "mood_description": "A calm before the storm. Casual dismissal of early warning signs, life proceeding normally — Rutgers basketball, work trips, grocery runs.",
-      "introduction": "The first cases were reported in Wuhan while I was on my honeymoon — though I wouldn't know that until weeks later. When I did hear about it, I didn't think much of it. None of us did. There had been outbreaks before — SARS, MERS, Ebola, Zika — and they had never really reached us. This chapter is about the period before we understood what was coming, and how easy it was to look the other way.",
+      "introduction": "The first cases were reported in Wuhan while I was on my honeymoon in Austria — though I had no idea at the time. I heard about it a few weeks after returning and didn't think much of it. Information coming out of China was sparse and unreliable, and I filed it alongside prior outbreaks — SARS, MERS, Ebola, Zika — none of which had ever really reached us. That was my own read, not a collective one. This chapter is about the period before we understood what was coming, and how easy it was to look the other way.",
       "clinical_nodes": [
         {
           "date": "Mid December 2019",
@@ -31,11 +31,7 @@
           "sections": [
             {
               "heading": "The First I Heard of It",
-              "text": "We had just returned from our honeymoon in Austria a few weeks earlier. This WHO bulletin was genuinely the first time the outbreak registered for me at all — and I don't think I was unusual in that. It wasn't yet a major story. Information coming out of China was sparse and unreliable, which made it easy to underestimate what was actually happening. A novel coronavirus from Wuhan, filtered through official channels with obvious gaps, didn't feel like cause for alarm."
-            },
-            {
-              "heading": "The Familiar Pattern",
-              "text": "I filed it alongside prior outbreaks — SARS, MERS, Ebola, Zika — none of which had ever really reached us. That framework wasn't unreasonable on its face. What I didn't account for was how little we actually knew at that point, and how much the absence of information was doing the work of reassurance. I was treating uncertainty as safety. It wasn't."
+              "text": "This was genuinely the first time the outbreak registered for me. There were no conversations with colleagues yet — no institutional discussion, no shared read on what this might mean. Just my own initial impression, formed from sparse and unreliable reporting out of China: not alarming enough to act on. What I didn't account for was how much the absence of data was doing the work of reassurance. I was treating uncertainty as safety. It wasn't."
             }
           ],
           "embed": { "type": "tweet", "url": "https://x.com/WHO/status/1213523866703814656" },
