@@ -457,7 +457,7 @@
         },
         {
           "date": "2020-03-23",
-          "label": "CBMC Pharmacy Updates to ID Begin",
+          "label": "Pharmacy Updates to ID Begin",
           "content": "I begin sending regular updates to the ID division: case numbers, HCQ utilization, medication inventory, and literature summaries. Sent three days a week for the next month and a half.",
           "preview": "I begin sending regular updates to the ID division: case numbers, HCQ utilization, medication inventory, and literature summaries. Sent three days a week for the next month and a half.",
           "sections": [
@@ -490,8 +490,8 @@
         {
           "date": "2020-03-23",
           "label": "HCQ Reporting: Wildly Wrong Numbers",
-          "content": "A system-level HCQ report shows just 14 patients across the entire system — meanwhile CBMC alone has 37. Daily manual reconciliation of HCQ numbers is required for corporate reporting throughout most of the first wave.",
-          "preview": "A system-level HCQ report shows just 14 patients across the entire system — meanwhile CBMC alone has 37. Daily manual reconciliation of HCQ numbers is required for corporate reporting throughout most of the first wave.",
+          "content": "A system-level HCQ report shows just 14 patients across the entire system — meanwhile our hospital alone has 37. Daily manual reconciliation of HCQ numbers is required for corporate reporting throughout most of the first wave.",
+          "preview": "A system-level HCQ report shows just 14 patients across the entire system — meanwhile our hospital alone has 37. Daily manual reconciliation of HCQ numbers is required for corporate reporting throughout most of the first wave.",
           "sections": [
             {
               "heading": "A Data Infrastructure Problem",
@@ -600,8 +600,8 @@
         {
           "date": "2020-04-05",
           "label": "Universal Masking Begins",
-          "content": "Universal masking goes into effect at CBMC.",
-          "preview": "Universal masking goes into effect at CBMC.",
+          "content": "Universal masking goes into effect at the hospital.",
+          "preview": "Universal masking goes into effect at the hospital.",
           "sections": [
             {
               "heading": "Where I Stood on Masking",
@@ -792,7 +792,7 @@
         "image13 — Photo from early March (large landscape, likely NJ/hospital context)",
         "image14 — Photo from early March (medium landscape)",
         "image36 — Photo from March 18 area",
-        "image23 — CBMC Physician Discussion era photo (large, portrait)",
+        "image23 — Physician Discussion era photo (large, portrait)",
         "image15 — Misc late March photo (large landscape)",
         "image37 — Misc photo",
         "image31 — Photo associated with steroids/tocilizumab discussion",
@@ -908,8 +908,8 @@
         {
           "date": "2020-05-05",
           "label": "\"Do We Have Remdesivir? If Not, Why Not?\"",
-          "preview": "The US government distributes remdesivir — no system hospitals are selected. A reporter contacts CBMC on behalf of a patient: \"Do we have remdesivir? If not, why not?\"",
-          "content": "The US government distributes remdesivir — no system hospitals are selected. A reporter contacts CBMC on behalf of a patient asking why not.",
+          "preview": "The US government distributes remdesivir — no system hospitals are selected. A reporter contacts the hospital on behalf of a patient: \"Do we have remdesivir? If not, why not?\"",
+          "content": "The US government distributes remdesivir — no system hospitals are selected. A reporter contacts the hospital on behalf of a patient asking why not.",
           "sections": [
             {
               "heading": "Passed Over",
@@ -917,7 +917,7 @@
             },
             {
               "heading": "A Reporter Calls",
-              "text": "A reporter from ABC, working on behalf of a patient, reaches out to CBMC Public Relations. The inquiry is directed to Pharmacy and to me through the IRB Chair: 'Do we have remdesivir? If not, why not?'"
+              "text": "A reporter from ABC, working on behalf of a patient, reaches out to the hospital's Public Relations department. The inquiry is directed to Pharmacy and to me through the IRB Chair: 'Do we have remdesivir? If not, why not?'"
             }
           ]
         },
@@ -1020,7 +1020,7 @@
         {
           "date": "2020-07-14",
           "label": "Preparing for the Next Wave",
-          "content": "CBMC pharmacy featured in a Wall Street Journal article on hospitals stocking up on Covid-19 drugs ahead of a feared second wave in the fall.",
+          "content": "Our pharmacy is featured in a Wall Street Journal article on hospitals stocking up on Covid-19 drugs ahead of a feared second wave in the fall.",
           "embed": { "type": "link", "url": "https://www.wsj.com/articles/hospitals-stock-up-on-covid-19-drugs-to-prepare-for-second-wave-in-fall-11594719000", "label": "Read the Article in the Wall Street Journal" }
         }
       ],
