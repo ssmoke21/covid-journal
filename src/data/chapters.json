@@ -1129,15 +1129,11 @@
           "sections": [
             {
               "heading": "A Weekly Ritual",
-              "text": "From this point forward, the CDC nowcast — weekly estimates of variant proportions circulating nationally and regionally — became a standing appointment. Every week, I was checking which variants were dominant, what their resistance profiles looked like against available monoclonals, and what that meant for what we could actually offer patients. It was a level of real-time pharmacoepidemiology that simply hadn't existed before in clinical practice."
-            },
-            {
-              "heading": "Remarkable, With a Catch",
-              "text": "Stepping back, it was genuinely extraordinary that we had weekly surveillance data at all — that a national infrastructure existed to estimate variant proportions and publish them publicly, in near real time. No prior pandemic had anything like it. But we also knew its limits: the nowcast lagged. It reflected what had been circulating in the weeks prior, not necessarily what was in your hospital, in your county, on the day you were making the decision. You were always navigating with a map drawn slightly in the past."
+              "text": "From this point forward, checking the CDC Nowcast became a weekly ritual — estimates of which variants were circulating nationally and regionally, updated each week, cross-referenced against the resistance profiles of whatever monoclonals we had on hand. It was a level of real-time pharmacoepidemiology that hadn't existed before in clinical practice. And it raised familiar but difficult ethical questions that never fully resolved. If one agent appeared more active than another based on variant data, when do you pull the plug on the less active one — especially when inventory is limited? If you only have one option and its activity is dwindling, do you still offer it to a patient when it may not work? There was no clean answer. The surveillance data was genuinely remarkable — a national infrastructure publishing variant proportions in near real time, something no prior pandemic had. But it always lagged. It told you what had been circulating in the weeks prior, not necessarily what was in your hospital today. You were navigating with a map drawn slightly in the past, making real-time decisions with imperfect information."
             }
           ],
           "embed": { "type": "link", "url": "https://www.fda.gov/media/145801/download", "label": "Read the FDA EUA Letter (PDF)" },
-          "secondary_embed": { "url": "https://www.cdc.gov/covid/php/variants/variants-and-genomic-surveillance.html", "label": "View CDC Variant & Genomic Surveillance" }
+          "secondary_embed": { "type": "link", "url": "https://www.cdc.gov/covid/php/variants/variants-and-genomic-surveillance.html", "label": "View CDC Variant & Genomic Surveillance" }
         },
         {
           "date": "2021-02-09",
