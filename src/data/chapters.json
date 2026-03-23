@@ -1547,7 +1547,8 @@
               "heading": "The End of J&J",
               "text": "Eventually, as supply of mRNA vaccines became sufficient, use of the J&J vaccine fell out of favor entirely — the rare but significant blood clot risk made it harder to justify when safe, highly effective alternatives were readily available. In retrospect, the single-dose convenience that made it appealing also made it a bridge product: valuable when supply was constrained, less so once it wasn't."
             }
-          ]
+          ],
+          "embed": { "type": "link", "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7103a4.htm", "label": "Read the CDC MMWR Report on TTS" }
         },
         {
           "date": "2021-03-14",
