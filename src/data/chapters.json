@@ -1022,6 +1022,37 @@
           "label": "Preparing for the Next Wave",
           "content": "Our pharmacy is featured in a Wall Street Journal article on hospitals stocking up on Covid-19 drugs ahead of a feared second wave in the fall.",
           "embed": { "type": "link", "url": "https://www.wsj.com/articles/hospitals-stock-up-on-covid-19-drugs-to-prepare-for-second-wave-in-fall-11594719000", "label": "Read the Article in the Wall Street Journal" }
+        },
+        {
+          "date": "2020-05-15",
+          "label": "The Evolution of Testing",
+          "content": "Testing evolved constantly — from hospital-only nasal swabs to experimental saliva tests to community clinics to at-home rapid tests. Each phase changed what was possible.",
+          "preview": "Testing evolved constantly — from hospital-only nasal swabs to experimental saliva tests to community clinics to at-home rapid tests. Each phase changed what was possible.",
+          "sections": [
+            {
+              "heading": "Hospital Testing and the Saliva Experiment",
+              "text": "Early on, testing was only available through the hospital — nasopharyngeal swabs, limited supply, results that took days. At one point, we had access to an experimental saliva-based test, which was easier to administer and didn't require the uncomfortable deep nasal swab. It felt like progress, though the reliability was still being worked out. Testing at that stage was primarily a clinical tool — it told you whether a patient was positive, but the turnaround was too slow to be useful for real-time decision-making about isolation or exposure."
+            },
+            {
+              "heading": "Community Clinics",
+              "text": "During the dark ages, testing clinics became available in the community — drive-through sites, pharmacy-based testing, pop-up locations. This was a meaningful shift. It meant that testing was no longer something that only happened inside a hospital. For my extended family, community testing was what made it possible to feel comfortable enough to go on a vacation together — everyone tested beforehand, results came back, and we made the call."
+            },
+            {
+              "heading": "At-Home Rapid Tests",
+              "text": "At-home nasal rapid tests became available just in time for the second wave at the end of 2020. This was the real game-changer. Suddenly, testing wasn't something you had to schedule days in advance or drive to a clinic for — you could do it in your kitchen, get results in fifteen minutes, and make decisions in real time. It became a fixture of social planning: test before the gathering, test after if someone reports symptoms. The speed and accessibility of home tests changed what was possible in a way that nothing before them had."
+            }
+          ]
+        },
+        {
+          "date": "Late Summer 2020",
+          "label": "The Slow Fade",
+          "display": "interlude",
+          "preview": "The dark ages didn't end with a victory — they just gradually tapered down.",
+          "sections": [
+            { "title": "No Parade", "text": "At some point early on, I remember thinking there would be a day — a moment — when Covid-19 would be declared defeated. Some kind of parade, a celebration, a national exhale. That never happened. It was defeated the way science often defeats things: in smaller, incremental victories that don't make for good television. A steroid that reduces ICU mortality. A combination therapy that shows benefit. A treatment that keeps patients off ventilators. Vaccines. Each one mattered enormously, and none of them felt like the end." },
+            { "title": "The Hospital Returns", "text": "More and more regular operations returned to the hospital. The ordinary problems reappeared — the ones that had never gone away, just been overshadowed. Full staff came back. The hallways filled again. The trailers eventually left the parking lot. Some things didn't go away, though: masks, Zoom meetings, a certain vigilance that hadn't been there before." },
+            { "title": "Social Life, Recalibrated", "text": "At the height of it, social gatherings moved to Zoom — birthday parties, holiday dinners, Friday nights with friends, all on a screen. Slowly, we got more comfortable meeting in person again: outside first, distanced. Then we dropped the distance. Then smaller gatherings moved indoors. For a time, testing became an essential part of pre- and post-event planning — coordinating who would test, when, and what a positive result meant for the rest of the week's plans. To be clear, this wasn't how everyone chose to handle things. But many people did something similar, navigating the same shifting risk calculus with their own families and friend groups." }
+          ]
         }
       ],
       "assets_wishlist": [
@@ -1489,6 +1520,34 @@
           "date": "Late December 2020",
           "label": "The CPO Calls Before a TV Appearance",
           "content": "The Chief Pharmacy Officer calls me 20 minutes before a television appearance asking how to explain how the vaccines work."
+        },
+        {
+          "date": "2021-04-02",
+          "label": "My Wife Gets the J&J Vaccine",
+          "content": "A few months after the first vaccine approvals, vaccines are widely available to the general public. My wife gets the Johnson & Johnson vaccine — a single-dose, adenovirus-based option, distinct from the mRNA vaccines.",
+          "preview": "A few months after the first vaccine approvals, vaccines are widely available to the general public. My wife gets the Johnson & Johnson vaccine — a single-dose, adenovirus-based option.",
+          "sections": [
+            {
+              "heading": "A Different Kind of Encouragement",
+              "text": "My wife was hesitant about taking any new vaccine — and she wasn't alone. A lot of people were. There was nothing irrational about it: the vaccines were developed faster than any in history, the technology was novel, and the information environment was chaotic. At my encouragement, she went and got it. The J&J vaccine had a practical appeal — one dose, done — and it was built on a more familiar adenovirus platform rather than the mRNA technology that felt newer and less understood to many people. It felt like the right choice at the time."
+            }
+          ]
+        },
+        {
+          "date": "2021-04-13",
+          "label": "J&J Vaccine Paused — Blood Clot Risk",
+          "content": "The FDA and CDC recommend pausing J&J vaccinations due to a rare but serious side effect: thrombosis with thrombocytopenia syndrome. The moment I hear the news, I call my wife.",
+          "preview": "The FDA and CDC recommend pausing J&J vaccinations due to a rare but serious side effect: thrombosis with thrombocytopenia syndrome. The moment I hear the news, I call my wife.",
+          "sections": [
+            {
+              "heading": "The Call",
+              "text": "The moment I heard the news, I called my wife. It had only been eleven days since her shot. What followed was a considerable source of stress for both of us over the next month or two — monitoring for symptoms, second-guessing the decision, living with a level of background anxiety that didn't fully resolve until enough time had passed. The pause was lifted ten days later, but the unease lingered far longer."
+            },
+            {
+              "heading": "The End of J&J",
+              "text": "Eventually, as supply of mRNA vaccines became sufficient, use of the J&J vaccine fell out of favor entirely — the rare but significant blood clot risk made it harder to justify when safe, highly effective alternatives were readily available. In retrospect, the single-dose convenience that made it appealing also made it a bridge product: valuable when supply was constrained, less so once it wasn't."
+            }
+          ]
         },
         {
           "date": "2021-03-14",
