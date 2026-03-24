@@ -649,15 +649,6 @@
               "text": "I can't help but think the answer is yes — at least in principle. If we didn't actually know whether tocilizumab worked, then a patient's first option should have been trial enrollment, not compassionate use. Withholding trial participation until the drug was unavailable inverts that priority. The whole point of the trial was to find out. That said, tocilizumab did prove to have benefit in specific scenarios — so there's a reasonable argument that the IRB Chair's instinct to offer a known option first wasn't entirely wrong. It's an honest tension, and I'm not sure it has a clean resolution."
             }
           ]
-        },
-        {
-          "date": "April 2020",
-          "label": "Redefining the Approach",
-          "display": "interlude",
-          "preview": "Every week required a new framework. The decision I made last week was no longer sustainable by Monday.",
-          "sections": [
-            { "title": "Therapy Surveillance During Exponential Growth", "text": "This was the hardest part of the job to explain to anyone who wasn't in it. My role was therapy surveillance — tracking what we were using, whether it was working, whether the evidence still supported it. But during exponential growth, the inputs changed faster than any system could absorb them. A new study on Monday meant a new recommendation by Wednesday and an obsolete one by Friday. Each week I had to redefine my approach because the decision I made the week before was no longer sustainable. The volume of patients, the supply of drugs, the emerging evidence — all of it was shifting simultaneously. There was no steady state. You couldn't build a process and rely on it. You built something, used it until it broke, and built the next one." }
-          ]
         }
       ],
       "personal_nodes": [
@@ -801,6 +792,15 @@
             }
           ],
           "embed": { "type": "image", "url": "images/video-with-wife.png", "caption": "Balcony recording — April 4, 2020" }
+        },
+        {
+          "date": "April 2020",
+          "label": "Redefining the Approach",
+          "display": "interlude",
+          "preview": "Every week required a new framework. The decision I made last week was no longer sustainable by Monday.",
+          "sections": [
+            { "title": "Therapy Surveillance During Exponential Growth", "text": "This was the hardest part of the job to explain to anyone who wasn't in it. My role was therapy surveillance — tracking what we were using, whether it was working, whether the evidence still supported it. But during exponential growth, the inputs changed faster than any system could absorb them. A new study on Monday meant a new recommendation by Wednesday and an obsolete one by Friday. Each week I had to redefine my approach because the decision I made the week before was no longer sustainable. The volume of patients, the supply of drugs, the emerging evidence — all of it was shifting simultaneously. There was no steady state. You couldn't build a process and rely on it. You built something, used it until it broke, and built the next one." }
+          ]
         }
       ],
       "assets_wishlist": [
@@ -1242,17 +1242,6 @@
             }
           ],
           "embed": { "type": "link", "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-announces-bebtelovimab-not-currently-authorized-any-us-region", "label": "Read the FDA Announcement" }
-        },
-        {
-          "date": "Late 2022",
-          "label": "An Effort That Mattered",
-          "display": "interlude",
-          "preview": "Not a victory, exactly. But not a defeat either. Something more complicated.",
-          "sections": [
-            { "title": "The Arms Race", "text": "In the span of two years, we operationalized a succession of monoclonal antibodies under emergency authorization — each one arriving with promise, each one eventually rendered obsolete by a virus that kept evolving. We adapted our delivery infrastructure repeatedly, navigated constantly shifting supply, and coordinated across institutions to measure the impact. The fact that the virus eventually outran the tools doesn't diminish what was mobilized." },
-            { "title": "A Different World", "text": "By the time the last monoclonal fell, the pandemic that existed when we first administered bamlanivimab was barely recognizable. The lethality of the disease had dropped dramatically. Waves had come and gone, each one different from the last. Losing the final antibody stung — but it landed in a different context than it would have in 2021. The game had changed around us." },
-            { "title": "Not a Victory, Not a Defeat", "text": "The intense, two-year sprint of the monoclonal antibody era — the weekly nowcast checks, the ethical weight of supply decisions, the constant pivoting — was over. It wasn't a clean ending. Not a victory, exactly. But not a defeat either. Something more complicated: an effort that mattered, meeting an adversary that proved relentless." }
-          ]
         }
       ],
       "personal_nodes": [
@@ -1280,6 +1269,17 @@
             }
           ],
           "embed": { "type": "link", "url": "https://onlinelibrary.wiley.com/doi/10.1002/jmv.27668", "label": "Read the Paper in the Journal of Medical Virology" }
+        },
+        {
+          "date": "Late 2022",
+          "label": "An Effort That Mattered",
+          "display": "interlude",
+          "preview": "Not a victory, exactly. But not a defeat either. Something more complicated.",
+          "sections": [
+            { "title": "The Arms Race", "text": "In the span of two years, we operationalized a succession of monoclonal antibodies under emergency authorization — each one arriving with promise, each one eventually rendered obsolete by a virus that kept evolving. We adapted our delivery infrastructure repeatedly, navigated constantly shifting supply, and coordinated across institutions to measure the impact. The fact that the virus eventually outran the tools doesn't diminish what was mobilized." },
+            { "title": "A Different World", "text": "By the time the last monoclonal fell, the pandemic that existed when we first administered bamlanivimab was barely recognizable. The lethality of the disease had dropped dramatically. Waves had come and gone, each one different from the last. Losing the final antibody stung — but it landed in a different context than it would have in 2021. The game had changed around us." },
+            { "title": "Not a Victory, Not a Defeat", "text": "The intense, two-year sprint of the monoclonal antibody era — the weekly nowcast checks, the ethical weight of supply decisions, the constant pivoting — was over. It wasn't a clean ending. Not a victory, exactly. But not a defeat either. Something more complicated: an effort that mattered, meeting an adversary that proved relentless." }
+          ]
         }
       ],
       "assets_wishlist": [
@@ -1423,17 +1423,6 @@
             { "url": "images/vaccination-sears.jpg" },
             { "url": "images/vaccine-devils.jpg" }
           ]}
-        },
-        {
-          "date": "Spring 2021",
-          "label": "The Definite Victory",
-          "display": "interlude",
-          "preview": "This was the definite victory of the story. But it was no less complicated, no less of a roller coaster.",
-          "sections": [
-            { "title": "The Closest Thing to Joy", "text": "If there was a definite victory in this story, this was it. Vaccines worked — and not just marginally. The efficacy data was extraordinary, the rollout was historic, and I got to be part of it with my own hands. Giving over 300 shots in gyms and parking lots and converted retail stores was the closest thing to joy I had felt in a year. People cried. I got emotional more than once. It felt like we were finally doing something that would end this." },
-            { "title": "No Less Complicated", "text": "But it was no less complicated, no less of a roller coaster. The political uncertainty over whether a vaccine would be approved before the election. The hesitancy that fractured along lines no one fully predicted. The J&J pause that shook public confidence at exactly the wrong moment. The mandate debates. The booster confusion. Even the greatest scientific achievement of the pandemic came wrapped in the same chaos that defined everything else." },
-            { "title": "What It Meant", "text": "For me, it was the chapter where the work felt most clearly worth it. Not because the complications weren't real — they were — but because for the first time in a year, the trajectory was pointing in the right direction. We had something that worked. And every shot I gave was a small, tangible piece of evidence that the worst of it might actually be ending." }
-          ]
         }
       ],
       "personal_nodes": [
@@ -1582,6 +1571,17 @@
             }
           ],
           "embed": { "type": "link", "url": "https://www.nj.com/rutgers/2021/03/rutgers-march-madness-2021-scarlet-knights-earn-ncaa-tournament-bid-meet-clemson-in-first-round.html", "label": "Read the Story on NJ.com" }
+        },
+        {
+          "date": "Spring 2021",
+          "label": "The Definite Victory",
+          "display": "interlude",
+          "preview": "This was the definite victory of the story. But it was no less complicated, no less of a roller coaster.",
+          "sections": [
+            { "title": "The Closest Thing to Joy", "text": "If there was a definite victory in this story, this was it. Vaccines worked — and not just marginally. The efficacy data was extraordinary, the rollout was historic, and I got to be part of it with my own hands. Giving over 300 shots in gyms and parking lots and converted retail stores was the closest thing to joy I had felt in a year. People cried. I got emotional more than once. It felt like we were finally doing something that would end this." },
+            { "title": "No Less Complicated", "text": "But it was no less complicated, no less of a roller coaster. The political uncertainty over whether a vaccine would be approved before the election. The hesitancy that fractured along lines no one fully predicted. The J&J pause that shook public confidence at exactly the wrong moment. The mandate debates. The booster confusion. Even the greatest scientific achievement of the pandemic came wrapped in the same chaos that defined everything else." },
+            { "title": "What It Meant", "text": "For me, it was the chapter where the work felt most clearly worth it. Not because the complications weren't real — they were — but because for the first time in a year, the trajectory was pointing in the right direction. We had something that worked. And every shot I gave was a small, tangible piece of evidence that the worst of it might actually be ending." }
+          ]
         }
       ],
       "assets_wishlist": [
@@ -1768,17 +1768,6 @@
               "text": "This was December 2020 — well before the large public push for ivermectin that emerged in late 2021. That later wave felt far more politically aligned, and notably, it wasn't picked up by any providers here. But patients picked it up. One patient's family sued, and a judge issued a court order compelling a prescription. It raised a genuinely complicated question about where patient autonomy ends and provider autonomy begins — whether a court can compel a clinician to prescribe something they believe is wrong. I found myself more interested in that question than certain about the answer."
             }
           ]
-        },
-        {
-          "date": "Mid 2021",
-          "label": "The Cost of Conflict",
-          "display": "interlude",
-          "preview": "The pandemic didn't always bring out the best. But I try to give my colleagues the benefit of the doubt.",
-          "sections": [
-            { "title": "Moral Injury", "text": "This chapter is the hardest one to tell honestly. The conflicts documented here weren't between good and evil — they were between people under extraordinary pressure who saw things differently and handled that disagreement in ways that sometimes caused real harm. The term that fits best is moral injury: the damage that comes not from being in danger, but from being forced to participate in or witness things that violate your sense of what's right. Watching colleagues promote therapies I believed were unsupported. Being overruled on clinical decisions I felt strongly about. Choosing when to push back and when to let it go, knowing both options had a cost." },
-            { "title": "The Benefit of the Doubt", "text": "I try to give my colleagues the benefit of the doubt. The pandemic put everyone in impossible positions — physicians included. The pressure to do something when patients were dying was immense, and the evidence was genuinely uncertain early on. People I respected made decisions I disagreed with, and I have to allow for the possibility that some of those decisions were made in good faith under conditions none of us were prepared for. That doesn't mean the decisions were right. But it means the people who made them weren't necessarily wrong in ways that are easy to judge from the outside." },
-            { "title": "A Challenge I Don't Miss", "text": "What I can say clearly is that this was a part of the job I don't miss. The clinical work — the drug shortages, the evolving protocols, the pace — all of that was hard but purposeful. The interpersonal conflict was something different. It drained something that the clinical work didn't. And it lingered in ways that the clinical challenges didn't. The pandemic eventually receded. Some of those professional relationships never fully recovered." }
-          ]
         }
       ],
       "personal_nodes": [
@@ -1848,6 +1837,17 @@
             }
           ],
           "embed": { "type": "link", "url": "https://www.pharmacypracticenews.com/Digital-Issue/Article/08-20/Pharmacy-Practice-News-August-2020/59186", "label": "Read the Article in Pharmacy Practice News" }
+        },
+        {
+          "date": "Mid 2021",
+          "label": "The Cost of Conflict",
+          "display": "interlude",
+          "preview": "The pandemic didn't always bring out the best. But I try to give my colleagues the benefit of the doubt.",
+          "sections": [
+            { "title": "Moral Injury", "text": "This chapter is the hardest one to tell honestly. The conflicts documented here weren't between good and evil — they were between people under extraordinary pressure who saw things differently and handled that disagreement in ways that sometimes caused real harm. The term that fits best is moral injury: the damage that comes not from being in danger, but from being forced to participate in or witness things that violate your sense of what's right. Watching colleagues promote therapies I believed were unsupported. Being overruled on clinical decisions I felt strongly about. Choosing when to push back and when to let it go, knowing both options had a cost." },
+            { "title": "The Benefit of the Doubt", "text": "I try to give my colleagues the benefit of the doubt. The pandemic put everyone in impossible positions — physicians included. The pressure to do something when patients were dying was immense, and the evidence was genuinely uncertain early on. People I respected made decisions I disagreed with, and I have to allow for the possibility that some of those decisions were made in good faith under conditions none of us were prepared for. That doesn't mean the decisions were right. But it means the people who made them weren't necessarily wrong in ways that are easy to judge from the outside." },
+            { "title": "A Challenge I Don't Miss", "text": "What I can say clearly is that this was a part of the job I don't miss. The clinical work — the drug shortages, the evolving protocols, the pace — all of that was hard but purposeful. The interpersonal conflict was something different. It drained something that the clinical work didn't. And it lingered in ways that the clinical challenges didn't. The pandemic eventually receded. Some of those professional relationships never fully recovered." }
+          ]
         }
       ],
       "assets_wishlist": [
