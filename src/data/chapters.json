@@ -996,6 +996,10 @@
             {
               "heading": "Nothing Went as Planned",
               "text": "Midday, the shipment is reported delayed. The next day, 26 courses arrive around 6–7pm. An ID physician pre-emptively enters roughly 10 orders that evening — after I have left for the day. We never established a clear implementation process. I end up calling the CMO on Saturday morning to review and approve the orders."
+            },
+            {
+              "heading": "The NJDOH Portal",
+              "text": "For the next several days, I have to log data daily with the New Jersey Department of Health on our remdesivir use. The reporting portal is a mess — inefficient, unintuitive, clearly not designed by anyone who had ever used a clinical system. It couldn't have been set up by a clinician."
             }
           ]
         },
