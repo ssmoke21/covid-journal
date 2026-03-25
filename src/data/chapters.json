@@ -801,13 +801,13 @@
         },
         {
           "date": "2020-04-04",
-          "label": "Video Call With My Wife",
-          "content": "My wife and I sit on our balcony and talk for 30 minutes. We know it's worth documenting, so we record it.",
-          "preview": "My wife and I sit on our balcony and talk for 30 minutes. We know it's worth documenting, so we record it.",
+          "label": "Balcony Video With My Wife",
+          "content": "My wife and I sit on our balcony and record a video of ourselves talking for 30 minutes. We know it's worth documenting.",
+          "preview": "My wife and I sit on our balcony and record a video of ourselves talking for 30 minutes. We know it's worth documenting.",
           "sections": [
             {
               "heading": "A Snapshot of April 2020",
-              "text": "My wife is grocery shopping online. The niece and nephew are 'living their best life making mud soup.' My wife's knuckles are cracked from hand sanitizing. I'm not yet wearing a mask at work — the CDC hadn't recommended it for healthcare workers yet. 'We're just a covid hospital, every unit is an ICU, no one knows how to treat it, people want to try everything.' 'My music selection is a good indicator of my mental state — I've been listening to emo like it's 2005.'"
+              "text": "My wife is grocery shopping online. The niece and nephew are 'living their best life making mud soup.' My wife's knuckles are cracked from hand sanitizing. I'm not yet wearing a mask at work — the CDC hadn't recommended it for healthcare workers yet. We're just a covid hospital, every unit is an ICU, no one knows how to treat it, people want to try everything. My music selection is a good indicator of my mental state — I've been listening to emo like it's 2005. I went to a ton of effort to get remdesivir for one patient — I still need to log it later tonight. Is it even helping? I don't know. In the movies, during an outbreak everything is fast paced. In reality, most of it is slow and boring."
             }
           ],
           "embed": { "type": "image", "url": "images/video-with-wife.png", "caption": "Balcony recording — April 4, 2020" }
