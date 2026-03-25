@@ -630,15 +630,19 @@
           "sections": [
             {
               "heading": "Where I Stood on Masking",
-              "text": "There's a lot to be said about the masking debate. I generally followed CDC guidance throughout — I didn't have the bandwidth to dig deeply into the primary literature on my own. On the whole, I think the guidance was accurate and correct. With one significant exception."
+              "text": "I generally followed CDC guidance on masking throughout — partly because I didn't have the bandwidth to dig deeply into the primary literature myself, and partly because I saw firsthand how destructive it was when people didn't follow it. On the whole, I think the guidance was accurate and correct. With one significant exception."
             },
             {
               "heading": "The Early Messaging Problem",
-              "text": "Early in the pandemic, in an effort to prevent panic buying and preserve supply for frontline clinicians, there was a suggestion — implicit or explicit depending on who was communicating it — that masks didn't work for the general public. The intent was understandable. The result was damaging. When the guidance shifted and masks became universally recommended, it looked like the CDC had changed its position. To many people, it felt like they had been misled. That perception of a shifting message created a deficit of trust that public health officials spent years trying to recover from."
+              "text": "Early on, in an effort to preserve PPE supply for frontline clinicians, there was a suggestion that masks didn't work for the general public. The intent was understandable. The result was damaging. When the guidance shifted, it looked like the CDC had changed its position, and the perception of being misled created a deficit of trust that public health officials spent years trying to recover from. It's one of the clearest examples from the pandemic of how hard crisis communication actually is — and how a short-term decision can produce a long-term cost that far exceeds whatever benefit it achieved."
             },
             {
-              "heading": "How Difficult It Is to Message in a Crisis",
-              "text": "This is one of the clearest examples from the pandemic of how hard public health communication actually is. The decision to downplay masks early may have been made with good intentions — protect the supply chain, prevent runs on PPE. But it produced a long-term cost that likely exceeded whatever short-term benefit it achieved. When credibility is your most important asset, a message that appears to shift puts you in a very difficult place. It's a lesson that deserves more reflection than it has gotten."
+              "heading": "The Debates I Didn't Have Bandwidth For",
+              "text": "There were complicated debates happening around mask types — N95 versus standard surgical masks, whether reusing masks was safe when no one had tested it — that were a big deal at the time. I mostly didn't have the bandwidth for them. I was focused on therapeutics, and masking fell outside my lane. I followed what was recommended and moved on."
+            },
+            {
+              "heading": "Three Years of Masking",
+              "text": "Universal masking at the hospital was finally cut back to masking in patient care areas only on March 29, 2023 — three years after it began."
             }
           ]
         },
