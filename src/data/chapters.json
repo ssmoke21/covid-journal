@@ -558,7 +558,14 @@
         {
           "date": "2020-03-26",
           "label": "I Need Help",
-          "content": "I reach out to my boss — there are over a hundred patients on HCQ and I can't monitor them alone. I'm also fielding compassionate use requests for remdesivir. The volume has outpaced what one person can manage."
+          "content": "I reach out to my boss — there are over a hundred patients on HCQ and I can't monitor them alone. I'm also fielding compassionate use requests for remdesivir. The volume has outpaced what one person can manage.",
+          "preview": "I reach out to my boss — there are over a hundred patients on HCQ and I can't monitor them alone. I'm also fielding compassionate use requests for remdesivir. The volume has outpaced what one person can manage.",
+          "sections": [
+            {
+              "heading": "How Much Tocilizumab Do We Need?",
+              "text": "At the same time, corporate pharmacy is working directly with the manufacturer to secure tocilizumab supply. The question they're trying to answer: how much do we need? A completely unanswerable question. No one knew how many patients would need it, how fast cases would climb, or how long the surge would last. You can't forecast demand for a drug being used off-label in a disease no one has seen before. But someone had to put a number on a form, so they did."
+            }
+          ]
         },
         {
           "date": "2020-03-27",
