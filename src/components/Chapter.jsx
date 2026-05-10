@@ -7,13 +7,23 @@ import variantData from "../data/variant-data.json";
 import caseWaveData from "../data/case-wave-data.json";
 
 const MOOD_GRADIENTS = {
-  "Normalcy / Low-Alert": "from-blue-50 to-transparent",
-  "High-Alert / Acceleration": "from-amber-50 to-transparent",
-  "Chaos / Urgency": "from-red-50 to-transparent",
-  "Isolation / Grief": "from-indigo-50 to-transparent",
-  "Hope / Attrition": "from-emerald-50 to-transparent",
-  "Hope / Joy": "from-yellow-50 to-transparent",
-  "Conflict / Vindication": "from-pink-50 to-transparent",
+  "Normalcy / Low-Alert": "from-blue-100/60 via-blue-50/30 to-transparent",
+  "High-Alert / Acceleration": "from-amber-100/70 via-amber-50/30 to-transparent",
+  "Chaos / Urgency": "from-red-100/70 via-red-50/40 to-transparent",
+  "Isolation / Grief": "from-indigo-100/60 via-indigo-50/30 to-transparent",
+  "Hope / Attrition": "from-emerald-100/60 via-emerald-50/30 to-transparent",
+  "Hope / Joy": "from-yellow-100/60 via-yellow-50/30 to-transparent",
+  "Conflict / Vindication": "from-pink-100/60 via-pink-50/30 to-transparent",
+};
+
+const MOOD_BORDER_COLORS = {
+  "Normalcy / Low-Alert": "#93c5fd",
+  "High-Alert / Acceleration": "#fbbf24",
+  "Chaos / Urgency": "#f87171",
+  "Isolation / Grief": "#a5b4fc",
+  "Hope / Attrition": "#6ee7b7",
+  "Hope / Joy": "#fde047",
+  "Conflict / Vindication": "#f9a8d4",
 };
 
 const MOOD_ICONS = {
@@ -167,6 +177,7 @@ const CHAPTER_DATE_RANGES = {
 export default function Chapter({ chapter, isVisible }) {
   const isSplit = chapter.layout === "split";
   const gradient = MOOD_GRADIENTS[chapter.mood] || "from-stone-50 to-transparent";
+  const moodBorder = MOOD_BORDER_COLORS[chapter.mood] || "#d6d3d1";
   const icon = MOOD_ICONS[chapter.mood] || "📖";
   const [overlayNode, setOverlayNode] = useState(null);
   const [currentNodeDate, setCurrentNodeDate] = useState(null);
@@ -282,6 +293,8 @@ export default function Chapter({ chapter, isVisible }) {
       className="relative scroll-mt-8"
       ref={sectionRef}
     >
+      {/* Mood accent bar at top */}
+      <div className="h-1 rounded-t-full mx-8" style={{ background: `linear-gradient(90deg, transparent, ${moodBorder}, transparent)` }} />
       <div className={`absolute inset-0 bg-gradient-to-b ${gradient} pointer-events-none -z-10 rounded-3xl`} />
 
       <header className="pt-16 pb-10 px-4 md:px-8 text-center max-w-3xl mx-auto">

@@ -37,7 +37,7 @@ export default function NodeCard({ node, type, index, onOpenOverlay, linked }) {
 
   return (
     <div
-      className={`rounded-lg border overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 ${
+      className={`group rounded-lg border overflow-hidden transition-all duration-300 hover:shadow-lg ${
         isClinical
           ? `bg-[var(--color-clinical-muted)] border-[var(--color-clinical-border)]`
           : `bg-[var(--color-personal-muted)] border-[var(--color-personal-border)]`
@@ -52,7 +52,7 @@ export default function NodeCard({ node, type, index, onOpenOverlay, linked }) {
         {/* Date badge */}
         <div className="mb-2">
           <span
-            className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-medium tracking-wide ${
+            className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-medium tracking-wide transition-all duration-200 group-hover:scale-105 ${
               isClinical
                 ? "bg-[var(--color-clinical)]/10 text-[var(--color-clinical)]"
                 : "bg-[var(--color-personal)]/10 text-[var(--color-personal)]"
